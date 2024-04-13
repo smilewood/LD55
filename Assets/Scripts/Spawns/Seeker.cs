@@ -12,7 +12,8 @@ namespace LD55
         public float moveSpeed = 10.0f;
         private Rigidbody RB;
         private Vector3 targetPos;
-
+        public static int maxSeekerCount = 10;
+ 
         // Start is called before the first frame update
         void Start()
         {
@@ -35,13 +36,10 @@ namespace LD55
         private void FixedUpdate()
         {
             //move towards mouse position
+            Vector3 delta = targetPos - this.transform.position;
+            RB.velocity = delta.normalized * Math.Min(moveSpeed, delta.sqrMagnitude * 1.2f);//magic numbers
             
-            Vector3 delta = Vector3.Normalize(targetPos - this.transform.position);
-            RB.velocity = moveSpeed * delta;
             Debug.DrawLine(transform.position, targetPos);
-            //var newpos = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
-            
-            //RB.MovePosition(newpos);
         }
         
         
