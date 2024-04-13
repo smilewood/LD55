@@ -8,7 +8,7 @@ namespace LD55
    {
       public string TypeToDamage;
       public int DamageAmount;
-
+      public bool DestroyMyselfOnDamage;
 
       private void OnCollisionEnter(Collision collision)
       {
@@ -18,6 +18,11 @@ namespace LD55
             if(collision.gameObject.TryGetComponent(out HealthTracker hp))
             {
                hp.ApplyDamage(DamageAmount);
+            }
+
+            if (DestroyMyselfOnDamage)
+            {
+               Destroy(this.gameObject);
             }
          }
       }
