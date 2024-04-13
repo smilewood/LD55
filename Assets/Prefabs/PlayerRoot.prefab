@@ -67,6 +67,7 @@ GameObject:
   - component: {fileID: 3658941156166297658}
   - component: {fileID: 4443398164864321172}
   - component: {fileID: 3615790821572506711}
+  - component: {fileID: 6104116488410160242}
   m_Layer: 0
   m_Name: PlayerRoot
   m_TagString: Player
@@ -179,6 +180,21 @@ MonoBehaviour:
   OnFallOffEdge:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &6104116488410160242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5893338969060985527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e58737e2f1c89b40b0bfc0a449b61ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxMana: 10
+  ManaPerTime: 1
+  TimeInterval: 1
 --- !u!1 &6420998057664020486
 GameObject:
   m_ObjectHideFlags: 0
