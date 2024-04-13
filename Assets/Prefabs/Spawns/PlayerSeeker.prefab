@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 6569182672095266575}
   - component: {fileID: -4740872735166204759}
   - component: {fileID: -4431095999304149484}
-  - component: {fileID: -9143924263863395426}
   - component: {fileID: 2992278670514003661}
+  - component: {fileID: 1230945594946615797}
   m_Layer: 0
   m_Name: PlayerSeeker
   m_TagString: Seeker
@@ -81,19 +81,19 @@ MonoBehaviour:
   MaxHealth: 1
   OnHealthChange:
     m_PersistentCalls:
-      m_Calls: []
---- !u!114 &-9143924263863395426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1020712989042804943}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6abf063f2f254747a81490874531717, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+      m_Calls:
+      - m_Target: {fileID: 7893189712696417763, guid: b856f22e1c2d3cf4eb900052d1f408a9, type: 3}
+        m_TargetAssemblyTypeName: LD55.DestroyOnEvents, Assembly-CSharp
+        m_MethodName: OnZeroHealth
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!54 &2992278670514003661
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -121,6 +121,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!114 &1230945594946615797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020712989042804943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a3ccd2c70a5224eb372def3d4cdcf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5624700032436749474
 GameObject:
   m_ObjectHideFlags: 0
