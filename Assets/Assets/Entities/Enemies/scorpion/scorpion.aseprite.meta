@@ -1,0 +1,1791 @@
+fileFormatVersion: 2
+guid: 41941b17563e79b4696c7dc41f1aa791
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: scorpion_Frame_0
+    originalName: 
+    pivot: {x: 0.4814815, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 262
+      width: 27
+      height: 28
+    spriteID: 05d864bca0b29444e8d757a9d38ea462
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 262}
+  - name: scorpion_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 153
+      width: 28
+      height: 28
+    spriteID: 257d002c7bbcd1249b3a2179e46919fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 153}
+  - name: scorpion_Frame_10
+    originalName: 
+    pivot: {x: 0.4814815, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 31
+      width: 27
+      height: 18
+    spriteID: 6565c54a9b9022f43b3ee3aadc4f7ead
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 31}
+  - name: scorpion_Frame_11
+    originalName: 
+    pivot: {x: 0.5185185, y: -0.11764706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 135
+      width: 27
+      height: 17
+    spriteID: 6c8b5a794e3ecf44b8e82775edad53ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 135}
+  - name: scorpion_Frame_12
+    originalName: 
+    pivot: {x: 0.4827586, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 334
+      width: 29
+      height: 26
+    spriteID: ac439f9fc9a1d6d48bcf7f2efd0d24f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 334}
+  - name: scorpion_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 32
+      height: 28
+    spriteID: afa613a4d450d6f4d8edadee452a952b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: scorpion_Frame_22
+    originalName: 
+    pivot: {x: 0.5185185, y: -0.23529412}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 160
+      width: 27
+      height: 17
+    spriteID: 64c0b0ba7cb880d4bb448bdab5ccad30
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 160}
+  - name: scorpion_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: -0.10526316}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 4
+      width: 32
+      height: 19
+    spriteID: 71390932e3f490e45a86830497a0f951
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 4}
+  - name: scorpion_Frame_24
+    originalName: 
+    pivot: {x: 0.4814815, y: -0.107142866}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 298
+      width: 27
+      height: 28
+    spriteID: 26357515a67dd314a9e6dabb265275d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 298}
+  - name: scorpion_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 78
+      width: 28
+      height: 29
+    spriteID: d82a5dd009ec2744a9ddcba2a41ecc5e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 78}
+  - name: scorpion_Frame_26
+    originalName: 
+    pivot: {x: 0.4814815, y: -0.033333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 115
+      width: 27
+      height: 30
+    spriteID: 1c9a46448e7d6f14fada62a54fbf6ca0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 115}
+  - name: scorpion_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 40
+      width: 28
+      height: 30
+    spriteID: b7eaaece4f577a648aa4533c5e8fba77
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 40}
+  - name: scorpion_Frame_28
+    originalName: 
+    pivot: {x: 0.4814815, y: -0.10344827}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 225
+      width: 27
+      height: 29
+    spriteID: 71710eb4b85fe4a4b8ca196de0a6c1f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 225}
+  - name: scorpion_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 189
+      width: 28
+      height: 28
+    spriteID: 59e977c7088cf8748889e96f09f48900
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 189}
+  - name: scorpion_Frame_54
+    originalName: 
+    pivot: {x: 0.4814815, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 57
+      width: 27
+      height: 18
+    spriteID: 57ccf34cc650c884a820582517283b92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 57}
+  - name: scorpion_Frame_55
+    originalName: 
+    pivot: {x: 0.5185185, y: -0.11764706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 185
+      width: 27
+      height: 17
+    spriteID: 4d9b49dc50ab464439c9e561d71859c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 185}
+  - name: scorpion_Frame_56
+    originalName: 
+    pivot: {x: 0.4814815, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 83
+      width: 27
+      height: 18
+    spriteID: 9adfc6823fee4ae4db4efa77c83bcdd2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 83}
+  - name: scorpion_Frame_57
+    originalName: 
+    pivot: {x: 0.5185185, y: -0.11764706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 210
+      width: 27
+      height: 17
+    spriteID: 01e0816f2f25c7c4d9eb6761e36b0336
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 210}
+  - name: scorpion_Frame_58
+    originalName: 
+    pivot: {x: 0.4814815, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 109
+      width: 27
+      height: 18
+    spriteID: 3919c69d0a0c9734ca19c21c6748a526
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 109}
+  - name: scorpion_Frame_59
+    originalName: 
+    pivot: {x: 0.5185185, y: -0.11764706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 235
+      width: 27
+      height: 17
+    spriteID: 9bc55907f8007cc4790cfd5d71303f0a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 235}
+  - name: scorpion_Frame_8
+    originalName: 
+    pivot: {x: 0.48, y: -0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 368
+      width: 25
+      height: 27
+    spriteID: 8b9f6efdd6f2c5a47a8c23fc8d26e529
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 368}
+  - name: scorpion_Frame_9
+    originalName: 
+    pivot: {x: 0.52, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 4
+      width: 25
+      height: 26
+    spriteID: 9c05dc0b556a9ad4d94ade348c3fbea1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 4}
+  - name: scorpion_Frame_20
+    originalName: 
+    pivot: {x: 0.36363637, y: -0.35}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 432
+      width: 22
+      height: 20
+    spriteID: 0c8fbac78f49ae0449024e2787025031
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 432}
+  - name: scorpion_Frame_21
+    originalName: 
+    pivot: {x: 0.36363637, y: -0.42105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 460
+      width: 22
+      height: 19
+    spriteID: 2bc777667539ffc46acf1663d2fbddf3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 460}
+  - name: scorpion_Frame_48
+    originalName: 
+    pivot: {x: 0.48, y: -0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 403
+      width: 25
+      height: 27
+    spriteID: 7e95a6a91ea4c634784f763df27bdf20
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 403}
+  - name: scorpion_Frame_49
+    originalName: 
+    pivot: {x: 0.52, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 38
+      width: 25
+      height: 26
+    spriteID: b485957d2a573f5478e573769e89f04e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 38}
+  - name: scorpion_Frame_50
+    originalName: 
+    pivot: {x: 0.48, y: -0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 438
+      width: 25
+      height: 27
+    spriteID: 4f86c8188c7f3aa43975bc1219bff655
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 438}
+  - name: scorpion_Frame_51
+    originalName: 
+    pivot: {x: 0.52, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 72
+      width: 25
+      height: 26
+    spriteID: d6b200ff67277b844bb2baec563361ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 72}
+  - name: scorpion_Frame_52
+    originalName: 
+    pivot: {x: 0.48, y: -0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 473
+      width: 25
+      height: 27
+    spriteID: 446a002521275ca40903f31bd03e5a51
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 473}
+  - name: scorpion_Frame_53
+    originalName: 
+    pivot: {x: 0.52, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 106
+      width: 25
+      height: 26
+    spriteID: 5fbe7ea86f15c7e4886e281112b1c361
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 106}
+  - name: scorpion_Frame_6
+    originalName: 
+    pivot: {x: 0.45833334, y: -0.24}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 140
+      width: 24
+      height: 25
+    spriteID: 1c6de9a0610e9b14e83807a92883c2a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 140}
+  - name: scorpion_Frame_7
+    originalName: 
+    pivot: {x: 0.44, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 173
+      width: 25
+      height: 24
+    spriteID: e6f3ebfa6fcb5b04d8c45a85f2efd338
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 173}
+  - name: scorpion_Frame_18
+    originalName: 
+    pivot: {x: 0.375, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 400
+      width: 24
+      height: 24
+    spriteID: e70e4958457f02848a65a321fef57c4c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 400}
+  - name: scorpion_Frame_19
+    originalName: 
+    pivot: {x: 0.3846154, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 4
+      width: 26
+      height: 24
+    spriteID: 1c4b93eef42633f4095b1d0b00b7eac8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 4}
+  - name: scorpion_Frame_42
+    originalName: 
+    pivot: {x: 0.45833334, y: -0.24}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 205
+      width: 24
+      height: 25
+    spriteID: 0a81ca862aef07a49a8797f0857dd83e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 205}
+  - name: scorpion_Frame_43
+    originalName: 
+    pivot: {x: 0.44, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 238
+      width: 25
+      height: 24
+    spriteID: f084b1a29b24b2545861272e9c3eed2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 238}
+  - name: scorpion_Frame_44
+    originalName: 
+    pivot: {x: 0.45833334, y: -0.24}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 270
+      width: 24
+      height: 25
+    spriteID: 2edbbb913546a764aa7098d8ff018e29
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 270}
+  - name: scorpion_Frame_45
+    originalName: 
+    pivot: {x: 0.44, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 303
+      width: 25
+      height: 24
+    spriteID: 6886545c766fa6a4f93efe8a6d7f7e9f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 303}
+  - name: scorpion_Frame_46
+    originalName: 
+    pivot: {x: 0.45833334, y: -0.24}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 335
+      width: 24
+      height: 25
+    spriteID: 14949d91d21b4464c86c28b5ad813e02
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 335}
+  - name: scorpion_Frame_47
+    originalName: 
+    pivot: {x: 0.44, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 368
+      width: 25
+      height: 24
+    spriteID: e96088fb5263d784c99b83b5be34992e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 368}
+  - name: scorpion_Frame_4
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.19999999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 131
+      y: 355
+      width: 12
+      height: 25
+    spriteID: a557d2850afa8d447bf9a344afa94bf3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 131, y: 355}
+  - name: scorpion_Frame_5
+    originalName: 
+    pivot: {x: 0.2857143, y: -0.21739131}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 390
+      width: 14
+      height: 23
+    spriteID: f49c582fcfec12843b2b564b0f801d3d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 390}
+  - name: scorpion_Frame_16
+    originalName: 
+    pivot: {x: 0.25, y: -0.2857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 326
+      width: 16
+      height: 21
+    spriteID: 32ade1b13b441b44495379effa069262
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 326}
+  - name: scorpion_Frame_17
+    originalName: 
+    pivot: {x: 0.2777778, y: -0.2857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 487
+      width: 18
+      height: 21
+    spriteID: 4d4a1f75ccbece143a90e50f7b84c683
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 487}
+  - name: scorpion_Frame_36
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 355
+      width: 12
+      height: 27
+    spriteID: 9842d65defc4a81459271c9c1ea70b86
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 355}
+  - name: scorpion_Frame_37
+    originalName: 
+    pivot: {x: 0.2857143, y: -0.12}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 260
+      width: 14
+      height: 25
+    spriteID: f5068b5896ebe804285a819bc2a6febf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 260}
+  - name: scorpion_Frame_38
+    originalName: 
+    pivot: {x: 0.2857143, y: -0.12}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 293
+      width: 14
+      height: 25
+    spriteID: a45b6537efa3f0940a1736a531d5b03a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 293}
+  - name: scorpion_Frame_39
+    originalName: 
+    pivot: {x: 0.2857143, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 421
+      width: 14
+      height: 21
+    spriteID: 23aa800995a637f44a3c5fac9dab9f01
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 421}
+  - name: scorpion_Frame_40
+    originalName: 
+    pivot: {x: 0.2857143, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 450
+      width: 14
+      height: 21
+    spriteID: c8a2215d68402854bbd5d93eb86a5102
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 450}
+  - name: scorpion_Frame_41
+    originalName: 
+    pivot: {x: 0.2857143, y: -0.2857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 479
+      width: 14
+      height: 21
+    spriteID: 4a55ee1283110c64c9c227cca5105a2e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 479}
+  - name: scorpion_Frame_2
+    originalName: 
+    pivot: {x: 0.375, y: -0.4615385}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 133
+      y: 421
+      width: 8
+      height: 13
+    spriteID: e77b9176bba9ff04b8b99fbbe93cc8f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 133, y: 421}
+  - name: scorpion_Frame_3
+    originalName: 
+    pivot: {x: 0.625, y: -0.4615385}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 133
+      y: 450
+      width: 8
+      height: 13
+    spriteID: bbb4c1da20b88e4458d805a46e9d0820
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 133, y: 450}
+  - name: scorpion_Frame_14
+    originalName: 
+    pivot: {x: 0.42857146, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 133
+      y: 500
+      width: 7
+      height: 8
+    spriteID: 00d7b69eb34c43142b64d948bd7a2319
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 133, y: 500}
+  - name: scorpion_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: -0.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 133
+      y: 390
+      width: 8
+      height: 13
+    spriteID: edb217d4f8fd27a4ba624cd9f37055ee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 133, y: 390}
+  - name: scorpion_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 133
+      y: 260
+      width: 8
+      height: 13
+    spriteID: 499fee391730dc74abceab04e716bb70
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 133, y: 260}
+  - name: scorpion_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 135
+      y: 326
+      width: 8
+      height: 15
+    spriteID: 61dadc98b58734748bbf66b9406923b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 135, y: 326}
+  - name: scorpion_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: -1.4615386}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 133
+      y: 293
+      width: 8
+      height: 13
+    spriteID: 4417cbcaf32f85b4b8e6cfab7aeb9515
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 133, y: 293}
+  - name: scorpion_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: -1.4615386}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 133
+      y: 479
+      width: 8
+      height: 13
+    spriteID: 2502d3b3a494fa748b086375cf761832
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 133, y: 479}
+  - name: scorpion_Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: -1.1538461}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 36
+      width: 8
+      height: 13
+    spriteID: df4d893cf69a6da489f20dbe15fd7c82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 36}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1812251489
+    name: scorpion
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: scorpion_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 3
+        y: 3
+        width: 27
+        height: 28
+      spriteId: 05d864bca0b29444e8d757a9d38ea462
+    - name: scorpion_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 2
+        y: 2
+        width: 28
+        height: 28
+      spriteId: 257d002c7bbcd1249b3a2179e46919fb
+    - name: scorpion_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 3
+        y: 3
+        width: 27
+        height: 18
+      spriteId: 6565c54a9b9022f43b3ee3aadc4f7ead
+    - name: scorpion_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 2
+        y: 2
+        width: 27
+        height: 17
+      spriteId: 6c8b5a794e3ecf44b8e82775edad53ce
+    - name: scorpion_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 2
+        y: 4
+        width: 29
+        height: 26
+      spriteId: ac439f9fc9a1d6d48bcf7f2efd0d24f2
+    - name: scorpion_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 2
+        width: 32
+        height: 28
+      spriteId: afa613a4d450d6f4d8edadee452a952b
+    - name: scorpion_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 2
+        y: 4
+        width: 27
+        height: 17
+      spriteId: 64c0b0ba7cb880d4bb448bdab5ccad30
+    - name: scorpion_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 0
+        y: 2
+        width: 32
+        height: 19
+      spriteId: 71390932e3f490e45a86830497a0f951
+    - name: scorpion_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 3
+        y: 3
+        width: 27
+        height: 28
+      spriteId: 26357515a67dd314a9e6dabb265275d3
+    - name: scorpion_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 2
+        y: 1
+        width: 28
+        height: 29
+      spriteId: d82a5dd009ec2744a9ddcba2a41ecc5e
+    - name: scorpion_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 3
+        y: 1
+        width: 27
+        height: 30
+      spriteId: 1c9a46448e7d6f14fada62a54fbf6ca0
+    - name: scorpion_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 2
+        y: 2
+        width: 28
+        height: 30
+      spriteId: b7eaaece4f577a648aa4533c5e8fba77
+    - name: scorpion_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 3
+        y: 3
+        width: 27
+        height: 29
+      spriteId: 71710eb4b85fe4a4b8ca196de0a6c1f6
+    - name: scorpion_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 2
+        y: 2
+        width: 28
+        height: 28
+      spriteId: 59e977c7088cf8748889e96f09f48900
+    - name: scorpion_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 3
+        y: 3
+        width: 27
+        height: 18
+      spriteId: 57ccf34cc650c884a820582517283b92
+    - name: scorpion_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 2
+        y: 2
+        width: 27
+        height: 17
+      spriteId: 4d9b49dc50ab464439c9e561d71859c0
+    - name: scorpion_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 3
+        y: 3
+        width: 27
+        height: 18
+      spriteId: 9adfc6823fee4ae4db4efa77c83bcdd2
+    - name: scorpion_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 2
+        y: 2
+        width: 27
+        height: 17
+      spriteId: 01e0816f2f25c7c4d9eb6761e36b0336
+    - name: scorpion_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 3
+        y: 3
+        width: 27
+        height: 18
+      spriteId: 3919c69d0a0c9734ca19c21c6748a526
+    - name: scorpion_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 2
+        y: 2
+        width: 27
+        height: 17
+      spriteId: 9bc55907f8007cc4790cfd5d71303f0a
+    - name: scorpion_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 4
+        y: 3
+        width: 25
+        height: 27
+      spriteId: 8b9f6efdd6f2c5a47a8c23fc8d26e529
+    - name: scorpion_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 3
+        y: 2
+        width: 25
+        height: 26
+      spriteId: 9c05dc0b556a9ad4d94ade348c3fbea1
+    - name: scorpion_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 8
+        y: 7
+        width: 22
+        height: 20
+      spriteId: 0c8fbac78f49ae0449024e2787025031
+    - name: scorpion_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 8
+        y: 8
+        width: 22
+        height: 19
+      spriteId: 2bc777667539ffc46acf1663d2fbddf3
+    - name: scorpion_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 4
+        y: 3
+        width: 25
+        height: 27
+      spriteId: 7e95a6a91ea4c634784f763df27bdf20
+    - name: scorpion_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 3
+        y: 2
+        width: 25
+        height: 26
+      spriteId: b485957d2a573f5478e573769e89f04e
+    - name: scorpion_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 4
+        y: 3
+        width: 25
+        height: 27
+      spriteId: 4f86c8188c7f3aa43975bc1219bff655
+    - name: scorpion_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 3
+        y: 2
+        width: 25
+        height: 26
+      spriteId: d6b200ff67277b844bb2baec563361ba
+    - name: scorpion_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 4
+        y: 3
+        width: 25
+        height: 27
+      spriteId: 446a002521275ca40903f31bd03e5a51
+    - name: scorpion_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 3
+        y: 2
+        width: 25
+        height: 26
+      spriteId: 5fbe7ea86f15c7e4886e281112b1c361
+    - name: scorpion_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 5
+        y: 6
+        width: 24
+        height: 25
+      spriteId: 1c6de9a0610e9b14e83807a92883c2a2
+    - name: scorpion_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 5
+        y: 6
+        width: 25
+        height: 24
+      spriteId: e6f3ebfa6fcb5b04d8c45a85f2efd338
+    - name: scorpion_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 7
+        y: 6
+        width: 24
+        height: 24
+      spriteId: e70e4958457f02848a65a321fef57c4c
+    - name: scorpion_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 6
+        y: 6
+        width: 26
+        height: 24
+      spriteId: 1c4b93eef42633f4095b1d0b00b7eac8
+    - name: scorpion_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 5
+        y: 6
+        width: 24
+        height: 25
+      spriteId: 0a81ca862aef07a49a8797f0857dd83e
+    - name: scorpion_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 5
+        y: 6
+        width: 25
+        height: 24
+      spriteId: f084b1a29b24b2545861272e9c3eed2a
+    - name: scorpion_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 5
+        y: 6
+        width: 24
+        height: 25
+      spriteId: 2edbbb913546a764aa7098d8ff018e29
+    - name: scorpion_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 5
+        y: 6
+        width: 25
+        height: 24
+      spriteId: 6886545c766fa6a4f93efe8a6d7f7e9f
+    - name: scorpion_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 5
+        y: 6
+        width: 24
+        height: 25
+      spriteId: 14949d91d21b4464c86c28b5ad813e02
+    - name: scorpion_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 5
+        y: 6
+        width: 25
+        height: 24
+      spriteId: e96088fb5263d784c99b83b5be34992e
+    - name: scorpion_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 12
+        y: 5
+        width: 12
+        height: 25
+      spriteId: a557d2850afa8d447bf9a344afa94bf3
+    - name: scorpion_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 12
+        y: 5
+        width: 14
+        height: 23
+      spriteId: f49c582fcfec12843b2b564b0f801d3d
+    - name: scorpion_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 12
+        y: 6
+        width: 16
+        height: 21
+      spriteId: 32ade1b13b441b44495379effa069262
+    - name: scorpion_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 11
+        y: 6
+        width: 18
+        height: 21
+      spriteId: 4d4a1f75ccbece143a90e50f7b84c683
+    - name: scorpion_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 12
+        y: 3
+        width: 12
+        height: 27
+      spriteId: 9842d65defc4a81459271c9c1ea70b86
+    - name: scorpion_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 12
+        y: 3
+        width: 14
+        height: 25
+      spriteId: f5068b5896ebe804285a819bc2a6febf
+    - name: scorpion_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 12
+        y: 3
+        width: 14
+        height: 25
+      spriteId: a45b6537efa3f0940a1736a531d5b03a
+    - name: scorpion_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 12
+        y: 7
+        width: 14
+        height: 21
+      spriteId: 23aa800995a637f44a3c5fac9dab9f01
+    - name: scorpion_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 12
+        y: 7
+        width: 14
+        height: 21
+      spriteId: c8a2215d68402854bbd5d93eb86a5102
+    - name: scorpion_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 12
+        y: 6
+        width: 14
+        height: 21
+      spriteId: 4a55ee1283110c64c9c227cca5105a2e
+    - name: scorpion_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 13
+        y: 6
+        width: 8
+        height: 13
+      spriteId: e77b9176bba9ff04b8b99fbbe93cc8f0
+    - name: scorpion_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 11
+        y: 6
+        width: 8
+        height: 13
+      spriteId: bbb4c1da20b88e4458d805a46e9d0820
+    - name: scorpion_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 13
+        y: 8
+        width: 7
+        height: 8
+      spriteId: 00d7b69eb34c43142b64d948bd7a2319
+    - name: scorpion_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 12
+        y: 5
+        width: 8
+        height: 13
+      spriteId: edb217d4f8fd27a4ba624cd9f37055ee
+    - name: scorpion_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 12
+        y: 1
+        width: 8
+        height: 13
+      spriteId: 499fee391730dc74abceab04e716bb70
+    - name: scorpion_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 12
+        y: 1
+        width: 8
+        height: 15
+      spriteId: 61dadc98b58734748bbf66b9406923b8
+    - name: scorpion_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 12
+        y: 19
+        width: 8
+        height: 13
+      spriteId: 4417cbcaf32f85b4b8e6cfab7aeb9515
+    - name: scorpion_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 12
+        y: 19
+        width: 8
+        height: 13
+      spriteId: 2502d3b3a494fa748b086375cf761832
+    - name: scorpion_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 12
+        y: 15
+        width: 8
+        height: 13
+      spriteId: df4d893cf69a6da489f20dbe15fd7c82
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}
