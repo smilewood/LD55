@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5105817624124743361}
-  - component: {fileID: 5129309062611592893}
   - component: {fileID: 3239002926998409994}
   - component: {fileID: 5052442178882790424}
+  - component: {fileID: 5129309062611592893}
   - component: {fileID: 7893189712696417763}
   - component: {fileID: 4860439002085818669}
   - component: {fileID: 6723218451126293843}
@@ -40,6 +40,31 @@ Transform:
   - {fileID: 6403833378868470391}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3239002926998409994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754102878314905481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0503227d0c9872647ac4dfade1620adb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5052442178882790424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754102878314905481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7d838258a611f14a93d45ba908cc019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
 --- !u!114 &5129309062611592893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68,31 +93,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &3239002926998409994
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1754102878314905481}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0503227d0c9872647ac4dfade1620adb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &5052442178882790424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1754102878314905481}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7d838258a611f14a93d45ba908cc019, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2
 --- !u!114 &7893189712696417763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,6 +105,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60a3ccd2c70a5224eb372def3d4cdcf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &4860439002085818669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,7 +122,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TypeToDamage: Player
   DamageAmount: 1
-  DestroyMyselfOnDamage: 0
+  OnDealDamage:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7893189712696417763}
+        m_TargetAssemblyTypeName: LD55.DestroyOnEvents, Assembly-CSharp
+        m_MethodName: DestroyMe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &6723218451126293843
 MonoBehaviour:
   m_ObjectHideFlags: 0

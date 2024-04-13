@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace LD55
 {
@@ -8,22 +9,17 @@ namespace LD55
    {
       public string TypeToDamage;
       public int DamageAmount;
-      public bool DestroyMyselfOnDamage;
+      public UnityEvent OnDealDamage;
 
       private void OnCollisionEnter(Collision collision)
       {
-         Debug.Log($"{gameObject.name} collided with {collision.gameObject.name}");
          if(collision.gameObject.CompareTag(TypeToDamage))
          {
             if(collision.gameObject.TryGetComponent(out HealthTracker hp))
             {
                hp.ApplyDamage(DamageAmount);
             }
-
-            if (DestroyMyselfOnDamage)
-            {
-               Destroy(this.gameObject);
-            }
+            OnDealDamage?.Invoke();
          }
       }
    }
