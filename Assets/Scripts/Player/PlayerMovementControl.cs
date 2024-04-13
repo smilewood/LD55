@@ -5,15 +5,17 @@ using UnityEngine;
 
 namespace LD55
 {
+   [RequireComponent(typeof(Rigidbody))]
    public class PlayerMovement : MonoBehaviour
    {
       public float speed;
       private Vector3 inputDelta;
-
+      private Rigidbody RB;
 
       // Start is called before the first frame update
       void Start()
       {
+         RB = GetComponent<Rigidbody>();
          
       }
 
@@ -25,7 +27,7 @@ namespace LD55
 
       private void FixedUpdate()
       {
-         this.transform.position = this.transform.position + (speed * Time.fixedDeltaTime * inputDelta);
+         RB.velocity = speed * inputDelta;
       }
    }
 }
