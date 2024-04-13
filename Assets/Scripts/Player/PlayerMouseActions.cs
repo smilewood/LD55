@@ -33,6 +33,10 @@ namespace LD55
         
         public void Spawn()
         {
+            var seekers = GameObject.FindGameObjectsWithTag("Seeker");
+            if (seekers.Length >= Seeker.maxSeekerCount)
+                return;
+            
             var angle = UnityEngine.Random.Range(-45f,45f);
             var spawnAngleUnitVector = UnityEngine.Quaternion.Euler(0,angle,0) * (GetMousePositionInWorld() - transform.position).normalized;
             var spawnVector = spawnAngleUnitVector * distanceToSpawnFromPlayer + this.transform.position;

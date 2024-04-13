@@ -12,7 +12,8 @@ namespace LD55
         public float moveSpeed = 10.0f;
         private Rigidbody RB;
         private Vector3 targetPos;
-
+        public static int maxSeekerCount = 10;
+ 
         // Start is called before the first frame update
         void Start()
         {
