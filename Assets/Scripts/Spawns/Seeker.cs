@@ -35,13 +35,10 @@ namespace LD55
         private void FixedUpdate()
         {
             //move towards mouse position
+            Vector3 delta = targetPos - this.transform.position;
+            RB.velocity = delta.normalized * Math.Min(moveSpeed, delta.sqrMagnitude * 1.2f);//magic numbers
             
-            Vector3 delta = Vector3.Normalize(targetPos - this.transform.position);
-            RB.velocity = moveSpeed * delta;
             Debug.DrawLine(transform.position, targetPos);
-            //var newpos = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
-            
-            //RB.MovePosition(newpos);
         }
         
         

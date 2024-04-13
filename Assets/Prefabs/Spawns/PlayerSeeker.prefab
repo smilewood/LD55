@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -4431095999304149484}
   - component: {fileID: 2992278670514003661}
   - component: {fileID: 1230945594946615797}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: PlayerSeeker
   m_TagString: Seeker
   m_Icon: {fileID: 0}
@@ -112,10 +112,10 @@ Rigidbody:
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
@@ -161,7 +161,7 @@ GameObject:
   - component: {fileID: 7008112858644265243}
   - component: {fileID: 1510614229392368075}
   - component: {fileID: 4050758561359320847}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TempSphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -243,7 +243,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1775659493902667853}
   - component: {fileID: 1370581968774414038}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
