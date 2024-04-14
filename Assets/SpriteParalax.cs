@@ -16,13 +16,16 @@ namespace LD55
       private Camera mainCam;
       private AnimatorOverrideController myAnimator;
 
+      public bool SkipDelay = false;
+
       // Start is called before the first frame update
       void Start()
       {
          mainCam = Camera.main;
          layerObjects = new List<Transform>();
 
-         int frameDelay = Random.Range(0, 10);
+         float frameDelay = Random.Range(0, 5) * .1f;
+         frameDelay = SkipDelay ? 0 : frameDelay;
 
          myAnimator = new AnimatorOverrideController(Animator);
          for (int i = 0; i < LayerCount; ++i)
@@ -34,8 +37,15 @@ namespace LD55
 
             a.runtimeAnimatorController = myAnimator;
             a.SetInteger("StartLayer", i);
+            StartCoroutine(DelayAnimationStart(a, frameDelay));
             layerObjects.Add(l.transform);
          }
+      }
+
+      private IEnumerator DelayAnimationStart(Animator a, float delay)
+      {
+         yield return new WaitForSeconds(delay);
+         a.SetTrigger("Start");
       }
 
       // Update is called once per frame
@@ -54,20 +64,19 @@ namespace LD55
 
          //offset each layer based on dist
          float layerOffset = 0;
-         foreach(Transform t in layerObjects)
+         foreach (Transform t in layerObjects)
          {
             t.transform.position = this.transform.position + (distToCenter * layerOffset * centerDirection);
             layerOffset += LayerSkew;
          }
+      }
 
-         if(Random.Range(0, 100) == 1)
+      public void SetMovingBool(bool state)
+      {
+         foreach (Animator a in GetComponentsInChildren<Animator>())
          {
-            Debug.Log("Attack");
-            foreach(Animator a in GetComponentsInChildren<Animator>())
-            {
-               //GetComponentInChildren<Animator>().SetTrigger("Attack");
-               a.SetTrigger("Attack");
-            }
+            //GetComponentInChildren<Animator>().SetTrigger("Attack");
+            a.SetBool("Moving", state);
          }
       }
    }

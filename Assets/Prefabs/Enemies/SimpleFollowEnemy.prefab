@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 5129309062611592893}
   - component: {fileID: 7893189712696417763}
   - component: {fileID: 4860439002085818669}
-  - component: {fileID: 6723218451126293843}
   - component: {fileID: 7172103800979110058}
   - component: {fileID: 1409194802230035543}
   m_Layer: 0
@@ -126,33 +125,6 @@ MonoBehaviour:
   TypeToDamage: Player
   DamageAmount: 1
   OnDealDamage:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7893189712696417763}
-        m_TargetAssemblyTypeName: LD55.DestroyOnEvents, Assembly-CSharp
-        m_MethodName: DestroyMe
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &6723218451126293843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1754102878314905481}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6af0b2ba62b83b7489750463ca18620a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnFallOffEdge:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 7893189712696417763}
