@@ -123,7 +123,7 @@ namespace LD55
 						{
                             if (effectsSource.isPlaying)
                             {
-								PlaySimulSound(coupler.Clip, effectsSource.outputAudioMixerGroup);
+								StartCoroutine(PlaySimulSound(coupler.Clip, effectsSource.outputAudioMixerGroup));
 							}
                             else
                             {
@@ -159,10 +159,7 @@ namespace LD55
             source.clip = clip;
             source.outputAudioMixerGroup = group;
             source.Play();
-            while (source.isPlaying)
-            {
-				yield return new WaitForSeconds(0.2f);
-			}
+			yield return new WaitForSeconds(clip.length + 0.1f);
             Destroy(source);
         }
 
