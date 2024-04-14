@@ -46,7 +46,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilesPerSecond: 5
   projectileToSpawn: {fileID: 1020712989042804943, guid: e62fb1b10a897ab4cbf6c936d56687a6, type: 3}
+  projectileFireSound: 20
   projectileSpeed: 5
   AttackRangeMin: 0
   AttackRangeMax: 10
+  ProjectileLifetimeOverride: 0
   TypeToAttack: Player

@@ -14,7 +14,7 @@ namespace LD55
         private float cooldownSec; // inverse of projectilesPerSecond
         private float cooldownTimeRemaining;
         public GameObject projectileToSpawn;
-        
+        public SoundOrMusic projectileFireSound;
         public float projectileSpeed;
 
 
@@ -65,6 +65,8 @@ namespace LD55
             x.GetComponent<Rigidbody>().velocity = 10.0f * toTargetVector.normalized;
             Destroy(x.gameObject, ProjectileLifetime + ProjectileLifetimeOverride);
             cooldownTimeRemaining = cooldownSec;
+            SoundManager.GlobalSoundManager.PlaySound(projectileFireSound);
+
         }
 
         [CanBeNull]

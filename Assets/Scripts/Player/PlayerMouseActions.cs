@@ -34,6 +34,8 @@ namespace LD55
          var spawnAngleUnitVector = Quaternion.Euler(0, angle, 0) * (GetMousePositionInWorld() - transform.position).normalized;
          var spawnVector = spawnAngleUnitVector * distanceToSpawnFromPlayer + this.transform.position;
          Instantiate(ActiveSpawnable.SpawnPrefab, spawnVector, Quaternion.AngleAxis(angle, Vector3.up), SummonParent);
+         SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.SummonAlly);
+
       }
 
       public static Vector3 GetMousePositionInWorld()
