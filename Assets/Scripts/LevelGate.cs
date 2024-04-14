@@ -28,6 +28,7 @@ namespace LD55
          {
             GameObject level = Instantiate(NextLevel, this.transform.parent.parent);
             otherRoot.transform.position = level.transform.Find("SpawnPoint").position;
+            GameObject.Find("SummonParent").transform.position = level.transform.Find("SpawnPoint").position;
             Destroy(this.transform.parent.gameObject);
          }
       }
