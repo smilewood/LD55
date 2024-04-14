@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FullScreenPassRendererFeature
   m_EditorClassIdentifier: 
   m_Active: 1
-  injectionPoint: 550
+  injectionPoint: 450
   fetchColorBuffer: 1
   requirements: -1
   passMaterial: {fileID: 2100000, guid: 6a9662340d1fd2c4eb6c97e0e9288ee7, type: 2}
@@ -91,5 +91,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Active: 1
   customPassSettings:
-    passEvent: 600
-    screenHeight: 144
+    passEvent: 550
+    screenHeight: 180
