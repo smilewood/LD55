@@ -45,8 +45,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilesPerSecond: 5
-  attackRangeMin: 1
-  attackRangeMax: 100
   projectileToSpawn: {fileID: 1020712989042804943, guid: e62fb1b10a897ab4cbf6c936d56687a6, type: 3}
-  requireLineOfSight: 1
+  projectileSpeed: 5
+  AttackRangeMin: 0
+  AttackRangeMax: 10
   TypeToAttack: Player

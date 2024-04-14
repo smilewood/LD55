@@ -13,13 +13,21 @@ namespace LD55
         public int projectilesPerSecond;
         private float cooldownSec; // inverse of projectilesPerSecond
         private float cooldownTimeRemaining;
-        public float attackRangeMin = 0f; //leave at zero if no need for switching between melee and projectiles
-        public float attackRangeMax;
         public GameObject projectileToSpawn;
+        
+        public float projectileSpeed;
 
-        
-        
-        
+
+        public float AttackRangeMin = 0f; //leave at zero if no need for switching between melee and projectiles
+        public float AttackRangeMax;
+
+        /// <summary>
+        /// Attack range and lifetime are linked!
+        /// </summary>
+        /// 
+        private float ProjectileLifetime => projectileSpeed == 0 ? 0 : AttackRangeMax / projectileSpeed;
+
+        public float ProjectileLifetimeOverride = 0.0f;
         public string TypeToAttack;
         
         // Start is called before the first frame update
@@ -40,7 +48,7 @@ namespace LD55
             }
             var toTargetVector = target.transform.position - this.transform.position;
             Debug.DrawLine(this.transform.position, target.transform.position);
-            if (toTargetVector.magnitude > attackRangeMax || toTargetVector.magnitude < attackRangeMin)
+            if (toTargetVector.magnitude > AttackRangeMax || toTargetVector.magnitude < AttackRangeMin)
             {
                 Debug.Log("Target(s) out of range!");
                 return;
@@ -55,6 +63,7 @@ namespace LD55
             
             var x = GameObject.Instantiate(projectileToSpawn, transform.position, rotation);
             x.GetComponent<Rigidbody>().velocity = 10.0f * toTargetVector.normalized;
+            Destroy(x.gameObject, ProjectileLifetime + ProjectileLifetimeOverride);
             cooldownTimeRemaining = cooldownSec;
         }
 
