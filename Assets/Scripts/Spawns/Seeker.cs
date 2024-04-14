@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace LD55
 {
@@ -11,7 +12,8 @@ namespace LD55
         public float moveSpeed = 10.0f;
         private Rigidbody RB;
         private Vector3 targetPos;
-        
+        public static int maxSeekerCount = 10;
+ 
         // Start is called before the first frame update
         void Start()
         {
@@ -23,12 +25,10 @@ namespace LD55
         // Update is called once per frame
         void Update()
         {
-            //get mouse position
-            var mousePos = Input.mousePosition;
-            var cameraRay = Camera.main.ScreenPointToRay(mousePos);
-            if (Physics.Raycast(cameraRay, out RaycastHit hitData))
+            var result = PlayerMouseActions.GetMousePositionInWorld();
+            if (result != Vector3.zero)
             {
-                targetPos = hitData.point;
+                targetPos = result;
                 targetPos.y = transform.position.y;
             }
         }
@@ -36,8 +36,13 @@ namespace LD55
         private void FixedUpdate()
         {
             //move towards mouse position
-            var newpos = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
-            RB.MovePosition(newpos);
+            Vector3 delta = targetPos - this.transform.position;
+            RB.velocity = delta.normalized * Math.Min(moveSpeed, delta.sqrMagnitude * 1.2f);//magic numbers
+            
+            Debug.DrawLine(transform.position, targetPos);
         }
+        
+        
+        
     }
 }
