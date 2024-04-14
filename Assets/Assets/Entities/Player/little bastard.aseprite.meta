@@ -1,0 +1,5179 @@
+fileFormatVersion: 2
+guid: 2ceeb6144773f7c4fbe0a31d8d1993df
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: little bastard_Frame_0
+    originalName: 
+    pivot: {x: 0.5357143, y: -0.032258064}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 185
+      y: 79
+      width: 28
+      height: 31
+    spriteID: 91fcf2020732d7c4e8888b8c69d0a440
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 185, y: 79}
+  - name: little bastard_Frame_1
+    originalName: 
+    pivot: {x: 0.5357143, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 79
+      width: 28
+      height: 32
+    spriteID: 8960789af98d3f64596fc187fe1cdb52
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 79}
+  - name: little bastard_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 79
+      width: 28
+      height: 32
+    spriteID: 1320c781a309726408dd743b5ce6c3d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 79}
+  - name: little bastard_Frame_3
+    originalName: 
+    pivot: {x: 0.4814815, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 79
+      width: 27
+      height: 32
+    spriteID: 57de3ae7673be634296c94ad6d8aaf59
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 79}
+  - name: little bastard_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 79
+      width: 28
+      height: 32
+    spriteID: 0493843ae11c1fa43aad950c76a9157c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 79}
+  - name: little bastard_Frame_5
+    originalName: 
+    pivot: {x: 0.5357143, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 79
+      width: 28
+      height: 32
+    spriteID: 8b71c25b0f80ade4792de5f59af672f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 79}
+  - name: little bastard_Frame_6
+    originalName: 
+    pivot: {x: 0.5357143, y: -0.032258064}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 221
+      y: 79
+      width: 28
+      height: 31
+    spriteID: fcd1ac3caa1076841a49b44607affe70
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 221, y: 79}
+  - name: little bastard_Frame_7
+    originalName: 
+    pivot: {x: 0.5357143, y: -0.032258064}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 257
+      y: 79
+      width: 28
+      height: 31
+    spriteID: 7b2b75a29e0d7e547bcefca2ab354eda
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 257, y: 79}
+  - name: little bastard_Frame_8
+    originalName: 
+    pivot: {x: 0.51724136, y: -0.21739131}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 443
+      y: 79
+      width: 29
+      height: 23
+    spriteID: b0906df2258cd4444b65664fd43ed23b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 443, y: 79}
+  - name: little bastard_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.21739131}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 480
+      y: 79
+      width: 28
+      height: 23
+    spriteID: f11f13923dbf27e46bc03aba76ceac67
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 480, y: 79}
+  - name: little bastard_Frame_10
+    originalName: 
+    pivot: {x: 0.51724136, y: -0.21739131}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 119
+      width: 29
+      height: 23
+    spriteID: de591839effeb6e49b942644b041b3a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 119}
+  - name: little bastard_Frame_11
+    originalName: 
+    pivot: {x: 0.51724136, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 79
+      width: 29
+      height: 30
+    spriteID: bac733543e255e54a9faf2f435ced444
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 79}
+  - name: little bastard_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -0.06896552}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 4
+      width: 32
+      height: 29
+    spriteID: 9b9e77f5763ce074690b0eb11cfcc160
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 124, y: 4}
+  - name: little bastard_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.06896552}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 4
+      width: 32
+      height: 29
+    spriteID: e2f37404132cd8e4eb8a3d040819e9f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 164, y: 4}
+  - name: little bastard_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 4
+      width: 32
+      height: 29
+    spriteID: a08727b8e3133324db4e56e2ecc43c0d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 4}
+  - name: little bastard_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 364
+      y: 42
+      width: 32
+      height: 28
+    spriteID: e3de5d3a351613f449718dc5c56cc3e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 364, y: 42}
+  - name: little bastard_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 404
+      y: 42
+      width: 32
+      height: 28
+    spriteID: fe605465187782d4699c180a3e0a15f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 404, y: 42}
+  - name: little bastard_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 444
+      y: 42
+      width: 32
+      height: 28
+    spriteID: 4d7b35056af65154e872eebe1793e23e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 444, y: 42}
+  - name: little bastard_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -0.06896552}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 244
+      y: 4
+      width: 32
+      height: 29
+    spriteID: f76355102b957a94f8e21293fb69abc9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 244, y: 4}
+  - name: little bastard_Frame_19
+    originalName: 
+    pivot: {x: 0.516129, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 293
+      y: 79
+      width: 31
+      height: 28
+    spriteID: 58fc4e6c0296d444d83b469d918b4d4c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 293, y: 79}
+  - name: little bastard_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 367
+      y: 79
+      width: 30
+      height: 28
+    spriteID: 514271fccaa85544a8cbe6b1239c22aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 367, y: 79}
+  - name: little bastard_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 484
+      y: 42
+      width: 22
+      height: 29
+    spriteID: 05c8b006cfcbb8b4f9caa288fae8731f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 484, y: 42}
+  - name: little bastard_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 405
+      y: 79
+      width: 30
+      height: 28
+    spriteID: ba04bd803f041fc4b9436085feb47a7c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 405, y: 79}
+  - name: little bastard_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 284
+      y: 4
+      width: 32
+      height: 29
+    spriteID: 3001909d22310c34a90e6e86ab269869
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 284, y: 4}
+  - name: little bastard_Frame_72
+    originalName: 
+    pivot: {x: 0.5, y: -0.5555556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 295
+      y: 226
+      width: 8
+      height: 9
+    spriteID: e257d6fc22d5d9b4ab8a5827b56cf286
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 295, y: 226}
+  - name: little bastard_Frame_73
+    originalName: 
+    pivot: {x: 0.5, y: -0.36363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 261
+      width: 8
+      height: 11
+    spriteID: 41a0230b9e232c44b9f256804e203c56
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 261}
+  - name: little bastard_Frame_74
+    originalName: 
+    pivot: {x: 0.5, y: -0.23076925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 382
+      y: 210
+      width: 8
+      height: 13
+    spriteID: 2d1dc5dbfb400bd448795beb91af9a03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 382, y: 210}
+  - name: little bastard_Frame_75
+    originalName: 
+    pivot: {x: 0.5, y: -0.13333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 484
+      y: 150
+      width: 8
+      height: 15
+    spriteID: 4f70a0cbf5bb195409e934f80d5a50d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 484, y: 150}
+  - name: little bastard_Frame_76
+    originalName: 
+    pivot: {x: 0.5, y: -0.13333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 500
+      y: 150
+      width: 8
+      height: 15
+    spriteID: 8235f5df64eceb54687fc461efe773ee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 500, y: 150}
+  - name: little bastard_Frame_77
+    originalName: 
+    pivot: {x: 0.5, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 243
+      width: 8
+      height: 10
+    spriteID: 12df728c8d1cc564f8073a6f569c049e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 400, y: 243}
+  - name: little bastard_Frame_78
+    originalName: 
+    pivot: {x: 0.5, y: -2.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 382
+      y: 231
+      width: 8
+      height: 4
+    spriteID: df0e7918a07d1c2408251a01984b9255
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 382, y: 231}
+  - name: little bastard_Frame_79
+    originalName: 
+    pivot: {x: 0.5, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 416
+      y: 243
+      width: 8
+      height: 10
+    spriteID: 7079ba772eff6494584aa6e716b2c4ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 416, y: 243}
+  - name: little bastard_Frame_80
+    originalName: 
+    pivot: {x: 0.5, y: -0.21428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 366
+      y: 210
+      width: 8
+      height: 14
+    spriteID: 8f92f5ecbd0543c45917db2bff7efe2e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 366, y: 210}
+  - name: little bastard_Frame_81
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 334
+      y: 210
+      width: 8
+      height: 17
+    spriteID: 6b025c743d0e60e4ebe52dfe6036e462
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 334, y: 210}
+  - name: little bastard_Frame_82
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 210
+      width: 8
+      height: 15
+    spriteID: 5ca833a6c5c35a44e87875c0a2415451
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 210}
+  - name: little bastard_Frame_83
+    originalName: 
+    pivot: {x: 0.5, y: -1.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 398
+      y: 228
+      width: 8
+      height: 5
+    spriteID: 588f9bc2d900b264abee07be0268347d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 398, y: 228}
+  - name: little bastard_Frame_84
+    originalName: 
+    pivot: {x: 0.5, y: -0.06896552}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 324
+      y: 4
+      width: 32
+      height: 29
+    spriteID: e624dd2b416871c428f5242e8cb4947c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 324, y: 4}
+  - name: little bastard_Frame_85
+    originalName: 
+    pivot: {x: 0.5, y: -0.06896552}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 364
+      y: 4
+      width: 32
+      height: 29
+    spriteID: d5fa1ee6317ed664e848977470cd053c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 364, y: 4}
+  - name: little bastard_Frame_86
+    originalName: 
+    pivot: {x: 0.5, y: -0.06896552}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 404
+      y: 4
+      width: 32
+      height: 29
+    spriteID: f3228ac4faabd094dba7c1548b6482cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 404, y: 4}
+  - name: little bastard_Frame_87
+    originalName: 
+    pivot: {x: 0.5, y: -0.06896552}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 444
+      y: 4
+      width: 32
+      height: 29
+    spriteID: 00903268c473efe45be6989c0aa6ef93
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 444, y: 4}
+  - name: little bastard_Frame_88
+    originalName: 
+    pivot: {x: 0.5, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 42
+      width: 32
+      height: 29
+    spriteID: 412ef49bc50858f4796dd5337dd18bbe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 42}
+  - name: little bastard_Frame_89
+    originalName: 
+    pivot: {x: 0.5, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 42
+      width: 32
+      height: 29
+    spriteID: b9bf2370ae8db5a47b18c212daada20c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 42}
+  - name: little bastard_Frame_90
+    originalName: 
+    pivot: {x: 0.5, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 42
+      width: 32
+      height: 29
+    spriteID: 9ac6ec6276b3b5542b15c40619e21f74
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 42}
+  - name: little bastard_Frame_91
+    originalName: 
+    pivot: {x: 0.5, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 42
+      width: 32
+      height: 29
+    spriteID: 552ff6b5f8e183f4c81a5125c5b191ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 124, y: 42}
+  - name: little bastard_Frame_92
+    originalName: 
+    pivot: {x: 0.5, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 42
+      width: 32
+      height: 29
+    spriteID: 365fb502761e3034faff044a521dd3e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 164, y: 42}
+  - name: little bastard_Frame_93
+    originalName: 
+    pivot: {x: 0.5, y: -0.033333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 32
+      height: 30
+    spriteID: 86b2789074b469d4a98d24c900cfd488
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: little bastard_Frame_94
+    originalName: 
+    pivot: {x: 0.5, y: -0.033333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 4
+      width: 32
+      height: 30
+    spriteID: 357bb437e68d335428ca3c066f24d074
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 4}
+  - name: little bastard_Frame_95
+    originalName: 
+    pivot: {x: 0.5, y: -0.033333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 4
+      width: 32
+      height: 30
+    spriteID: 56bfd8f6d252ae04e8c0be7ddc109d29
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 4}
+  - name: little bastard_Frame_96
+    originalName: 
+    pivot: {x: 0.5, y: -0.06896552}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 42
+      width: 32
+      height: 29
+    spriteID: 492c988067fb07e4b9edb055890b432c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 42}
+  - name: little bastard_Frame_97
+    originalName: 
+    pivot: {x: 0.5, y: -0.06896552}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 244
+      y: 42
+      width: 32
+      height: 29
+    spriteID: 41a9f190b3ff95b4ea8ef07377b3c03a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 244, y: 42}
+  - name: little bastard_Frame_98
+    originalName: 
+    pivot: {x: 0.5, y: -0.06896552}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 284
+      y: 42
+      width: 32
+      height: 29
+    spriteID: e273eed0a18c2874d97fca08251ff320
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 284, y: 42}
+  - name: little bastard_Frame_99
+    originalName: 
+    pivot: {x: 0.5, y: -0.06896552}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 324
+      y: 42
+      width: 32
+      height: 29
+    spriteID: 95066af9899bddb47bfe717878788394
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 324, y: 42}
+  - name: little bastard_Frame_164
+    originalName: 
+    pivot: {x: 0.5, y: -2.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 416
+      y: 228
+      width: 8
+      height: 4
+    spriteID: 5651c890a7a3a4f478e777803c65ea0e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 416, y: 228}
+  - name: little bastard_Frame_165
+    originalName: 
+    pivot: {x: 0.5, y: -2.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 434
+      y: 228
+      width: 8
+      height: 4
+    spriteID: 1d5d6e73938d8b04f9c30cb7414628db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 434, y: 228}
+  - name: little bastard_Frame_166
+    originalName: 
+    pivot: {x: 0.5, y: -2.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 452
+      y: 228
+      width: 8
+      height: 4
+    spriteID: 5fc1b97efeef9fb438ccdfdb911cb726
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 452, y: 228}
+  - name: little bastard_Frame_167
+    originalName: 
+    pivot: {x: 0.5, y: -2.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 470
+      y: 228
+      width: 8
+      height: 4
+    spriteID: 32d72945b3a3d4047911cc8300d69635
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 470, y: 228}
+  - name: little bastard_Frame_168
+    originalName: 
+    pivot: {x: 0.5, y: -2.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 311
+      y: 226
+      width: 8
+      height: 4
+    spriteID: 149490a248bb0cf4493412aea64d8094
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 311, y: 226}
+  - name: little bastard_Frame_169
+    originalName: 
+    pivot: {x: 0.5, y: -2.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 488
+      y: 228
+      width: 8
+      height: 4
+    spriteID: 91b0851b7d42eb040b0634bc82bca397
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 488, y: 228}
+  - name: little bastard_Frame_170
+    originalName: 
+    pivot: {x: 0.5, y: -2.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 179
+      y: 231
+      width: 8
+      height: 4
+    spriteID: cdbd92e6c8996ed4d857e7ebf03c21c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 179, y: 231}
+  - name: little bastard_Frame_171
+    originalName: 
+    pivot: {x: 0.5, y: -2.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 195
+      y: 231
+      width: 8
+      height: 4
+    spriteID: 6c9aace1f2dc6814f92ce92d3892b899
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 195, y: 231}
+  - name: little bastard_Frame_172
+    originalName: 
+    pivot: {x: 0.5, y: -2.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 217
+      y: 231
+      width: 8
+      height: 4
+    spriteID: 90d3af26c14a09e4abff89cae759f133
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 217, y: 231}
+  - name: little bastard_Frame_173
+    originalName: 
+    pivot: {x: 0.5, y: -2.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 233
+      y: 231
+      width: 8
+      height: 4
+    spriteID: 7a3b69d05ce0e8c47a9a60041cf33430
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 233, y: 231}
+  - name: little bastard_Frame_174
+    originalName: 
+    pivot: {x: 0.5, y: -2.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 255
+      y: 228
+      width: 8
+      height: 4
+    spriteID: 2d0a4a5400c887c4fa05f7e34050ca08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 255, y: 228}
+  - name: little bastard_Frame_175
+    originalName: 
+    pivot: {x: 0.5, y: -2.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 271
+      y: 228
+      width: 8
+      height: 4
+    spriteID: 0b67a2171ef0a344c9746b305290ef02
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 271, y: 228}
+  - name: little bastard_Frame_176
+    originalName: 
+    pivot: {x: 0.5, y: -2.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 432
+      y: 243
+      width: 8
+      height: 4
+    spriteID: b29405968ee3a314aaa53cdd214ddb6e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 432, y: 243}
+  - name: little bastard_Frame_177
+    originalName: 
+    pivot: {x: 0.5, y: -2.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 243
+      width: 8
+      height: 4
+    spriteID: c68a285756a79654aaa848b6fb57fefc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 448, y: 243}
+  - name: little bastard_Frame_178
+    originalName: 
+    pivot: {x: 0.5, y: -2.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 464
+      y: 243
+      width: 8
+      height: 4
+    spriteID: 5d7bfea1cadafc645bcdd3225a59a80b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 464, y: 243}
+  - name: little bastard_Frame_179
+    originalName: 
+    pivot: {x: 0.5, y: -2.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 480
+      y: 243
+      width: 8
+      height: 4
+    spriteID: 195f5e150686d8641a5b6882d7bed017
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 480, y: 243}
+  - name: little bastard_Frame_60
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.14814815}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 484
+      y: 4
+      width: 17
+      height: 27
+    spriteID: 4afb15998411f384cb8a0d6cebf56b97
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 484, y: 4}
+  - name: little bastard_Frame_61
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 174
+      width: 17
+      height: 26
+    spriteID: ca0095a5a3c6c7049ad4df46ece8fc9d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 174}
+  - name: little bastard_Frame_62
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.19999999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 401
+      y: 174
+      width: 17
+      height: 25
+    spriteID: b91357193bb409247b3e56773bce3aa4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 401, y: 174}
+  - name: little bastard_Frame_63
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.20833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 210
+      width: 17
+      height: 24
+    spriteID: 629c53bf0856383488bd05f3acab13f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 210}
+  - name: little bastard_Frame_64
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.20833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 154
+      y: 210
+      width: 17
+      height: 24
+    spriteID: a4a330d70100cce4f99bb23c84220ac3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 154, y: 210}
+  - name: little bastard_Frame_65
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.19999999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 426
+      y: 174
+      width: 17
+      height: 25
+    spriteID: 5176a3c3e1c2ca741b5a8a8b46f0cf66
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 426, y: 174}
+  - name: little bastard_Frame_66
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 174
+      width: 17
+      height: 26
+    spriteID: c5db4ade3d284dd4e850c888b228a89c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 174}
+  - name: little bastard_Frame_67
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.19999999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 451
+      y: 174
+      width: 17
+      height: 25
+    spriteID: f07825dd2c7fd48479605f00c084b26e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 451, y: 174}
+  - name: little bastard_Frame_68
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.16}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 476
+      y: 174
+      width: 17
+      height: 25
+    spriteID: d719c49e9c2bbcf4d9f15c9ac6645d27
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 476, y: 174}
+  - name: little bastard_Frame_69
+    originalName: 
+    pivot: {x: 0.5, y: -0.074074075}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 174
+      width: 16
+      height: 27
+    spriteID: 067dcb65439cccf4386cfb860c7ce15c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 353, y: 174}
+  - name: little bastard_Frame_70
+    originalName: 
+    pivot: {x: 0.5, y: -0.074074075}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 377
+      y: 174
+      width: 16
+      height: 27
+    spriteID: f21b651aa8b66f047baf9f4f5dc8b4ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 377, y: 174}
+  - name: little bastard_Frame_71
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 174
+      width: 16
+      height: 28
+    spriteID: 87edab8714eae7946afd3fc8734ba512
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 174}
+  - name: little bastard_Frame_148
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 174
+      width: 17
+      height: 26
+    spriteID: 2007fb1b2fecb2043a04f299b848af50
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 174}
+  - name: little bastard_Frame_149
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 174
+      width: 17
+      height: 26
+    spriteID: 6712019233bac604e949e008c041f926
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 174}
+  - name: little bastard_Frame_150
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 174
+      width: 17
+      height: 26
+    spriteID: 025e37754a3045f42b2ee884182e9fa5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 128, y: 174}
+  - name: little bastard_Frame_151
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 153
+      y: 174
+      width: 17
+      height: 26
+    spriteID: a5e0af3de95c2ee4abc1c3cc81e28364
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 153, y: 174}
+  - name: little bastard_Frame_152
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.19999999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 210
+      width: 17
+      height: 25
+    spriteID: d773dfe86376892438cc07ff5b2eed18
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 210}
+  - name: little bastard_Frame_153
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.19999999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 210
+      width: 17
+      height: 25
+    spriteID: 073d19b0f5dd92f4a92680b0f595e795
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 210}
+  - name: little bastard_Frame_154
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.19999999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 210
+      width: 17
+      height: 25
+    spriteID: 6ac70c8d448be3f468617577d55957a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 210}
+  - name: little bastard_Frame_155
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.19999999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 210
+      width: 17
+      height: 25
+    spriteID: f8f13e67915be0f4782c79a66176749f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 210}
+  - name: little bastard_Frame_156
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.19999999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 210
+      width: 17
+      height: 25
+    spriteID: b4fbed0d762930042baf20fbb4f73089
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 210}
+  - name: little bastard_Frame_157
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 174
+      width: 17
+      height: 26
+    spriteID: f42c1c38c521bc44ab80ce6a28d6be06
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 174}
+  - name: little bastard_Frame_158
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 203
+      y: 174
+      width: 17
+      height: 26
+    spriteID: 417f2b2191e7e034fade01e4c8b3f7d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 203, y: 174}
+  - name: little bastard_Frame_159
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 228
+      y: 174
+      width: 17
+      height: 26
+    spriteID: 0f9243f6f16810248a135a95e2aefe75
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 228, y: 174}
+  - name: little bastard_Frame_160
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 253
+      y: 174
+      width: 17
+      height: 26
+    spriteID: 408ec62dfd17fac4d93a6b51ca1ba1d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 253, y: 174}
+  - name: little bastard_Frame_161
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 278
+      y: 174
+      width: 17
+      height: 26
+    spriteID: 54a576abe7791b943ab910041cd364e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 278, y: 174}
+  - name: little bastard_Frame_162
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 303
+      y: 174
+      width: 17
+      height: 26
+    spriteID: a572fdc65195de442bdaa34cff0c0ff0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 303, y: 174}
+  - name: little bastard_Frame_163
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 328
+      y: 174
+      width: 17
+      height: 26
+    spriteID: 4de2caf26528702469752fa39175c35b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 328, y: 174}
+  - name: little bastard_Frame_48
+    originalName: 
+    pivot: {x: 0.5, y: -0.35714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 244
+      y: 150
+      width: 32
+      height: 14
+    spriteID: eeefe5e8f985e9549a3d56f756bff2f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 244, y: 150}
+  - name: little bastard_Frame_49
+    originalName: 
+    pivot: {x: 0.5, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 41
+      y: 119
+      width: 32
+      height: 16
+    spriteID: 846a9eb87cc466d4e83163910dd4d2b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 41, y: 119}
+  - name: little bastard_Frame_50
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 119
+      width: 32
+      height: 16
+    spriteID: ecde165d46bb94245b8126838aa9dd5d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 119}
+  - name: little bastard_Frame_51
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 121
+      y: 119
+      width: 32
+      height: 16
+    spriteID: fb2c13ae11d7c0e47ac6f6e06f042b12
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 121, y: 119}
+  - name: little bastard_Frame_52
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 119
+      width: 32
+      height: 16
+    spriteID: e25762c457a66234599ddb7eea537156
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 119}
+  - name: little bastard_Frame_53
+    originalName: 
+    pivot: {x: 0.5, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 201
+      y: 119
+      width: 32
+      height: 16
+    spriteID: 48e0e95a071cebf439adffa23d9cdc83
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 201, y: 119}
+  - name: little bastard_Frame_54
+    originalName: 
+    pivot: {x: 0.5, y: -0.35714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 284
+      y: 150
+      width: 32
+      height: 14
+    spriteID: a980c9e2d2d081c4aad6d94ffd82e064
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 284, y: 150}
+  - name: little bastard_Frame_55
+    originalName: 
+    pivot: {x: 0.516129, y: -1.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 295
+      y: 210
+      width: 31
+      height: 8
+    spriteID: c41c7179ba37daf46ab96c5620665d52
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 295, y: 210}
+  - name: little bastard_Frame_56
+    originalName: 
+    pivot: {x: 0.5, y: -0.923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 179
+      y: 210
+      width: 30
+      height: 13
+    spriteID: 860bd882aca592147ae4000488391d86
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 179, y: 210}
+  - name: little bastard_Frame_57
+    originalName: 
+    pivot: {x: 0.5, y: -0.7058824}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 481
+      y: 119
+      width: 22
+      height: 17
+    spriteID: 2557ffe0e6020164dbdf9f1274809577
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 481, y: 119}
+  - name: little bastard_Frame_58
+    originalName: 
+    pivot: {x: 0.5, y: -0.923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 217
+      y: 210
+      width: 30
+      height: 13
+    spriteID: e11c3a7eae0ab0442b7ad488013c5bdd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 217, y: 210}
+  - name: little bastard_Frame_59
+    originalName: 
+    pivot: {x: 0.5, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 255
+      y: 210
+      width: 32
+      height: 10
+    spriteID: 3e26007a1648be044aa8a5611c494218
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 255, y: 210}
+  - name: little bastard_Frame_132
+    originalName: 
+    pivot: {x: 0.5, y: -0.35714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 324
+      y: 150
+      width: 32
+      height: 14
+    spriteID: f345ec01dc303564790864e3176ccbfe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 324, y: 150}
+  - name: little bastard_Frame_133
+    originalName: 
+    pivot: {x: 0.5, y: -0.35714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 364
+      y: 150
+      width: 32
+      height: 14
+    spriteID: 6ff2f918e0c2d394eb6f24445959664d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 364, y: 150}
+  - name: little bastard_Frame_134
+    originalName: 
+    pivot: {x: 0.5, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 241
+      y: 119
+      width: 32
+      height: 16
+    spriteID: 4a32a729c8e84ba4ab40e4b180fc83e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 241, y: 119}
+  - name: little bastard_Frame_135
+    originalName: 
+    pivot: {x: 0.5, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 281
+      y: 119
+      width: 32
+      height: 16
+    spriteID: bbdfd09dbdd825240b4c3640b5a8f727
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 281, y: 119}
+  - name: little bastard_Frame_136
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 321
+      y: 119
+      width: 32
+      height: 16
+    spriteID: ac50dc4ce8347bc4091daeecb29fe75e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 321, y: 119}
+  - name: little bastard_Frame_137
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 361
+      y: 119
+      width: 32
+      height: 16
+    spriteID: 45018f5bebfc00445a469c520ba004aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 361, y: 119}
+  - name: little bastard_Frame_138
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 401
+      y: 119
+      width: 32
+      height: 16
+    spriteID: 16baa77d76a693a43a3a72ba628af3a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 401, y: 119}
+  - name: little bastard_Frame_139
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 441
+      y: 119
+      width: 32
+      height: 16
+    spriteID: 6a623020c147b5544bbf25a1ffee8fc7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 441, y: 119}
+  - name: little bastard_Frame_140
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 150
+      width: 32
+      height: 16
+    spriteID: 999119022340fd046be7eebe078114f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 150}
+  - name: little bastard_Frame_141
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 150
+      width: 32
+      height: 16
+    spriteID: 3e9fa4056a087c4489c98c7d09530c9c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 150}
+  - name: little bastard_Frame_142
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 150
+      width: 32
+      height: 16
+    spriteID: 1af090f56fff3d140986383efe7c2fe8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 150}
+  - name: little bastard_Frame_143
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 150
+      width: 32
+      height: 16
+    spriteID: 00e02c6808e627141a30bb2a6bd94feb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 124, y: 150}
+  - name: little bastard_Frame_144
+    originalName: 
+    pivot: {x: 0.5, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 150
+      width: 32
+      height: 16
+    spriteID: 671f68340be11614fb67f2ac2d88c692
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 164, y: 150}
+  - name: little bastard_Frame_145
+    originalName: 
+    pivot: {x: 0.5, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 150
+      width: 32
+      height: 16
+    spriteID: 544bed0a91047f546b689025968de0e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 150}
+  - name: little bastard_Frame_146
+    originalName: 
+    pivot: {x: 0.5, y: -0.35714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 404
+      y: 150
+      width: 32
+      height: 14
+    spriteID: a75411c7b73db264a9eb2c315863f965
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 404, y: 150}
+  - name: little bastard_Frame_147
+    originalName: 
+    pivot: {x: 0.5, y: -0.35714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 444
+      y: 150
+      width: 32
+      height: 14
+    spriteID: 644eb23b2a7c24e4db9a5fc98b802ab9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 444, y: 150}
+  - name: little bastard_Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 398
+      y: 210
+      width: 10
+      height: 10
+    spriteID: 56f398865e82b5b47902e45ce601dbe0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 398, y: 210}
+  - name: little bastard_Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 416
+      y: 210
+      width: 10
+      height: 10
+    spriteID: d2177ead4ee05514ca6a1f97ff47da06
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 416, y: 210}
+  - name: little bastard_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 434
+      y: 210
+      width: 10
+      height: 10
+    spriteID: dae1b64e4a59e8842abf643332880b05
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 434, y: 210}
+  - name: little bastard_Frame_39
+    originalName: 
+    pivot: {x: 0.5, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 452
+      y: 210
+      width: 10
+      height: 10
+    spriteID: 36d235fe919e0804e8b0c727cc782c2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 452, y: 210}
+  - name: little bastard_Frame_40
+    originalName: 
+    pivot: {x: 0.5, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 470
+      y: 210
+      width: 10
+      height: 10
+    spriteID: 6ec0bbe0e4849a942a0a43f270057de0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 470, y: 210}
+  - name: little bastard_Frame_41
+    originalName: 
+    pivot: {x: 0.5, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 488
+      y: 210
+      width: 10
+      height: 10
+    spriteID: 391a6096ce3bb694a8d2dda8fa8678d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 488, y: 210}
+  - name: little bastard_Frame_42
+    originalName: 
+    pivot: {x: 0.5, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 243
+      width: 10
+      height: 10
+    spriteID: 21f3d52fd315bc7409c2c4559efc53b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 243}
+  - name: little bastard_Frame_43
+    originalName: 
+    pivot: {x: 0.5, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 22
+      y: 243
+      width: 10
+      height: 10
+    spriteID: bc7ec2fd924378b4285ee02661a5f386
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 22, y: 243}
+  - name: little bastard_Frame_44
+    originalName: 
+    pivot: {x: 0.5, y: -0.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 243
+      width: 10
+      height: 10
+    spriteID: 399512ed73aba24409371ef5209408ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 243}
+  - name: little bastard_Frame_45
+    originalName: 
+    pivot: {x: 0.5, y: -0.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 58
+      y: 243
+      width: 10
+      height: 10
+    spriteID: 158e0de27cd5fcc4e95834eaa003bfa0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 58, y: 243}
+  - name: little bastard_Frame_46
+    originalName: 
+    pivot: {x: 0.5, y: -0.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 243
+      width: 10
+      height: 10
+    spriteID: 5ddc061bcfa881744b33a567992cfe2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 243}
+  - name: little bastard_Frame_47
+    originalName: 
+    pivot: {x: 0.5, y: -0.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 94
+      y: 243
+      width: 10
+      height: 10
+    spriteID: 2638ab601cfd23245adbab4a985c27ee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 94, y: 243}
+  - name: little bastard_Frame_116
+    originalName: 
+    pivot: {x: 0.5, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 243
+      width: 10
+      height: 10
+    spriteID: 2a2f4ffdbc196fb469ac9559f817b89a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 243}
+  - name: little bastard_Frame_117
+    originalName: 
+    pivot: {x: 0.5, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 130
+      y: 243
+      width: 10
+      height: 10
+    spriteID: 23212c2277c595a4b8092bb8f2e968fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 130, y: 243}
+  - name: little bastard_Frame_118
+    originalName: 
+    pivot: {x: 0.5, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 243
+      width: 10
+      height: 10
+    spriteID: 92681572b52146745bfc5580d79d777e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 243}
+  - name: little bastard_Frame_119
+    originalName: 
+    pivot: {x: 0.5, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 166
+      y: 243
+      width: 10
+      height: 10
+    spriteID: 095267012efbd4040ad674258e246f69
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 166, y: 243}
+  - name: little bastard_Frame_120
+    originalName: 
+    pivot: {x: 0.5, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 243
+      width: 10
+      height: 10
+    spriteID: 331d926b6e580564dbe42839cef15996
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 184, y: 243}
+  - name: little bastard_Frame_121
+    originalName: 
+    pivot: {x: 0.5, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 202
+      y: 243
+      width: 10
+      height: 10
+    spriteID: 6d05c5a99f2c6c148aa7ed1138827d1c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 202, y: 243}
+  - name: little bastard_Frame_122
+    originalName: 
+    pivot: {x: 0.5, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 243
+      width: 10
+      height: 10
+    spriteID: 9889d1b88d10dcb4cadce15b5a733309
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 243}
+  - name: little bastard_Frame_123
+    originalName: 
+    pivot: {x: 0.5, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 238
+      y: 243
+      width: 10
+      height: 10
+    spriteID: 537281c1b6438a648b867a22af90c25f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 238, y: 243}
+  - name: little bastard_Frame_124
+    originalName: 
+    pivot: {x: 0.5, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 243
+      width: 10
+      height: 10
+    spriteID: 69b2a63b1267dfd488a1b87af08a3c19
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 256, y: 243}
+  - name: little bastard_Frame_125
+    originalName: 
+    pivot: {x: 0.5, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 274
+      y: 243
+      width: 10
+      height: 10
+    spriteID: 312962a5b73c0c44eb923acb242fcd6e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 274, y: 243}
+  - name: little bastard_Frame_126
+    originalName: 
+    pivot: {x: 0.5, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 292
+      y: 243
+      width: 10
+      height: 10
+    spriteID: 1c78f6c5cd9272a4c99ee4c5427da345
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 292, y: 243}
+  - name: little bastard_Frame_127
+    originalName: 
+    pivot: {x: 0.5, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 310
+      y: 243
+      width: 10
+      height: 10
+    spriteID: e17f0da9e01599645b36ea85e9186c7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 310, y: 243}
+  - name: little bastard_Frame_128
+    originalName: 
+    pivot: {x: 0.5, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 328
+      y: 243
+      width: 10
+      height: 10
+    spriteID: e9b989f8c1384ef46b1073b3820dbf9c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 328, y: 243}
+  - name: little bastard_Frame_129
+    originalName: 
+    pivot: {x: 0.5, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 346
+      y: 243
+      width: 10
+      height: 10
+    spriteID: c915600960f494a4aa24b99b11ef9b88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 346, y: 243}
+  - name: little bastard_Frame_130
+    originalName: 
+    pivot: {x: 0.5, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 364
+      y: 243
+      width: 10
+      height: 10
+    spriteID: cf2159b6eb434034eb9f563a4615a5b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 364, y: 243}
+  - name: little bastard_Frame_131
+    originalName: 
+    pivot: {x: 0.5, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 382
+      y: 243
+      width: 10
+      height: 10
+    spriteID: 5512fadf098e02149aedc46ae74e65ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 382, y: 243}
+  - name: little bastard_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: -0.23076925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 174
+      y: 280
+      width: 2
+      height: 13
+    spriteID: 50bc25124f0a15c488b5967ab801a6a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 174, y: 280}
+  - name: little bastard_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: -0.23076925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 280
+      width: 2
+      height: 13
+    spriteID: b1bc083c4056f3942a3ef3919f205052
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 184, y: 280}
+  - name: little bastard_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: -0.21428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 280
+      width: 2
+      height: 14
+    spriteID: 72e9472648bc3f34eb5f4b556ab302ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 280}
+  - name: little bastard_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: -0.21428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 14
+      y: 280
+      width: 2
+      height: 14
+    spriteID: 74e43f9532a435741ac71170725ab635
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 14, y: 280}
+  - name: little bastard_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: -0.21428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 24
+      y: 280
+      width: 2
+      height: 14
+    spriteID: 143994b0852adad4781f98eecffc08e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 24, y: 280}
+  - name: little bastard_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: -0.21428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 280
+      width: 2
+      height: 14
+    spriteID: 470b6e03972a66d4fbb913982ada7908
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 280}
+  - name: little bastard_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: -0.21428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 280
+      width: 2
+      height: 14
+    spriteID: bb52827ecd457024da3b303bf22cebb9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 280}
+  - name: little bastard_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: -0.21428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 280
+      width: 2
+      height: 14
+    spriteID: 962f35e294ebfe24a921f7415d21286a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 280}
+  - name: little bastard_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 501
+      y: 174
+      width: 2
+      height: 15
+    spriteID: 71e7ffbe0cb8dd749bddfac0dd4b51fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 501, y: 174}
+  - name: little bastard_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 280
+      width: 2
+      height: 14
+    spriteID: deea7030d9e3ba649b6c6f85af145c63
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 280}
+  - name: little bastard_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 280
+      width: 2
+      height: 14
+    spriteID: c93ead290aef0da4386cbede67a5ba3a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 280}
+  - name: little bastard_Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 280
+      width: 2
+      height: 14
+    spriteID: 67549e7206a869445869122f846d44c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 280}
+  - name: little bastard_Frame_100
+    originalName: 
+    pivot: {x: 0.5, y: -0.23076925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 194
+      y: 280
+      width: 2
+      height: 13
+    spriteID: 9341cb9eb12a91a4891f1727c9a45800
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 194, y: 280}
+  - name: little bastard_Frame_101
+    originalName: 
+    pivot: {x: 0.5, y: -0.23076925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 280
+      width: 2
+      height: 13
+    spriteID: da11e844e4d327c41bfbc684387103f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 280}
+  - name: little bastard_Frame_102
+    originalName: 
+    pivot: {x: 0.5, y: -0.23076925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 214
+      y: 280
+      width: 2
+      height: 13
+    spriteID: 7797316a57e352b4882590357fd2d1a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 214, y: 280}
+  - name: little bastard_Frame_103
+    originalName: 
+    pivot: {x: 0.5, y: -0.23076925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 280
+      width: 2
+      height: 13
+    spriteID: 270412b288ea9a441985b26bf0333f30
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 224, y: 280}
+  - name: little bastard_Frame_104
+    originalName: 
+    pivot: {x: 0.5, y: -0.21428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 94
+      y: 280
+      width: 2
+      height: 14
+    spriteID: 7e5d7516fa5c27e4a943bfd83d3c8fba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 94, y: 280}
+  - name: little bastard_Frame_105
+    originalName: 
+    pivot: {x: 0.5, y: -0.21428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 280
+      width: 2
+      height: 14
+    spriteID: 2e49d2dae4da08d40804ec654e72b9ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 280}
+  - name: little bastard_Frame_106
+    originalName: 
+    pivot: {x: 0.5, y: -0.21428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 280
+      width: 2
+      height: 14
+    spriteID: 753989f008056544a89e80d49a86ef1f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 280}
+  - name: little bastard_Frame_107
+    originalName: 
+    pivot: {x: 0.5, y: -0.21428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 280
+      width: 2
+      height: 14
+    spriteID: 0e9c3ca788323d34e8a39938d4853c67
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 124, y: 280}
+  - name: little bastard_Frame_108
+    originalName: 
+    pivot: {x: 0.5, y: -0.21428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 134
+      y: 280
+      width: 2
+      height: 14
+    spriteID: 6afbd03b5d8e9cf47a33840ea21aa46f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 134, y: 280}
+  - name: little bastard_Frame_109
+    originalName: 
+    pivot: {x: 0.5, y: -0.21428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 280
+      width: 2
+      height: 14
+    spriteID: 439e5753bebc2644e99981a879b91f32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 144, y: 280}
+  - name: little bastard_Frame_110
+    originalName: 
+    pivot: {x: 0.5, y: -0.21428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 154
+      y: 280
+      width: 2
+      height: 14
+    spriteID: 33c681a4ece386a488ba9b730267cded
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 154, y: 280}
+  - name: little bastard_Frame_111
+    originalName: 
+    pivot: {x: 0.5, y: -0.21428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 280
+      width: 2
+      height: 14
+    spriteID: 36d1cca8ae2bb1149a5af5c27ff481ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 164, y: 280}
+  - name: little bastard_Frame_112
+    originalName: 
+    pivot: {x: 0.5, y: -0.23076925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 234
+      y: 280
+      width: 2
+      height: 13
+    spriteID: b17ffbd39ee7e04448a1970bb88422b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 234, y: 280}
+  - name: little bastard_Frame_113
+    originalName: 
+    pivot: {x: 0.5, y: -0.23076925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 244
+      y: 280
+      width: 2
+      height: 13
+    spriteID: bd3bf829ec1f45046bb6c0c6601e497c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 244, y: 280}
+  - name: little bastard_Frame_114
+    originalName: 
+    pivot: {x: 0.5, y: -0.23076925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 254
+      y: 280
+      width: 2
+      height: 13
+    spriteID: 1dd061ba7275bfa4498e25bfceaf9a8b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 254, y: 280}
+  - name: little bastard_Frame_115
+    originalName: 
+    pivot: {x: 0.5, y: -0.23076925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 264
+      y: 280
+      width: 2
+      height: 13
+    spriteID: bebfdfc51822949458b84983c18a74c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 264, y: 280}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 39880231
+    name: little bastard
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: little bastard_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 1
+        y: 1
+        width: 28
+        height: 31
+      spriteId: 91fcf2020732d7c4e8888b8c69d0a440
+    - name: little bastard_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 1
+        y: 0
+        width: 28
+        height: 32
+      spriteId: 8960789af98d3f64596fc187fe1cdb52
+    - name: little bastard_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 2
+        y: 0
+        width: 28
+        height: 32
+      spriteId: 1320c781a309726408dd743b5ce6c3d9
+    - name: little bastard_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 3
+        y: 0
+        width: 27
+        height: 32
+      spriteId: 57de3ae7673be634296c94ad6d8aaf59
+    - name: little bastard_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 2
+        y: 0
+        width: 28
+        height: 32
+      spriteId: 0493843ae11c1fa43aad950c76a9157c
+    - name: little bastard_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 1
+        y: 0
+        width: 28
+        height: 32
+      spriteId: 8b71c25b0f80ade4792de5f59af672f0
+    - name: little bastard_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 1
+        y: 1
+        width: 28
+        height: 31
+      spriteId: fcd1ac3caa1076841a49b44607affe70
+    - name: little bastard_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 1
+        y: 1
+        width: 28
+        height: 31
+      spriteId: 7b2b75a29e0d7e547bcefca2ab354eda
+    - name: little bastard_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 1
+        y: 5
+        width: 29
+        height: 23
+      spriteId: b0906df2258cd4444b65664fd43ed23b
+    - name: little bastard_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 2
+        y: 5
+        width: 28
+        height: 23
+      spriteId: f11f13923dbf27e46bc03aba76ceac67
+    - name: little bastard_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 1
+        y: 5
+        width: 29
+        height: 23
+      spriteId: de591839effeb6e49b942644b041b3a6
+    - name: little bastard_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 1
+        y: 2
+        width: 29
+        height: 30
+      spriteId: bac733543e255e54a9faf2f435ced444
+    - name: little bastard_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: 2
+        width: 32
+        height: 29
+      spriteId: 9b9e77f5763ce074690b0eb11cfcc160
+    - name: little bastard_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 2
+        width: 32
+        height: 29
+      spriteId: e2f37404132cd8e4eb8a3d040819e9f6
+    - name: little bastard_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 1
+        width: 32
+        height: 29
+      spriteId: a08727b8e3133324db4e56e2ecc43c0d
+    - name: little bastard_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: 1
+        width: 32
+        height: 28
+      spriteId: e3de5d3a351613f449718dc5c56cc3e1
+    - name: little bastard_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 0
+        y: 1
+        width: 32
+        height: 28
+      spriteId: fe605465187782d4699c180a3e0a15f2
+    - name: little bastard_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 0
+        y: 2
+        width: 32
+        height: 28
+      spriteId: 4d7b35056af65154e872eebe1793e23e
+    - name: little bastard_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 0
+        y: 2
+        width: 32
+        height: 29
+      spriteId: f76355102b957a94f8e21293fb69abc9
+    - name: little bastard_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 0
+        y: 2
+        width: 31
+        height: 28
+      spriteId: 58fc4e6c0296d444d83b469d918b4d4c
+    - name: little bastard_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 1
+        y: 1
+        width: 30
+        height: 28
+      spriteId: 514271fccaa85544a8cbe6b1239c22aa
+    - name: little bastard_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 5
+        y: 0
+        width: 22
+        height: 29
+      spriteId: 05c8b006cfcbb8b4f9caa288fae8731f
+    - name: little bastard_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 1
+        y: 1
+        width: 30
+        height: 28
+      spriteId: ba04bd803f041fc4b9436085feb47a7c
+    - name: little bastard_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 0
+        y: 1
+        width: 32
+        height: 29
+      spriteId: 3001909d22310c34a90e6e86ab269869
+    - name: little bastard_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 12
+        y: 5
+        width: 8
+        height: 9
+      spriteId: e257d6fc22d5d9b4ab8a5827b56cf286
+    - name: little bastard_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 12
+        y: 4
+        width: 8
+        height: 11
+      spriteId: 41a0230b9e232c44b9f256804e203c56
+    - name: little bastard_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 12
+        y: 3
+        width: 8
+        height: 13
+      spriteId: 2d1dc5dbfb400bd448795beb91af9a03
+    - name: little bastard_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 12
+        y: 2
+        width: 8
+        height: 15
+      spriteId: 4f70a0cbf5bb195409e934f80d5a50d6
+    - name: little bastard_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 12
+        y: 2
+        width: 8
+        height: 15
+      spriteId: 8235f5df64eceb54687fc461efe773ee
+    - name: little bastard_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 12
+        y: 5
+        width: 8
+        height: 10
+      spriteId: 12df728c8d1cc564f8073a6f569c049e
+    - name: little bastard_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 12
+        y: 9
+        width: 8
+        height: 4
+      spriteId: df0e7918a07d1c2408251a01984b9255
+    - name: little bastard_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 12
+        y: 5
+        width: 8
+        height: 10
+      spriteId: 7079ba772eff6494584aa6e716b2c4ac
+    - name: little bastard_Frame_80
+      frameIndex: 80
+      cellRect:
+        x: 12
+        y: 3
+        width: 8
+        height: 14
+      spriteId: 8f92f5ecbd0543c45917db2bff7efe2e
+    - name: little bastard_Frame_81
+      frameIndex: 81
+      cellRect:
+        x: 12
+        y: 0
+        width: 8
+        height: 17
+      spriteId: 6b025c743d0e60e4ebe52dfe6036e462
+    - name: little bastard_Frame_82
+      frameIndex: 82
+      cellRect:
+        x: 12
+        y: 1
+        width: 8
+        height: 15
+      spriteId: 5ca833a6c5c35a44e87875c0a2415451
+    - name: little bastard_Frame_83
+      frameIndex: 83
+      cellRect:
+        x: 12
+        y: 7
+        width: 8
+        height: 5
+      spriteId: 588f9bc2d900b264abee07be0268347d
+    - name: little bastard_Frame_84
+      frameIndex: 84
+      cellRect:
+        x: 0
+        y: 2
+        width: 32
+        height: 29
+      spriteId: e624dd2b416871c428f5242e8cb4947c
+    - name: little bastard_Frame_85
+      frameIndex: 85
+      cellRect:
+        x: 0
+        y: 2
+        width: 32
+        height: 29
+      spriteId: d5fa1ee6317ed664e848977470cd053c
+    - name: little bastard_Frame_86
+      frameIndex: 86
+      cellRect:
+        x: 0
+        y: 2
+        width: 32
+        height: 29
+      spriteId: f3228ac4faabd094dba7c1548b6482cf
+    - name: little bastard_Frame_87
+      frameIndex: 87
+      cellRect:
+        x: 0
+        y: 2
+        width: 32
+        height: 29
+      spriteId: 00903268c473efe45be6989c0aa6ef93
+    - name: little bastard_Frame_88
+      frameIndex: 88
+      cellRect:
+        x: 0
+        y: 1
+        width: 32
+        height: 29
+      spriteId: 412ef49bc50858f4796dd5337dd18bbe
+    - name: little bastard_Frame_89
+      frameIndex: 89
+      cellRect:
+        x: 0
+        y: 1
+        width: 32
+        height: 29
+      spriteId: b9bf2370ae8db5a47b18c212daada20c
+    - name: little bastard_Frame_90
+      frameIndex: 90
+      cellRect:
+        x: 0
+        y: 1
+        width: 32
+        height: 29
+      spriteId: 9ac6ec6276b3b5542b15c40619e21f74
+    - name: little bastard_Frame_91
+      frameIndex: 91
+      cellRect:
+        x: 0
+        y: 1
+        width: 32
+        height: 29
+      spriteId: 552ff6b5f8e183f4c81a5125c5b191ca
+    - name: little bastard_Frame_92
+      frameIndex: 92
+      cellRect:
+        x: 0
+        y: 1
+        width: 32
+        height: 29
+      spriteId: 365fb502761e3034faff044a521dd3e9
+    - name: little bastard_Frame_93
+      frameIndex: 93
+      cellRect:
+        x: 0
+        y: 1
+        width: 32
+        height: 30
+      spriteId: 86b2789074b469d4a98d24c900cfd488
+    - name: little bastard_Frame_94
+      frameIndex: 94
+      cellRect:
+        x: 0
+        y: 1
+        width: 32
+        height: 30
+      spriteId: 357bb437e68d335428ca3c066f24d074
+    - name: little bastard_Frame_95
+      frameIndex: 95
+      cellRect:
+        x: 0
+        y: 1
+        width: 32
+        height: 30
+      spriteId: 56bfd8f6d252ae04e8c0be7ddc109d29
+    - name: little bastard_Frame_96
+      frameIndex: 96
+      cellRect:
+        x: 0
+        y: 2
+        width: 32
+        height: 29
+      spriteId: 492c988067fb07e4b9edb055890b432c
+    - name: little bastard_Frame_97
+      frameIndex: 97
+      cellRect:
+        x: 0
+        y: 2
+        width: 32
+        height: 29
+      spriteId: 41a9f190b3ff95b4ea8ef07377b3c03a
+    - name: little bastard_Frame_98
+      frameIndex: 98
+      cellRect:
+        x: 0
+        y: 2
+        width: 32
+        height: 29
+      spriteId: e273eed0a18c2874d97fca08251ff320
+    - name: little bastard_Frame_99
+      frameIndex: 99
+      cellRect:
+        x: 0
+        y: 2
+        width: 32
+        height: 29
+      spriteId: 95066af9899bddb47bfe717878788394
+    - name: little bastard_Frame_164
+      frameIndex: 164
+      cellRect:
+        x: 12
+        y: 9
+        width: 8
+        height: 4
+      spriteId: 5651c890a7a3a4f478e777803c65ea0e
+    - name: little bastard_Frame_165
+      frameIndex: 165
+      cellRect:
+        x: 12
+        y: 9
+        width: 8
+        height: 4
+      spriteId: 1d5d6e73938d8b04f9c30cb7414628db
+    - name: little bastard_Frame_166
+      frameIndex: 166
+      cellRect:
+        x: 12
+        y: 9
+        width: 8
+        height: 4
+      spriteId: 5fc1b97efeef9fb438ccdfdb911cb726
+    - name: little bastard_Frame_167
+      frameIndex: 167
+      cellRect:
+        x: 12
+        y: 9
+        width: 8
+        height: 4
+      spriteId: 32d72945b3a3d4047911cc8300d69635
+    - name: little bastard_Frame_168
+      frameIndex: 168
+      cellRect:
+        x: 12
+        y: 9
+        width: 8
+        height: 4
+      spriteId: 149490a248bb0cf4493412aea64d8094
+    - name: little bastard_Frame_169
+      frameIndex: 169
+      cellRect:
+        x: 12
+        y: 9
+        width: 8
+        height: 4
+      spriteId: 91b0851b7d42eb040b0634bc82bca397
+    - name: little bastard_Frame_170
+      frameIndex: 170
+      cellRect:
+        x: 12
+        y: 9
+        width: 8
+        height: 4
+      spriteId: cdbd92e6c8996ed4d857e7ebf03c21c5
+    - name: little bastard_Frame_171
+      frameIndex: 171
+      cellRect:
+        x: 12
+        y: 9
+        width: 8
+        height: 4
+      spriteId: 6c9aace1f2dc6814f92ce92d3892b899
+    - name: little bastard_Frame_172
+      frameIndex: 172
+      cellRect:
+        x: 12
+        y: 9
+        width: 8
+        height: 4
+      spriteId: 90d3af26c14a09e4abff89cae759f133
+    - name: little bastard_Frame_173
+      frameIndex: 173
+      cellRect:
+        x: 12
+        y: 9
+        width: 8
+        height: 4
+      spriteId: 7a3b69d05ce0e8c47a9a60041cf33430
+    - name: little bastard_Frame_174
+      frameIndex: 174
+      cellRect:
+        x: 12
+        y: 9
+        width: 8
+        height: 4
+      spriteId: 2d0a4a5400c887c4fa05f7e34050ca08
+    - name: little bastard_Frame_175
+      frameIndex: 175
+      cellRect:
+        x: 12
+        y: 9
+        width: 8
+        height: 4
+      spriteId: 0b67a2171ef0a344c9746b305290ef02
+    - name: little bastard_Frame_176
+      frameIndex: 176
+      cellRect:
+        x: 12
+        y: 9
+        width: 8
+        height: 4
+      spriteId: b29405968ee3a314aaa53cdd214ddb6e
+    - name: little bastard_Frame_177
+      frameIndex: 177
+      cellRect:
+        x: 12
+        y: 9
+        width: 8
+        height: 4
+      spriteId: c68a285756a79654aaa848b6fb57fefc
+    - name: little bastard_Frame_178
+      frameIndex: 178
+      cellRect:
+        x: 12
+        y: 9
+        width: 8
+        height: 4
+      spriteId: 5d7bfea1cadafc645bcdd3225a59a80b
+    - name: little bastard_Frame_179
+      frameIndex: 179
+      cellRect:
+        x: 12
+        y: 9
+        width: 8
+        height: 4
+      spriteId: 195f5e150686d8641a5b6882d7bed017
+    - name: little bastard_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 7
+        y: 4
+        width: 17
+        height: 27
+      spriteId: 4afb15998411f384cb8a0d6cebf56b97
+    - name: little bastard_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 7
+        y: 5
+        width: 17
+        height: 26
+      spriteId: ca0095a5a3c6c7049ad4df46ece8fc9d
+    - name: little bastard_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 7
+        y: 5
+        width: 17
+        height: 25
+      spriteId: b91357193bb409247b3e56773bce3aa4
+    - name: little bastard_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 7
+        y: 5
+        width: 17
+        height: 24
+      spriteId: 629c53bf0856383488bd05f3acab13f2
+    - name: little bastard_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 7
+        y: 5
+        width: 17
+        height: 24
+      spriteId: a4a330d70100cce4f99bb23c84220ac3
+    - name: little bastard_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 7
+        y: 5
+        width: 17
+        height: 25
+      spriteId: 5176a3c3e1c2ca741b5a8a8b46f0cf66
+    - name: little bastard_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 7
+        y: 5
+        width: 17
+        height: 26
+      spriteId: c5db4ade3d284dd4e850c888b228a89c
+    - name: little bastard_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 7
+        y: 5
+        width: 17
+        height: 25
+      spriteId: f07825dd2c7fd48479605f00c084b26e
+    - name: little bastard_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 7
+        y: 4
+        width: 17
+        height: 25
+      spriteId: d719c49e9c2bbcf4d9f15c9ac6645d27
+    - name: little bastard_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 8
+        y: 2
+        width: 16
+        height: 27
+      spriteId: 067dcb65439cccf4386cfb860c7ce15c
+    - name: little bastard_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 8
+        y: 2
+        width: 16
+        height: 27
+      spriteId: f21b651aa8b66f047baf9f4f5dc8b4ec
+    - name: little bastard_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 8
+        y: 2
+        width: 16
+        height: 28
+      spriteId: 87edab8714eae7946afd3fc8734ba512
+    - name: little bastard_Frame_148
+      frameIndex: 148
+      cellRect:
+        x: 7
+        y: 5
+        width: 17
+        height: 26
+      spriteId: 2007fb1b2fecb2043a04f299b848af50
+    - name: little bastard_Frame_149
+      frameIndex: 149
+      cellRect:
+        x: 7
+        y: 5
+        width: 17
+        height: 26
+      spriteId: 6712019233bac604e949e008c041f926
+    - name: little bastard_Frame_150
+      frameIndex: 150
+      cellRect:
+        x: 7
+        y: 5
+        width: 17
+        height: 26
+      spriteId: 025e37754a3045f42b2ee884182e9fa5
+    - name: little bastard_Frame_151
+      frameIndex: 151
+      cellRect:
+        x: 7
+        y: 5
+        width: 17
+        height: 26
+      spriteId: a5e0af3de95c2ee4abc1c3cc81e28364
+    - name: little bastard_Frame_152
+      frameIndex: 152
+      cellRect:
+        x: 7
+        y: 5
+        width: 17
+        height: 25
+      spriteId: d773dfe86376892438cc07ff5b2eed18
+    - name: little bastard_Frame_153
+      frameIndex: 153
+      cellRect:
+        x: 7
+        y: 5
+        width: 17
+        height: 25
+      spriteId: 073d19b0f5dd92f4a92680b0f595e795
+    - name: little bastard_Frame_154
+      frameIndex: 154
+      cellRect:
+        x: 7
+        y: 5
+        width: 17
+        height: 25
+      spriteId: 6ac70c8d448be3f468617577d55957a2
+    - name: little bastard_Frame_155
+      frameIndex: 155
+      cellRect:
+        x: 7
+        y: 5
+        width: 17
+        height: 25
+      spriteId: f8f13e67915be0f4782c79a66176749f
+    - name: little bastard_Frame_156
+      frameIndex: 156
+      cellRect:
+        x: 7
+        y: 5
+        width: 17
+        height: 25
+      spriteId: b4fbed0d762930042baf20fbb4f73089
+    - name: little bastard_Frame_157
+      frameIndex: 157
+      cellRect:
+        x: 7
+        y: 5
+        width: 17
+        height: 26
+      spriteId: f42c1c38c521bc44ab80ce6a28d6be06
+    - name: little bastard_Frame_158
+      frameIndex: 158
+      cellRect:
+        x: 7
+        y: 5
+        width: 17
+        height: 26
+      spriteId: 417f2b2191e7e034fade01e4c8b3f7d2
+    - name: little bastard_Frame_159
+      frameIndex: 159
+      cellRect:
+        x: 7
+        y: 5
+        width: 17
+        height: 26
+      spriteId: 0f9243f6f16810248a135a95e2aefe75
+    - name: little bastard_Frame_160
+      frameIndex: 160
+      cellRect:
+        x: 7
+        y: 5
+        width: 17
+        height: 26
+      spriteId: 408ec62dfd17fac4d93a6b51ca1ba1d9
+    - name: little bastard_Frame_161
+      frameIndex: 161
+      cellRect:
+        x: 7
+        y: 5
+        width: 17
+        height: 26
+      spriteId: 54a576abe7791b943ab910041cd364e4
+    - name: little bastard_Frame_162
+      frameIndex: 162
+      cellRect:
+        x: 7
+        y: 5
+        width: 17
+        height: 26
+      spriteId: a572fdc65195de442bdaa34cff0c0ff0
+    - name: little bastard_Frame_163
+      frameIndex: 163
+      cellRect:
+        x: 7
+        y: 5
+        width: 17
+        height: 26
+      spriteId: 4de2caf26528702469752fa39175c35b
+    - name: little bastard_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 14
+      spriteId: eeefe5e8f985e9549a3d56f756bff2f5
+    - name: little bastard_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 0
+        y: 2
+        width: 32
+        height: 16
+      spriteId: 846a9eb87cc466d4e83163910dd4d2b7
+    - name: little bastard_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 0
+        y: 1
+        width: 32
+        height: 16
+      spriteId: ecde165d46bb94245b8126838aa9dd5d
+    - name: little bastard_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 0
+        y: 1
+        width: 32
+        height: 16
+      spriteId: fb2c13ae11d7c0e47ac6f6e06f042b12
+    - name: little bastard_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 0
+        y: 1
+        width: 32
+        height: 16
+      spriteId: e25762c457a66234599ddb7eea537156
+    - name: little bastard_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 0
+        y: 2
+        width: 32
+        height: 16
+      spriteId: 48e0e95a071cebf439adffa23d9cdc83
+    - name: little bastard_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 14
+      spriteId: a980c9e2d2d081c4aad6d94ffd82e064
+    - name: little bastard_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 0
+        y: 10
+        width: 31
+        height: 8
+      spriteId: c41c7179ba37daf46ab96c5620665d52
+    - name: little bastard_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 1
+        y: 12
+        width: 30
+        height: 13
+      spriteId: 860bd882aca592147ae4000488391d86
+    - name: little bastard_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 5
+        y: 12
+        width: 22
+        height: 17
+      spriteId: 2557ffe0e6020164dbdf9f1274809577
+    - name: little bastard_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 1
+        y: 12
+        width: 30
+        height: 13
+      spriteId: e11c3a7eae0ab0442b7ad488013c5bdd
+    - name: little bastard_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 0
+        y: 10
+        width: 32
+        height: 10
+      spriteId: 3e26007a1648be044aa8a5611c494218
+    - name: little bastard_Frame_132
+      frameIndex: 132
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 14
+      spriteId: f345ec01dc303564790864e3176ccbfe
+    - name: little bastard_Frame_133
+      frameIndex: 133
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 14
+      spriteId: 6ff2f918e0c2d394eb6f24445959664d
+    - name: little bastard_Frame_134
+      frameIndex: 134
+      cellRect:
+        x: 0
+        y: 2
+        width: 32
+        height: 16
+      spriteId: 4a32a729c8e84ba4ab40e4b180fc83e8
+    - name: little bastard_Frame_135
+      frameIndex: 135
+      cellRect:
+        x: 0
+        y: 2
+        width: 32
+        height: 16
+      spriteId: bbdfd09dbdd825240b4c3640b5a8f727
+    - name: little bastard_Frame_136
+      frameIndex: 136
+      cellRect:
+        x: 0
+        y: 1
+        width: 32
+        height: 16
+      spriteId: ac50dc4ce8347bc4091daeecb29fe75e
+    - name: little bastard_Frame_137
+      frameIndex: 137
+      cellRect:
+        x: 0
+        y: 1
+        width: 32
+        height: 16
+      spriteId: 45018f5bebfc00445a469c520ba004aa
+    - name: little bastard_Frame_138
+      frameIndex: 138
+      cellRect:
+        x: 0
+        y: 1
+        width: 32
+        height: 16
+      spriteId: 16baa77d76a693a43a3a72ba628af3a6
+    - name: little bastard_Frame_139
+      frameIndex: 139
+      cellRect:
+        x: 0
+        y: 1
+        width: 32
+        height: 16
+      spriteId: 6a623020c147b5544bbf25a1ffee8fc7
+    - name: little bastard_Frame_140
+      frameIndex: 140
+      cellRect:
+        x: 0
+        y: 1
+        width: 32
+        height: 16
+      spriteId: 999119022340fd046be7eebe078114f7
+    - name: little bastard_Frame_141
+      frameIndex: 141
+      cellRect:
+        x: 0
+        y: 1
+        width: 32
+        height: 16
+      spriteId: 3e9fa4056a087c4489c98c7d09530c9c
+    - name: little bastard_Frame_142
+      frameIndex: 142
+      cellRect:
+        x: 0
+        y: 1
+        width: 32
+        height: 16
+      spriteId: 1af090f56fff3d140986383efe7c2fe8
+    - name: little bastard_Frame_143
+      frameIndex: 143
+      cellRect:
+        x: 0
+        y: 1
+        width: 32
+        height: 16
+      spriteId: 00e02c6808e627141a30bb2a6bd94feb
+    - name: little bastard_Frame_144
+      frameIndex: 144
+      cellRect:
+        x: 0
+        y: 2
+        width: 32
+        height: 16
+      spriteId: 671f68340be11614fb67f2ac2d88c692
+    - name: little bastard_Frame_145
+      frameIndex: 145
+      cellRect:
+        x: 0
+        y: 2
+        width: 32
+        height: 16
+      spriteId: 544bed0a91047f546b689025968de0e4
+    - name: little bastard_Frame_146
+      frameIndex: 146
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 14
+      spriteId: a75411c7b73db264a9eb2c315863f965
+    - name: little bastard_Frame_147
+      frameIndex: 147
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 14
+      spriteId: 644eb23b2a7c24e4db9a5fc98b802ab9
+    - name: little bastard_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 11
+        y: 2
+        width: 10
+        height: 10
+      spriteId: 56f398865e82b5b47902e45ce601dbe0
+    - name: little bastard_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 11
+        y: 2
+        width: 10
+        height: 10
+      spriteId: d2177ead4ee05514ca6a1f97ff47da06
+    - name: little bastard_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 11
+        y: 2
+        width: 10
+        height: 10
+      spriteId: dae1b64e4a59e8842abf643332880b05
+    - name: little bastard_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 11
+        y: 2
+        width: 10
+        height: 10
+      spriteId: 36d235fe919e0804e8b0c727cc782c2a
+    - name: little bastard_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 11
+        y: 2
+        width: 10
+        height: 10
+      spriteId: 6ec0bbe0e4849a942a0a43f270057de0
+    - name: little bastard_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 11
+        y: 2
+        width: 10
+        height: 10
+      spriteId: 391a6096ce3bb694a8d2dda8fa8678d2
+    - name: little bastard_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 11
+        y: 2
+        width: 10
+        height: 10
+      spriteId: 21f3d52fd315bc7409c2c4559efc53b7
+    - name: little bastard_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 11
+        y: 2
+        width: 10
+        height: 10
+      spriteId: bc7ec2fd924378b4285ee02661a5f386
+    - name: little bastard_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 11
+        y: 1
+        width: 10
+        height: 10
+      spriteId: 399512ed73aba24409371ef5209408ab
+    - name: little bastard_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 11
+        y: 1
+        width: 10
+        height: 10
+      spriteId: 158e0de27cd5fcc4e95834eaa003bfa0
+    - name: little bastard_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 11
+        y: 1
+        width: 10
+        height: 10
+      spriteId: 5ddc061bcfa881744b33a567992cfe2f
+    - name: little bastard_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 11
+        y: 1
+        width: 10
+        height: 10
+      spriteId: 2638ab601cfd23245adbab4a985c27ee
+    - name: little bastard_Frame_116
+      frameIndex: 116
+      cellRect:
+        x: 11
+        y: 2
+        width: 10
+        height: 10
+      spriteId: 2a2f4ffdbc196fb469ac9559f817b89a
+    - name: little bastard_Frame_117
+      frameIndex: 117
+      cellRect:
+        x: 11
+        y: 2
+        width: 10
+        height: 10
+      spriteId: 23212c2277c595a4b8092bb8f2e968fe
+    - name: little bastard_Frame_118
+      frameIndex: 118
+      cellRect:
+        x: 11
+        y: 2
+        width: 10
+        height: 10
+      spriteId: 92681572b52146745bfc5580d79d777e
+    - name: little bastard_Frame_119
+      frameIndex: 119
+      cellRect:
+        x: 11
+        y: 2
+        width: 10
+        height: 10
+      spriteId: 095267012efbd4040ad674258e246f69
+    - name: little bastard_Frame_120
+      frameIndex: 120
+      cellRect:
+        x: 11
+        y: 2
+        width: 10
+        height: 10
+      spriteId: 331d926b6e580564dbe42839cef15996
+    - name: little bastard_Frame_121
+      frameIndex: 121
+      cellRect:
+        x: 11
+        y: 2
+        width: 10
+        height: 10
+      spriteId: 6d05c5a99f2c6c148aa7ed1138827d1c
+    - name: little bastard_Frame_122
+      frameIndex: 122
+      cellRect:
+        x: 11
+        y: 2
+        width: 10
+        height: 10
+      spriteId: 9889d1b88d10dcb4cadce15b5a733309
+    - name: little bastard_Frame_123
+      frameIndex: 123
+      cellRect:
+        x: 11
+        y: 2
+        width: 10
+        height: 10
+      spriteId: 537281c1b6438a648b867a22af90c25f
+    - name: little bastard_Frame_124
+      frameIndex: 124
+      cellRect:
+        x: 11
+        y: 2
+        width: 10
+        height: 10
+      spriteId: 69b2a63b1267dfd488a1b87af08a3c19
+    - name: little bastard_Frame_125
+      frameIndex: 125
+      cellRect:
+        x: 11
+        y: 2
+        width: 10
+        height: 10
+      spriteId: 312962a5b73c0c44eb923acb242fcd6e
+    - name: little bastard_Frame_126
+      frameIndex: 126
+      cellRect:
+        x: 11
+        y: 2
+        width: 10
+        height: 10
+      spriteId: 1c78f6c5cd9272a4c99ee4c5427da345
+    - name: little bastard_Frame_127
+      frameIndex: 127
+      cellRect:
+        x: 11
+        y: 2
+        width: 10
+        height: 10
+      spriteId: e17f0da9e01599645b36ea85e9186c7a
+    - name: little bastard_Frame_128
+      frameIndex: 128
+      cellRect:
+        x: 11
+        y: 2
+        width: 10
+        height: 10
+      spriteId: e9b989f8c1384ef46b1073b3820dbf9c
+    - name: little bastard_Frame_129
+      frameIndex: 129
+      cellRect:
+        x: 11
+        y: 2
+        width: 10
+        height: 10
+      spriteId: c915600960f494a4aa24b99b11ef9b88
+    - name: little bastard_Frame_130
+      frameIndex: 130
+      cellRect:
+        x: 11
+        y: 2
+        width: 10
+        height: 10
+      spriteId: cf2159b6eb434034eb9f563a4615a5b2
+    - name: little bastard_Frame_131
+      frameIndex: 131
+      cellRect:
+        x: 11
+        y: 2
+        width: 10
+        height: 10
+      spriteId: 5512fadf098e02149aedc46ae74e65ba
+    - name: little bastard_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 15
+        y: 3
+        width: 2
+        height: 13
+      spriteId: 50bc25124f0a15c488b5967ab801a6a8
+    - name: little bastard_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 15
+        y: 3
+        width: 2
+        height: 13
+      spriteId: b1bc083c4056f3942a3ef3919f205052
+    - name: little bastard_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 15
+        y: 3
+        width: 2
+        height: 14
+      spriteId: 72e9472648bc3f34eb5f4b556ab302ba
+    - name: little bastard_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 15
+        y: 3
+        width: 2
+        height: 14
+      spriteId: 74e43f9532a435741ac71170725ab635
+    - name: little bastard_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 15
+        y: 3
+        width: 2
+        height: 14
+      spriteId: 143994b0852adad4781f98eecffc08e5
+    - name: little bastard_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 15
+        y: 3
+        width: 2
+        height: 14
+      spriteId: 470b6e03972a66d4fbb913982ada7908
+    - name: little bastard_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 15
+        y: 3
+        width: 2
+        height: 14
+      spriteId: bb52827ecd457024da3b303bf22cebb9
+    - name: little bastard_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 15
+        y: 3
+        width: 2
+        height: 14
+      spriteId: 962f35e294ebfe24a921f7415d21286a
+    - name: little bastard_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 15
+        y: 1
+        width: 2
+        height: 15
+      spriteId: 71e7ffbe0cb8dd749bddfac0dd4b51fb
+    - name: little bastard_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 15
+        y: 1
+        width: 2
+        height: 14
+      spriteId: deea7030d9e3ba649b6c6f85af145c63
+    - name: little bastard_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 15
+        y: 1
+        width: 2
+        height: 14
+      spriteId: c93ead290aef0da4386cbede67a5ba3a
+    - name: little bastard_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 15
+        y: 1
+        width: 2
+        height: 14
+      spriteId: 67549e7206a869445869122f846d44c7
+    - name: little bastard_Frame_100
+      frameIndex: 100
+      cellRect:
+        x: 15
+        y: 3
+        width: 2
+        height: 13
+      spriteId: 9341cb9eb12a91a4891f1727c9a45800
+    - name: little bastard_Frame_101
+      frameIndex: 101
+      cellRect:
+        x: 15
+        y: 3
+        width: 2
+        height: 13
+      spriteId: da11e844e4d327c41bfbc684387103f3
+    - name: little bastard_Frame_102
+      frameIndex: 102
+      cellRect:
+        x: 15
+        y: 3
+        width: 2
+        height: 13
+      spriteId: 7797316a57e352b4882590357fd2d1a0
+    - name: little bastard_Frame_103
+      frameIndex: 103
+      cellRect:
+        x: 15
+        y: 3
+        width: 2
+        height: 13
+      spriteId: 270412b288ea9a441985b26bf0333f30
+    - name: little bastard_Frame_104
+      frameIndex: 104
+      cellRect:
+        x: 15
+        y: 3
+        width: 2
+        height: 14
+      spriteId: 7e5d7516fa5c27e4a943bfd83d3c8fba
+    - name: little bastard_Frame_105
+      frameIndex: 105
+      cellRect:
+        x: 15
+        y: 3
+        width: 2
+        height: 14
+      spriteId: 2e49d2dae4da08d40804ec654e72b9ae
+    - name: little bastard_Frame_106
+      frameIndex: 106
+      cellRect:
+        x: 15
+        y: 3
+        width: 2
+        height: 14
+      spriteId: 753989f008056544a89e80d49a86ef1f
+    - name: little bastard_Frame_107
+      frameIndex: 107
+      cellRect:
+        x: 15
+        y: 3
+        width: 2
+        height: 14
+      spriteId: 0e9c3ca788323d34e8a39938d4853c67
+    - name: little bastard_Frame_108
+      frameIndex: 108
+      cellRect:
+        x: 15
+        y: 3
+        width: 2
+        height: 14
+      spriteId: 6afbd03b5d8e9cf47a33840ea21aa46f
+    - name: little bastard_Frame_109
+      frameIndex: 109
+      cellRect:
+        x: 15
+        y: 3
+        width: 2
+        height: 14
+      spriteId: 439e5753bebc2644e99981a879b91f32
+    - name: little bastard_Frame_110
+      frameIndex: 110
+      cellRect:
+        x: 15
+        y: 3
+        width: 2
+        height: 14
+      spriteId: 33c681a4ece386a488ba9b730267cded
+    - name: little bastard_Frame_111
+      frameIndex: 111
+      cellRect:
+        x: 15
+        y: 3
+        width: 2
+        height: 14
+      spriteId: 36d1cca8ae2bb1149a5af5c27ff481ba
+    - name: little bastard_Frame_112
+      frameIndex: 112
+      cellRect:
+        x: 15
+        y: 3
+        width: 2
+        height: 13
+      spriteId: b17ffbd39ee7e04448a1970bb88422b8
+    - name: little bastard_Frame_113
+      frameIndex: 113
+      cellRect:
+        x: 15
+        y: 3
+        width: 2
+        height: 13
+      spriteId: bd3bf829ec1f45046bb6c0c6601e497c
+    - name: little bastard_Frame_114
+      frameIndex: 114
+      cellRect:
+        x: 15
+        y: 3
+        width: 2
+        height: 13
+      spriteId: 1dd061ba7275bfa4498e25bfceaf9a8b
+    - name: little bastard_Frame_115
+      frameIndex: 115
+      cellRect:
+        x: 15
+        y: 3
+        width: 2
+        height: 13
+      spriteId: bebfdfc51822949458b84983c18a74c1
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}
