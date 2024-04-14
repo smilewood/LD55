@@ -79,5 +79,14 @@ namespace LD55
             a.SetBool("Moving", state);
          }
       }
+      
+      public void SetAttackTrigger()
+      {
+         foreach (Animator a in GetComponentsInChildren<Animator>())
+         {
+            a.SetTrigger("Attack");
+         }
+      }
+
    }
 }
