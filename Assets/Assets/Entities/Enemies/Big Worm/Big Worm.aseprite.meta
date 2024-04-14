@@ -1,0 +1,1259 @@
+fileFormatVersion: 2
+guid: e52c9975ebb56924a8e8084f011f7d14
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Big Worm_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.20454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 169
+      width: 22
+      height: 44
+    spriteID: 7634bc73c8919eb40a4641444327617c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 169}
+  - name: Big Worm_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 268
+      width: 22
+      height: 39
+    spriteID: 4b9b02098c88547489d5c6f0a579b7d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 268}
+  - name: Big Worm_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.42857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 139
+      width: 26
+      height: 35
+    spriteID: 14436ce32bf67704cb70e9cbd3d41d7d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 139}
+  - name: Big Worm_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.29268292}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 51
+      width: 20
+      height: 41
+    spriteID: 10cff672115585d4d8da7b535440b26a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 51}
+  - name: Big Worm_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 307
+      width: 20
+      height: 39
+    spriteID: 25d2f7095648dc840acb0ee4571a11d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 307}
+  - name: Big Worm_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.42857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 448
+      width: 22
+      height: 35
+    spriteID: dcaaa33aaa7bb914592d15a4f5841ecb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 448}
+  - name: Big Worm_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -0.20454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 221
+      width: 22
+      height: 44
+    spriteID: 27734ef276688274e87cfad31f3cb5a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 221}
+  - name: Big Worm_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 315
+      width: 22
+      height: 39
+    spriteID: 7e0eede91e027d34a89eee2303c9dd06
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 315}
+  - name: Big Worm_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -0.4054054}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 4
+      width: 26
+      height: 37
+    spriteID: ab1f0fc32ec7a6741afe9aaf23eeaedd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 4}
+  - name: Big Worm_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -0.32500002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 28
+      height: 40
+    spriteID: 4b76d886583c6324e968708d9521ecb6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Big Worm_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: -0.29268292}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 100
+      width: 20
+      height: 41
+    spriteID: cd3d72b4a1e63664e8b0f5013ccdb9d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 100}
+  - name: Big Worm_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 354
+      width: 20
+      height: 39
+    spriteID: 4a20646c47dafec40846d149544a27d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 354}
+  - name: Big Worm_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: -0.42857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 134
+      y: 4
+      width: 22
+      height: 35
+    spriteID: b2c9d8c693334f741970bad1d1cb96b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 134, y: 4}
+  - name: Big Worm_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 401
+      width: 20
+      height: 39
+    spriteID: 33c7df0a509a0ea40bc49bb08810b722
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 401}
+  - name: Big Worm_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: -0.1875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 148
+      width: 22
+      height: 48
+    spriteID: 66a8cabfa26410c4cb493d1b098904d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 148}
+  - name: Big Worm_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: -0.1875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 204
+      width: 22
+      height: 48
+    spriteID: 8546aa0d5b22d654795589b0012e3bdf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 204}
+  - name: Big Worm_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: -0.19148935}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 372
+      width: 22
+      height: 47
+    spriteID: 7f69f28d635eab8488dd1be5796530fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 372}
+  - name: Big Worm_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: -0.26666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 149
+      width: 18
+      height: 45
+    spriteID: 8666e81f4fdb66748b9daca144bb7731
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 149}
+  - name: Big Worm_Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: -0.26666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 202
+      width: 18
+      height: 45
+    spriteID: 431e6bcaca09a9a49aba5cc93b433c90
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 202}
+  - name: Big Worm_Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: -0.27272728}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 255
+      width: 18
+      height: 44
+    spriteID: dc8831a3d2df25d4fb5a9305e97d2408
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 255}
+  - name: Big Worm_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.20454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 273
+      width: 22
+      height: 44
+    spriteID: 6ed19a2721e353e419dcee0951c42acc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 273}
+  - name: Big Worm_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 362
+      width: 22
+      height: 39
+    spriteID: c60707c803c41604cb783efc728878bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 362}
+  - name: Big Worm_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -0.42857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 182
+      width: 26
+      height: 35
+    spriteID: f9b9dca92990e9d4d8663a5fbf0dcb82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 182}
+  - name: Big Worm_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: -0.20454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 325
+      width: 22
+      height: 44
+    spriteID: 3a2b065b32c75944ab9f9aac94087ea7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 325}
+  - name: Big Worm_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 409
+      width: 22
+      height: 39
+    spriteID: daec06aae6f4be043b7f06e66e887fa5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 409}
+  - name: Big Worm_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: -0.4054054}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 49
+      width: 26
+      height: 37
+    spriteID: 251a2488954d2b449a9fa781f9c42dc6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 49}
+  - name: Big Worm_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: -0.32500002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 52
+      width: 28
+      height: 40
+    spriteID: bd8f72648e85ce74f84dfc02833c89ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 52}
+  - name: Big Worm_Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: -0.19148935}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 427
+      width: 22
+      height: 47
+    spriteID: cb5a79cd284fe9d428b9f086be8db97a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 427}
+  - name: Big Worm_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: -0.1875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 260
+      width: 22
+      height: 48
+    spriteID: 7a1958a4a21ac2a4db31ea37cc2ce278
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 260}
+  - name: Big Worm_Frame_39
+    originalName: 
+    pivot: {x: 0.5, y: -0.19148935}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 4
+      width: 22
+      height: 47
+    spriteID: 33fe640f59e59fa45818481a35cf199f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 4}
+  - name: Big Worm_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.20454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 377
+      width: 22
+      height: 44
+    spriteID: dc564cd5d04c3414681f812fe9ba2a72
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 377}
+  - name: Big Worm_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 456
+      width: 22
+      height: 39
+    spriteID: debb3be6b9746674c95b514e04d4e53e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 456}
+  - name: Big Worm_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.42857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 225
+      width: 26
+      height: 35
+    spriteID: 3b7d7ba549be6214abcac1a5ad0c0303
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 225}
+  - name: Big Worm_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.20454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 429
+      width: 22
+      height: 44
+    spriteID: d2e2e1e8c4c8664478314b0097e8072d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 429}
+  - name: Big Worm_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 4
+      width: 22
+      height: 39
+    spriteID: 4c7ab0ce9c65b0a4d9cc34580eaa85e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 4}
+  - name: Big Worm_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -0.4054054}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 94
+      width: 26
+      height: 37
+    spriteID: 67494babbb34292439530054f66c9a5d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 94}
+  - name: Big Worm_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: -0.32500002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 100
+      width: 28
+      height: 40
+    spriteID: ff9a08dd22bea6a4e8a7b6ba2d83367f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 100}
+  - name: Big Worm_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: -0.19148935}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 59
+      width: 22
+      height: 47
+    spriteID: 6ad0e7a95697e254d80252cbcc8ce42e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 59}
+  - name: Big Worm_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: -0.1875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 316
+      width: 22
+      height: 48
+    spriteID: 32d0591f66e71e44288c3accd2cc5970
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 316}
+  - name: Big Worm_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: -0.19148935}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 114
+      width: 22
+      height: 47
+    spriteID: a9ee497282dbd9947917528b28628eca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 114}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 769884207
+    name: Big Worm
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Big Worm_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 21
+        y: 9
+        width: 22
+        height: 44
+      spriteId: 7634bc73c8919eb40a4641444327617c
+    - name: Big Worm_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 21
+        y: 13
+        width: 22
+        height: 39
+      spriteId: 4b9b02098c88547489d5c6f0a579b7d5
+    - name: Big Worm_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 19
+        y: 15
+        width: 26
+        height: 35
+      spriteId: 14436ce32bf67704cb70e9cbd3d41d7d
+    - name: Big Worm_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 22
+        y: 12
+        width: 20
+        height: 41
+      spriteId: 10cff672115585d4d8da7b535440b26a
+    - name: Big Worm_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 22
+        y: 13
+        width: 20
+        height: 39
+      spriteId: 25d2f7095648dc840acb0ee4571a11d8
+    - name: Big Worm_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 21
+        y: 15
+        width: 22
+        height: 35
+      spriteId: dcaaa33aaa7bb914592d15a4f5841ecb
+    - name: Big Worm_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 21
+        y: 9
+        width: 22
+        height: 44
+      spriteId: 27734ef276688274e87cfad31f3cb5a7
+    - name: Big Worm_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 21
+        y: 13
+        width: 22
+        height: 39
+      spriteId: 7e0eede91e027d34a89eee2303c9dd06
+    - name: Big Worm_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 19
+        y: 15
+        width: 26
+        height: 37
+      spriteId: ab1f0fc32ec7a6741afe9aaf23eeaedd
+    - name: Big Worm_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 18
+        y: 13
+        width: 28
+        height: 40
+      spriteId: 4b76d886583c6324e968708d9521ecb6
+    - name: Big Worm_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 22
+        y: 12
+        width: 20
+        height: 41
+      spriteId: cd3d72b4a1e63664e8b0f5013ccdb9d7
+    - name: Big Worm_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 22
+        y: 13
+        width: 20
+        height: 39
+      spriteId: 4a20646c47dafec40846d149544a27d7
+    - name: Big Worm_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 21
+        y: 15
+        width: 22
+        height: 35
+      spriteId: b2c9d8c693334f741970bad1d1cb96b9
+    - name: Big Worm_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 22
+        y: 13
+        width: 20
+        height: 39
+      spriteId: 33c7df0a509a0ea40bc49bb08810b722
+    - name: Big Worm_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 21
+        y: 9
+        width: 22
+        height: 48
+      spriteId: 66a8cabfa26410c4cb493d1b098904d0
+    - name: Big Worm_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 21
+        y: 9
+        width: 22
+        height: 48
+      spriteId: 8546aa0d5b22d654795589b0012e3bdf
+    - name: Big Worm_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 21
+        y: 9
+        width: 22
+        height: 47
+      spriteId: 7f69f28d635eab8488dd1be5796530fe
+    - name: Big Worm_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 23
+        y: 12
+        width: 18
+        height: 45
+      spriteId: 8666e81f4fdb66748b9daca144bb7731
+    - name: Big Worm_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 23
+        y: 12
+        width: 18
+        height: 45
+      spriteId: 431e6bcaca09a9a49aba5cc93b433c90
+    - name: Big Worm_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 23
+        y: 12
+        width: 18
+        height: 44
+      spriteId: dc8831a3d2df25d4fb5a9305e97d2408
+    - name: Big Worm_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 21
+        y: 9
+        width: 22
+        height: 44
+      spriteId: 6ed19a2721e353e419dcee0951c42acc
+    - name: Big Worm_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 21
+        y: 13
+        width: 22
+        height: 39
+      spriteId: c60707c803c41604cb783efc728878bb
+    - name: Big Worm_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 19
+        y: 15
+        width: 26
+        height: 35
+      spriteId: f9b9dca92990e9d4d8663a5fbf0dcb82
+    - name: Big Worm_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 21
+        y: 9
+        width: 22
+        height: 44
+      spriteId: 3a2b065b32c75944ab9f9aac94087ea7
+    - name: Big Worm_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 21
+        y: 13
+        width: 22
+        height: 39
+      spriteId: daec06aae6f4be043b7f06e66e887fa5
+    - name: Big Worm_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 19
+        y: 15
+        width: 26
+        height: 37
+      spriteId: 251a2488954d2b449a9fa781f9c42dc6
+    - name: Big Worm_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 18
+        y: 13
+        width: 28
+        height: 40
+      spriteId: bd8f72648e85ce74f84dfc02833c89ff
+    - name: Big Worm_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 21
+        y: 9
+        width: 22
+        height: 47
+      spriteId: cb5a79cd284fe9d428b9f086be8db97a
+    - name: Big Worm_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 21
+        y: 9
+        width: 22
+        height: 48
+      spriteId: 7a1958a4a21ac2a4db31ea37cc2ce278
+    - name: Big Worm_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 21
+        y: 9
+        width: 22
+        height: 47
+      spriteId: 33fe640f59e59fa45818481a35cf199f
+    - name: Big Worm_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 21
+        y: 9
+        width: 22
+        height: 44
+      spriteId: dc564cd5d04c3414681f812fe9ba2a72
+    - name: Big Worm_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 21
+        y: 13
+        width: 22
+        height: 39
+      spriteId: debb3be6b9746674c95b514e04d4e53e
+    - name: Big Worm_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 19
+        y: 15
+        width: 26
+        height: 35
+      spriteId: 3b7d7ba549be6214abcac1a5ad0c0303
+    - name: Big Worm_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 21
+        y: 9
+        width: 22
+        height: 44
+      spriteId: d2e2e1e8c4c8664478314b0097e8072d
+    - name: Big Worm_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 21
+        y: 13
+        width: 22
+        height: 39
+      spriteId: 4c7ab0ce9c65b0a4d9cc34580eaa85e9
+    - name: Big Worm_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 19
+        y: 15
+        width: 26
+        height: 37
+      spriteId: 67494babbb34292439530054f66c9a5d
+    - name: Big Worm_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 18
+        y: 13
+        width: 28
+        height: 40
+      spriteId: ff9a08dd22bea6a4e8a7b6ba2d83367f
+    - name: Big Worm_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 21
+        y: 9
+        width: 22
+        height: 47
+      spriteId: 6ad0e7a95697e254d80252cbcc8ce42e
+    - name: Big Worm_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 21
+        y: 9
+        width: 22
+        height: 48
+      spriteId: 32d0591f66e71e44288c3accd2cc5970
+    - name: Big Worm_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 21
+        y: 9
+        width: 22
+        height: 47
+      spriteId: a9ee497282dbd9947917528b28628eca
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}
