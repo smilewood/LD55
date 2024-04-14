@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 5052442178882790424}
   - component: {fileID: 5129309062611592893}
   - component: {fileID: 7893189712696417763}
-  - component: {fileID: 4860439002085818669}
   - component: {fileID: 7172103800979110058}
   - component: {fileID: 1409194802230035543}
+  - component: {fileID: 1258841868851414397}
   m_Layer: 0
   m_Name: SimpleFollowEnemy
   m_TagString: Enemy
@@ -53,6 +53,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0503227d0c9872647ac4dfade1620adb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  closeEnoughRadius: 1.5
 --- !u!114 &5052442178882790424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79,7 +80,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 697a35da4bfbab240939966036bbb63e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 1
+  MaxHealth: 10
   OnHealthChange:
     m_PersistentCalls:
       m_Calls:
@@ -111,35 +112,6 @@ MonoBehaviour:
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &4860439002085818669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1754102878314905481}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 476da2345ccfe7b40a2ee128e34e5f8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TypeToDamage: Player
-  DamageAmount: 1
-  OnDealDamage:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7893189712696417763}
-        m_TargetAssemblyTypeName: LD55.DestroyOnEvents, Assembly-CSharp
-        m_MethodName: DestroyMe
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!54 &7172103800979110058
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -189,6 +161,37 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &1258841868851414397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754102878314905481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ff556b644e7234eb4a9c14bc5c2abf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TypeToDamage: Player
+  MeleeRange: 2
+  DamagePerHit: 1
+  CooldownSeconds: 1
+  OnAttack:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7628609333896242288}
+        m_TargetAssemblyTypeName: LD55.SpriteParalax, Assembly-CSharp
+        m_MethodName: SetAttackTrigger
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5353139003531356920
 GameObject:
   m_ObjectHideFlags: 0
@@ -420,3 +423,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3629965496245577555, guid: 652f718e81017d843a8b591f72c6b47d, type: 3}
   m_PrefabInstance: {fileID: 467346174886890064}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7628609333896242288 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8044021690710634016, guid: 652f718e81017d843a8b591f72c6b47d, type: 3}
+  m_PrefabInstance: {fileID: 467346174886890064}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd9e9ec1059e8cf4294d7d9b2def9125, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

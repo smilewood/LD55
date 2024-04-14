@@ -16,7 +16,7 @@ namespace LD55
 
         public float CooldownSeconds;
         private float cooldownTimer;
-        public UnityEvent OnDealDamage;
+        public UnityEvent OnAttack;
 
         // Start is called before the first frame update
         void Start()
@@ -45,7 +45,7 @@ namespace LD55
                         attacked = true;
                         hp.ApplyDamage(DamagePerHit);
                     }
-                    OnDealDamage?.Invoke();
+                    OnAttack?.Invoke();
                 }
             }
 
