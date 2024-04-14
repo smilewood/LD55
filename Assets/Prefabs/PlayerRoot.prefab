@@ -69,7 +69,7 @@ GameObject:
   - component: {fileID: 3615790821572506711}
   - component: {fileID: 6104116488410160242}
   - component: {fileID: 2128202803641266907}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: PlayerRoot
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -155,6 +155,7 @@ MonoBehaviour:
   OnDealDamage:
     m_PersistentCalls:
       m_Calls: []
+  ManaOnKill: 0
 --- !u!54 &4443398164864321172
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -236,7 +237,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cabe7d3519b3ed24288c52d6e36f7d6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftClickSpawn: {fileID: 1020712989042804943, guid: 99b0a0af26f8e2e42ac10324ff7334ca, type: 3}
+  ActiveSpawnable: {fileID: 0}
+  SummonParent: {fileID: 0}
   distanceToSpawnFromPlayer: 1
 --- !u!1001 &6582133623312494303
 PrefabInstance:
