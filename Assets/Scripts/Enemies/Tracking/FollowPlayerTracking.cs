@@ -11,7 +11,8 @@ namespace LD55
       private Transform target;
 
       private NavMeshAgent navMeshAgent;
-
+      public float closeEnoughRadius;
+      
       private void Start()
       {
          target = GameObject.Find("PlayerRoot").GetComponent<Transform>();
@@ -28,8 +29,9 @@ namespace LD55
       {
          //Just target the player current position
          //this.TargetPosition = target.position;
-
-         this.navMeshAgent.SetDestination(target.position);
+         var closeEnoughVector = (transform.position - target.position).normalized * closeEnoughRadius;
+         
+         this.navMeshAgent.SetDestination(closeEnoughVector + target.position);
          this.TargetPosition = navMeshAgent.nextPosition;
          this.TargetPosition = new Vector3(TargetPosition.x, target.position.y, TargetPosition.z);
          Debug.DrawLine(transform.position, TargetPosition);
