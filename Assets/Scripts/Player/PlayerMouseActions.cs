@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 namespace LD55
 {
@@ -17,7 +18,7 @@ namespace LD55
          {
             cooldown -= Time.deltaTime;
          }
-         if (cooldown <= 0 && Input.GetButton("Fire1")) //left click
+         if (cooldown <= 0 && Input.GetButton("Fire1") && !EventSystem.current.IsPointerOverGameObject()) //left click
          {
             Spawn();
          }
