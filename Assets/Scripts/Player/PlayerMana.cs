@@ -54,7 +54,7 @@ namespace LD55
          }
       }
 
-      private void ChangeMana(float amount)
+      public void ChangeMana(float amount)
       {
          CurrentMana = Mathf.Clamp(CurrentMana + amount, 0, MaxMana);
       }
