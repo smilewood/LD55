@@ -27,6 +27,7 @@ namespace LD55
          {
             //All enemies are gone
             OnArenaClear?.Invoke();
+            SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.LevelCleared);
          }
       }
    }
