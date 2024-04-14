@@ -92,4 +92,4 @@ MonoBehaviour:
   m_Active: 1
   customPassSettings:
     passEvent: 550
-    screenHeight: 144
+    screenHeight: 256

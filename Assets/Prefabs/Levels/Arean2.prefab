@@ -459,6 +459,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arena2Colliders
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 689dc9e7885294243b68f6accce786c7, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 689dc9e7885294243b68f6accce786c7, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -626,13 +634,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arena2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cd6d215f76116cc409eab74e408277fa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cd6d215f76116cc409eab74e408277fa, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cd6d215f76116cc409eab74e408277fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2266812811658971815}
   m_SourcePrefab: {fileID: 100100000, guid: cd6d215f76116cc409eab74e408277fa, type: 3}
 --- !u!4 &8509593611166997627 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cd6d215f76116cc409eab74e408277fa, type: 3}
   m_PrefabInstance: {fileID: 8183778504718400400}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &9030833124610311873 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cd6d215f76116cc409eab74e408277fa, type: 3}
+  m_PrefabInstance: {fileID: 8183778504718400400}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2266812811658971815
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9030833124610311873}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4333720124497924339, guid: cd6d215f76116cc409eab74e408277fa, type: 3}
