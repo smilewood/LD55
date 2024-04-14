@@ -12,6 +12,8 @@ namespace LD55
       public float LookSpeed;
       private EnemyTracking tracking;
       private Rigidbody RB;
+
+
       private void Start()
       {
          this.tracking = GetComponent<EnemyTracking>();
