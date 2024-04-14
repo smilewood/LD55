@@ -57,6 +57,7 @@ namespace LD55
 		DesertTheme,
         // Ambience
         DesertAmbience,
+        TowerAmbience,
         // Voice
         VoiceDesert1,
         VoiceDesert2,
@@ -67,10 +68,12 @@ namespace LD55
         VoiceTower1,
         VoiceTower2,
         VoiceTower3,
+        VoiceTower4,
         VoiceBoss1,
         VoiceBoss2,
         VoiceDefeat,
         VoiceVictory,
+        VoiceLaugh,
 	}
 
     public enum AudioSourceType
