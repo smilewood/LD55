@@ -18,6 +18,8 @@ namespace LD55
          Debug.Assert(target != null, "Scene should have a player in it.");
 
          navMeshAgent = this.GetComponent<NavMeshAgent>();
+         navMeshAgent.updatePosition = false;
+         navMeshAgent.updateRotation = false;
          Debug.Assert(navMeshAgent != null, "NavMeshAgent not loaded.");
       }
 
