@@ -6,12 +6,14 @@ namespace LD55
 {
    [RequireComponent(typeof(EnemyTracking))]
    [RequireComponent(typeof(Rigidbody))]
-   public class EnemyMovment : MonoBehaviour
+   public class EnemyMovement : MonoBehaviour
    {
       public float speed;
       public float LookSpeed;
       private EnemyTracking tracking;
       private Rigidbody RB;
+
+
       private void Start()
       {
          this.tracking = GetComponent<EnemyTracking>();
