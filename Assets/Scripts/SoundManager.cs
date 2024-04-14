@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Audio;
 using System.Collections;
 using Unity.VisualScripting;
+using UnityEditor;
 
 namespace LD55
 {
@@ -104,17 +105,31 @@ namespace LD55
 
         [SerializeField]
         private AudioSource musicSource;
-		[SerializeField]
-		private AudioSource effectsSource;
-		[SerializeField]
-		private AudioSource ambienceSource;
+        [SerializeField]
+        private AudioSource effectsSource;
+        [SerializeField]
+        private AudioSource ambienceSource;
         [SerializeField]
         private AudioSource voiceSource;
         [SerializeField]
         private List<AudioEnumCoupler> AudioCouplers;
 
-		private AudioEnumCoupler musicCoupler;
+        private AudioEnumCoupler musicCoupler;
         private AudioEnumCoupler ambienceCoupler;
+
+        public static SoundManager GlobalSoundManager
+        {
+            get
+            {
+				GameObject soundManagerObject = GameObject.FindGameObjectWithTag("SoundManager");
+				if (soundManagerObject == null)
+				{
+					soundManagerObject = Instantiate(PrefabUtility.LoadPrefabContents("Assets/Prefabs/SoundManager.prefab"));
+				}
+
+				return soundManagerObject.GetComponent<SoundManager>();
+			}
+        }
 
 		public void PlaySound(SoundOrMusic sound)
         {
