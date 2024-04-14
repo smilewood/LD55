@@ -43,14 +43,14 @@ namespace LD55
             var target = FindClosestObjectWithTag(TypeToAttack);
             if (target is null) 
             {
-                Debug.Log("No target right now.");
+                //Debug.Log("No target right now.");
                 return;
             }
             var toTargetVector = target.transform.position - this.transform.position;
             Debug.DrawLine(this.transform.position, target.transform.position);
             if (toTargetVector.magnitude > AttackRangeMax || toTargetVector.magnitude < AttackRangeMin)
             {
-                Debug.Log("Target(s) out of range!");
+                //Debug.Log("Target(s) out of range!");
                 return;
             }
 
