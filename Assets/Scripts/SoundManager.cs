@@ -147,6 +147,7 @@ namespace LD55
                         {
                             if ((musicSource.clip?.name ?? string.Empty) != coupler.Clip.name)
                             {
+                                musicSource.Stop();
                                 musicSource.clip = coupler.Clip;
                             }
 
@@ -175,6 +176,7 @@ namespace LD55
 						{
 							if ((ambienceSource.clip?.name ?? string.Empty) != coupler.Clip.name)
 							{
+								ambienceSource.Stop();
 								ambienceSource.clip = coupler.Clip;
 							}
 
@@ -263,7 +265,7 @@ namespace LD55
                 case AudioState.InGameBoss:
                     {
 						//musicCoupler = AudioCouplers.First(coupler => coupler.Sound == SoundOrMusic.BossTheme);
-						//ambienceCoupler = AudioCouplers.First(coupler => coupler.Sound == SoundOrMusic.BossAmbience);
+						ambienceCoupler = AudioCouplers.First(coupler => coupler.Sound == SoundOrMusic.TowerAmbience);
 						CanMusicPlay = true;
 						CanEffectsPlay = true;
 						CanAmbiencePlay = true;
@@ -272,7 +274,7 @@ namespace LD55
 				case AudioState.InGameTower:
 					{
 						//musicCoupler = AudioCouplers.First(coupler => coupler.Sound == SoundOrMusic.TowerTheme);
-						//ambienceCoupler = AudioCouplers.First(coupler => coupler.Sound == SoundOrMusic.TowerAmbience);
+						ambienceCoupler = AudioCouplers.First(coupler => coupler.Sound == SoundOrMusic.TowerAmbience);
 						CanMusicPlay = true;
 						CanEffectsPlay = true;
 						CanAmbiencePlay = true;
