@@ -263,6 +263,60 @@ MonoBehaviour:
   - Sound: 24
     Source: 2
     Clip: {fileID: 8300000, guid: b560c372866f7ce4e95ed8ea4488a69d, type: 3}
+  - Sound: 25
+    Source: 2
+    Clip: {fileID: 8300000, guid: 921b18f9973714341949005adae98185, type: 3}
+  - Sound: 26
+    Source: 3
+    Clip: {fileID: 8300000, guid: be60bcdbc46b78e42b41fc2366b9e4c7, type: 3}
+  - Sound: 27
+    Source: 3
+    Clip: {fileID: 8300000, guid: cc7c2df1f0be5ec41acbe3d52de8b1fd, type: 3}
+  - Sound: 28
+    Source: 3
+    Clip: {fileID: 8300000, guid: 82a7c06095a041b419b55db8e28dc027, type: 3}
+  - Sound: 29
+    Source: 3
+    Clip: {fileID: 8300000, guid: 3c536f58a1c6ed0488ad9bb22f427b2f, type: 3}
+  - Sound: 30
+    Source: 3
+    Clip: {fileID: 8300000, guid: 3e6b222f3b3c257478142395829dddc2, type: 3}
+  - Sound: 31
+    Source: 3
+    Clip: {fileID: 8300000, guid: d25bf33290c68084ca4b22a47a8aa6ab, type: 3}
+  - Sound: 32
+    Source: 3
+    Clip: {fileID: 8300000, guid: 3c0135ade43f52a489e7bada888b704b, type: 3}
+  - Sound: 33
+    Source: 3
+    Clip: {fileID: 8300000, guid: 77f8ab2d5de4ce340b110dd9a5af006a, type: 3}
+  - Sound: 34
+    Source: 3
+    Clip: {fileID: 8300000, guid: fd691ea8539cc4f47a4a30a9dcb933fd, type: 3}
+  - Sound: 35
+    Source: 3
+    Clip: {fileID: 8300000, guid: 841528655cd5f734992fb3c28a5d7bdb, type: 3}
+  - Sound: 36
+    Source: 3
+    Clip: {fileID: 8300000, guid: 2e711a4b32773e04a910645db87023cf, type: 3}
+  - Sound: 37
+    Source: 3
+    Clip: {fileID: 8300000, guid: e4903a0064f21a94b9003d31d36bde16, type: 3}
+  - Sound: 39
+    Source: 3
+    Clip: {fileID: 8300000, guid: 1b73c11575960c44ca2514f9c27eeff8, type: 3}
+  - Sound: 38
+    Source: 3
+    Clip: {fileID: 8300000, guid: 0ae5e17153c30c244b6ef33cc613ac9f, type: 3}
+  - Sound: 40
+    Source: 3
+    Clip: {fileID: 8300000, guid: c393fcb47f4d6e74582345c9cd864aff, type: 3}
+  - Sound: 40
+    Source: 3
+    Clip: {fileID: 8300000, guid: 757fd9d83e00e694e927542b6835c3cf, type: 3}
+  - Sound: 40
+    Source: 3
+    Clip: {fileID: 8300000, guid: f2bf73c15ecb12e4a8ad6e6e078623e1, type: 3}
 --- !u!82 &7000395054637141726
 AudioSource:
   m_ObjectHideFlags: 0

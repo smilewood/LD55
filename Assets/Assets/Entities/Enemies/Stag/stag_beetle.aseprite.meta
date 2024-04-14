@@ -368,8 +368,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 251
-      y: 408
+      x: 164
+      y: 467
       width: 43
       height: 29
     spriteID: 6ba0edcd04be84649a2ac1db686851c2
@@ -380,7 +380,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 251, y: 408}
+    uvTransform: {x: 164, y: 467}
   - name: stag_beetle_Frame_37
     originalName: 
     pivot: {x: 0.5116279, y: 0}
@@ -989,7 +989,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 251
-      y: 445
+      y: 408
       width: 22
       height: 36
     spriteID: 9a0126e76992418428e564a25e830a50
@@ -1000,7 +1000,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 251, y: 445}
+    uvTransform: {x: 251, y: 408}
   - name: stag_beetle_Frame_10
     originalName: 
     pivot: {x: 0.5, y: -0.027777778}
@@ -1008,8 +1008,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 215
-      y: 209
+      x: 251
+      y: 452
       width: 22
       height: 36
     spriteID: 3870213bbe917e146af34c0e1a8f6694
@@ -1020,7 +1020,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 215, y: 209}
+    uvTransform: {x: 251, y: 452}
   - name: stag_beetle_Frame_11
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -1029,7 +1029,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 215
-      y: 253
+      y: 209
       width: 22
       height: 36
     spriteID: 94a52f833db28b848ba04038f647f7fb
@@ -1040,7 +1040,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 215, y: 253}
+    uvTransform: {x: 215, y: 209}
   - name: stag_beetle_Frame_28
     originalName: 
     pivot: {x: 0.54545456, y: -0.055555556}
@@ -1049,7 +1049,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 215
-      y: 297
+      y: 253
       width: 22
       height: 36
     spriteID: e902d4cd2416120469a137239d27b343
@@ -1060,7 +1060,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 215, y: 297}
+    uvTransform: {x: 215, y: 253}
   - name: stag_beetle_Frame_29
     originalName: 
     pivot: {x: 0.5, y: -0.027777778}
@@ -1069,7 +1069,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 215
-      y: 341
+      y: 297
       width: 22
       height: 36
     spriteID: d3377ab5459ff0d4192641aa19bb185c
@@ -1080,7 +1080,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 215, y: 341}
+    uvTransform: {x: 215, y: 297}
   - name: stag_beetle_Frame_30
     originalName: 
     pivot: {x: 0.45454547, y: -0.055555556}
@@ -1089,7 +1089,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 215
-      y: 385
+      y: 341
       width: 22
       height: 36
     spriteID: 1b695b20e923681499b9168504f7c38f
@@ -1100,7 +1100,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 215, y: 385}
+    uvTransform: {x: 215, y: 341}
   - name: stag_beetle_Frame_31
     originalName: 
     pivot: {x: 0.5, y: -0.027777778}
@@ -1109,7 +1109,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 215
-      y: 429
+      y: 385
       width: 22
       height: 36
     spriteID: 9b2e3c57f617d3a4da1544d6ca5f7918
@@ -1120,7 +1120,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 215, y: 429}
+    uvTransform: {x: 215, y: 385}
   - name: stag_beetle_Frame_52
     originalName: 
     pivot: {x: 0.5, y: -0.027777778}
@@ -1128,8 +1128,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 305
-      y: 42
+      x: 215
+      y: 429
       width: 22
       height: 36
     spriteID: 9f55b552c6d2ed242947456f5ff04f99
@@ -1140,7 +1140,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 305, y: 42}
+    uvTransform: {x: 215, y: 429}
   - name: stag_beetle_Frame_53
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -1149,7 +1149,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 305
-      y: 86
+      y: 42
       width: 22
       height: 36
     spriteID: 6cde634edd1113d46800e0d79298d0f3
@@ -1160,7 +1160,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 305, y: 86}
+    uvTransform: {x: 305, y: 42}
   - name: stag_beetle_Frame_54
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -1169,7 +1169,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 305
-      y: 130
+      y: 86
       width: 22
       height: 36
     spriteID: 6c3c063eaec2199459d24d9fe06048af
@@ -1180,7 +1180,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 305, y: 130}
+    uvTransform: {x: 305, y: 86}
   - name: stag_beetle_Frame_55
     originalName: 
     pivot: {x: 0.52, y: 0}
@@ -1209,7 +1209,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 305
-      y: 174
+      y: 130
       width: 22
       height: 36
     spriteID: 2ececb026e9bb2b4d9844c6ef6f113d3
@@ -1220,7 +1220,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 305, y: 174}
+    uvTransform: {x: 305, y: 130}
   - name: stag_beetle_Frame_57
     originalName: 
     pivot: {x: 0.5, y: -0.055555556}
@@ -1229,7 +1229,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 305
-      y: 218
+      y: 174
       width: 22
       height: 36
     spriteID: 9cf9793a04beb924593498d844e62bb2
@@ -1240,7 +1240,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 305, y: 218}
+    uvTransform: {x: 305, y: 174}
   - name: stag_beetle_Frame_4
     originalName: 
     pivot: {x: 0.5, y: -4}
@@ -1269,7 +1269,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 251
-      y: 489
+      y: 496
       width: 32
       height: 9
     spriteID: 618ea2d583d7edd46ac24455e9c007aa
@@ -1280,7 +1280,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 251, y: 489}
+    uvTransform: {x: 251, y: 496}
   - name: stag_beetle_Frame_6
     originalName: 
     pivot: {x: 0.5, y: -4.625}
@@ -1289,7 +1289,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 305
-      y: 330
+      y: 303
       width: 32
       height: 8
     spriteID: 000b510ef5759f645b7dc37456e7aa12
@@ -1300,7 +1300,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 305, y: 330}
+    uvTransform: {x: 305, y: 303}
   - name: stag_beetle_Frame_7
     originalName: 
     pivot: {x: 0.5, y: -4.5}
@@ -1309,7 +1309,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 305
-      y: 346
+      y: 319
       width: 32
       height: 8
     spriteID: b4ca9ad98d68ec347a9050e39bf6008f
@@ -1320,18 +1320,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 305, y: 346}
+    uvTransform: {x: 305, y: 319}
   - name: stag_beetle_Frame_24
     originalName: 
-    pivot: {x: 0.45945948, y: -0.30555555}
+    pivot: {x: 0.53125, y: -4.2222223}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 164
-      y: 467
-      width: 37
-      height: 36
+      x: 305
+      y: 218
+      width: 32
+      height: 9
     spriteID: 0a0266752d0b9e24fb5c0a89f98b8449
     spriteBone: []
     spriteOutline: []
@@ -1340,7 +1340,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 164, y: 467}
+    uvTransform: {x: 305, y: 218}
   - name: stag_beetle_Frame_25
     originalName: 
     pivot: {x: 0.5, y: -4.111111}
@@ -1349,7 +1349,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 305
-      y: 262
+      y: 235
       width: 32
       height: 9
     spriteID: 68088cb61517ac14b8984d63154fc26b
@@ -1360,7 +1360,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 305, y: 262}
+    uvTransform: {x: 305, y: 235}
   - name: stag_beetle_Frame_26
     originalName: 
     pivot: {x: 0.46875, y: -4.75}
@@ -1369,7 +1369,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 305
-      y: 362
+      y: 335
       width: 32
       height: 8
     spriteID: 7510f1828945984429a4d4c8c7646a38
@@ -1380,7 +1380,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 305, y: 362}
+    uvTransform: {x: 305, y: 335}
   - name: stag_beetle_Frame_27
     originalName: 
     pivot: {x: 0.5, y: -4.625}
@@ -1389,7 +1389,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 305
-      y: 378
+      y: 351
       width: 32
       height: 8
     spriteID: 5f9626218bfa839489436f8359d45e8e
@@ -1400,7 +1400,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 305, y: 378}
+    uvTransform: {x: 305, y: 351}
   - name: stag_beetle_Frame_46
     originalName: 
     pivot: {x: 0.5, y: -4.111111}
@@ -1409,7 +1409,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 305
-      y: 279
+      y: 252
       width: 32
       height: 9
     spriteID: 0ff12fd6e22555e4eb91bd0d02a35520
@@ -1420,7 +1420,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 305, y: 279}
+    uvTransform: {x: 305, y: 252}
   - name: stag_beetle_Frame_47
     originalName: 
     pivot: {x: 0.5, y: -4.5}
@@ -1429,7 +1429,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 305
-      y: 394
+      y: 367
       width: 32
       height: 8
     spriteID: 922955f5b357d154bab984330de877e3
@@ -1440,7 +1440,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 305, y: 394}
+    uvTransform: {x: 305, y: 367}
   - name: stag_beetle_Frame_48
     originalName: 
     pivot: {x: 0.5, y: -4.5}
@@ -1449,7 +1449,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 305
-      y: 410
+      y: 383
       width: 32
       height: 8
     spriteID: dafdfecdf1badd44a997f9b7d93efdda
@@ -1460,7 +1460,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 305, y: 410}
+    uvTransform: {x: 305, y: 383}
   - name: stag_beetle_Frame_49
     originalName: 
     pivot: {x: 0.5, y: -4.5}
@@ -1469,7 +1469,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 305
-      y: 426
+      y: 399
       width: 32
       height: 8
     spriteID: 49f035caf21b71143ab91b5ae3baa735
@@ -1480,7 +1480,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 305, y: 426}
+    uvTransform: {x: 305, y: 399}
   - name: stag_beetle_Frame_50
     originalName: 
     pivot: {x: 0.5, y: -4.111111}
@@ -1489,7 +1489,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 305
-      y: 296
+      y: 269
       width: 32
       height: 9
     spriteID: 4589344f25d7bd444a94da8bad2c0bc5
@@ -1500,7 +1500,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 305, y: 296}
+    uvTransform: {x: 305, y: 269}
   - name: stag_beetle_Frame_51
     originalName: 
     pivot: {x: 0.5, y: -4.111111}
@@ -1509,7 +1509,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 305
-      y: 313
+      y: 286
       width: 32
       height: 9
     spriteID: 34be0182beb8692468200560dc956bc3
@@ -1520,7 +1520,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 305, y: 313}
+    uvTransform: {x: 305, y: 286}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -2014,9 +2014,9 @@ ScriptedImporter:
       frameIndex: 24
       cellRect:
         x: 15
-        y: 11
-        width: 37
-        height: 36
+        y: 38
+        width: 32
+        height: 9
       spriteId: 0a0266752d0b9e24fb5c0a89f98b8449
     - name: stag_beetle_Frame_25
       frameIndex: 25
