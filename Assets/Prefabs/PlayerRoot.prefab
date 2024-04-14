@@ -222,7 +222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxMana: 10
-  ManaPerTime: 1
+  ManaPerTime: 0.5
   TimeInterval: 1
 --- !u!114 &2128202803641266907
 MonoBehaviour:

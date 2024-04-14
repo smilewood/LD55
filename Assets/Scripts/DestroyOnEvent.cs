@@ -5,10 +5,12 @@ namespace LD55
 {
    public class DestroyOnEvents : MonoBehaviour
    {
+      public float ManaOnDestroy;
       public UnityEvent OnDeath;
       public void DestroyMe()
       {
          OnDeath?.Invoke();
+         PlayerMana.ManaChangeEvent.Invoke(ManaOnDestroy);
          Destroy(this.gameObject);
       }
 
