@@ -10,15 +10,17 @@ namespace LD55
    public class FallOffEdgeEvent : UnityEvent {}
    public class FallOffEdge : MonoBehaviour
    {
-      public FallOffEdgeEvent OnFallOffEdge;
+      public FallOffEdgeEvent OverTheEdge;
       
       // Update is called once per frame
       void Update()
       {
-         if(!Physics.Raycast(new Ray(transform.position, Vector3.down), out RaycastHit hit, 1) || !hit.collider.gameObject.CompareTag("Floor"))
+         Ray ray = new Ray(transform.position, Vector3.down);
+         Debug.DrawLine(transform.position, transform.position + Vector3.down);
+         if (!Physics.Raycast(new Ray(transform.position, Vector3.down), out RaycastHit hit, 1) || !hit.collider.gameObject.CompareTag("Floor"))
          {
-            OnFallOffEdge?.Invoke();
-            Debug.Log($"{gameObject.name} Fell off the edge!");
+            OverTheEdge?.Invoke();
+           // Debug.Log($"{gameObject.name} Fell off the edge!");
          }
       }
    }

@@ -11,6 +11,8 @@ namespace LD55
       public int DamageAmount;
       public UnityEvent OnDealDamage;
 
+      public float ManaOnKill;
+
       private void OnCollisionEnter(Collision collision)
       {
          if(collision.gameObject.CompareTag(TypeToDamage))
@@ -18,6 +20,10 @@ namespace LD55
             if(collision.gameObject.TryGetComponent(out HealthTracker hp))
             {
                hp.ApplyDamage(DamageAmount);
+               if(hp.CurrentHealth <= 0)
+               {
+                  PlayerMana.ManaChangeEvent.Invoke(ManaOnKill);
+               }
             }
             OnDealDamage?.Invoke();
          }

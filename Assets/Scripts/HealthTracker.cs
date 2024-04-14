@@ -12,7 +12,7 @@ namespace LD55
    [Serializable]
    public class HealthEvent : UnityEvent<HealthTracker, int> {}
 
-   public class HealthTracker: MonoBehaviour
+   public class HealthTracker: MonoBehaviour, IStatusBarCheckable
    {
       public int MaxHealth;
       public int CurrentHealth
@@ -20,6 +20,14 @@ namespace LD55
          get; private set;
       }
       public HealthEvent OnHealthChange;
+
+      public float CurrentPercent
+      {
+         get
+         {
+            return (float)CurrentHealth / (float)MaxHealth;
+         }
+      }
 
       private void Start()
       {

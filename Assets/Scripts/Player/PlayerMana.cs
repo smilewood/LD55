@@ -5,24 +5,31 @@ using UnityEngine.Events;
 
 namespace LD55
 {
-   public class PlayerMana : MonoBehaviour
+   public class PlayerMana : MonoBehaviour, IStatusBarCheckable
    {
-      public static UnityEvent<int> ManaChangeEvent
+      public static UnityEvent<float> ManaChangeEvent
       {
          get
          {
-            _manaChangeEvent ??= new UnityEvent<int>();
+            _manaChangeEvent ??= new UnityEvent<float>();
             return _manaChangeEvent;
          }
       }
-      private static UnityEvent<int> _manaChangeEvent;
+      private static UnityEvent<float> _manaChangeEvent;
 
-      public int MaxMana;
-      public int ManaPerTime;
+      public float MaxMana;
+      public float ManaPerTime;
       public float TimeInterval;
-      public int CurrentMana
+      public float CurrentMana
       {
          get; private set;
+      }
+      public float CurrentPercent
+      {
+         get
+         {
+            return CurrentMana / MaxMana;
+         }
       }
 
       // Start is called before the first frame update
@@ -30,6 +37,7 @@ namespace LD55
       {
          CurrentMana = MaxMana;
          ManaChangeEvent.AddListener(ChangeMana);
+         StartCoroutine(GainManaPerTime());
       }
 
       // Update is called once per frame
@@ -46,9 +54,14 @@ namespace LD55
          }
       }
 
-      private void ChangeMana(int amount)
+      public void ChangeMana(float amount)
       {
          CurrentMana = Mathf.Clamp(CurrentMana + amount, 0, MaxMana);
+      }
+
+      public void DrainMana(float amount)
+      {
+         ChangeMana(-amount * Time.deltaTime);
       }
    }
 }

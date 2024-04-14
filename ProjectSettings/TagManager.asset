@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Seeker
   - Floor
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -14,9 +15,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Floor
+  - Interaction
+  - Wall
   - 
   - 
   - 
@@ -43,4 +44,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: EnemyLayers
+    uniqueID: 1170063871
     locked: 0
