@@ -32,15 +32,58 @@ namespace LD55
       private void Start()
       {
          CurrentHealth = MaxHealth;
-      }
+	  }
 
       public void ApplyDamage(int damageAmount)
       {
          CurrentHealth -= damageAmount;
          OnHealthChange?.Invoke(this, damageAmount);
          Debug.Log($"{gameObject.name} took {damageAmount} points of damage");
-      }
 
-
+            if (gameObject.tag == "Enemy")
+            {
+                if (CurrentHealth <= 0)
+                {
+					SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.DefeatEnemy);
+				}
+                else
+                {
+					if (damageAmount > 0)
+					{
+						SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.DamageEnemy);
+					}
+					else if (damageAmount < 0)
+					{
+						SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.HealEnemy);
+					}
+				}
+            }
+            else if (gameObject.tag == "Player")
+            {
+				if (CurrentHealth <= 0)
+				{
+					SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.DefeatPlayer);
+					SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.VoiceDefeat);
+				}
+                else
+                {
+					if (damageAmount > 0)
+					{
+						SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.DamagePlayer);
+					}
+					else if (damageAmount < 0)
+					{
+						SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.HealPlayer);
+					}
+				}
+			}
+            else if (gameObject.tag == "Seeker")
+            {
+				if (CurrentHealth <= 0)
+				{
+					SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.DefeatSummonedAlly);
+				}
+			}
+	  }
    }
 }

@@ -14,6 +14,7 @@ namespace LD55
       private Rigidbody RB;
       public float LookSpeed;
       private SpriteParalax sprite;
+      private bool isMoving;
       public UnityEvent<bool> OnMoveStateChange;
 
       // Start is called before the first frame update
@@ -21,7 +22,9 @@ namespace LD55
       {
          RB = GetComponent<Rigidbody>();
          sprite = GetComponentInChildren<SpriteParalax>();
-      }
+         isMoving = false;
+         StartCoroutine(MovementSoundChecker());
+	  }
 
       // Update is called once per frame
       void Update()
@@ -33,16 +36,31 @@ namespace LD55
             this.transform.rotation = Quaternion.Lerp(transform.rotation, lookTarget, LookSpeed * Time.deltaTime);
 
             OnMoveStateChange?.Invoke(true);
-         }
+			isMoving = true;
+		 }
          else
          {
             OnMoveStateChange?.Invoke(false);
-         }
+            isMoving = false;
+		 }
       }
 
       private void FixedUpdate()
       {
          RB.velocity = speed * inputDelta;
+      }
+
+      private IEnumerator MovementSoundChecker()
+      {
+         while (true)
+         {
+            if (isMoving)
+            {
+               SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.FlightWinged);
+            }
+
+            yield return new WaitForSeconds(0.5f);
+         }
       }
    }
 }
