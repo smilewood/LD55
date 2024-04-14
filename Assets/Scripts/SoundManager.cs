@@ -57,13 +57,28 @@ namespace LD55
 		DesertTheme,
         // Ambience
         DesertAmbience,
+        // Voice
+        VoiceDesert1,
+        VoiceDesert2,
+        VoiceDesert3,
+        VoicePyramid1,
+        VoicePyramid2,
+        VoicePyramid3,
+        VoiceTower1,
+        VoiceTower2,
+        VoiceTower3,
+        VoiceBoss1,
+        VoiceBoss2,
+        VoiceDefeat,
+        VoiceVictory,
 	}
 
     public enum AudioSourceType
     {
         Music,
         Effects,
-        Ambience
+        Ambience,
+        Voice
     }
 
     public static class AudioExtensionMethods
@@ -82,6 +97,7 @@ namespace LD55
         public bool CanMusicPlay;
         public bool CanEffectsPlay;
         public bool CanAmbiencePlay;
+        public bool CanVoicePlay;
 
         [SerializeField]
         private AudioSource musicSource;
@@ -89,6 +105,8 @@ namespace LD55
 		private AudioSource effectsSource;
 		[SerializeField]
 		private AudioSource ambienceSource;
+        [SerializeField]
+        private AudioSource voiceSource;
         [SerializeField]
         private List<AudioEnumCoupler> AudioCouplers;
 
@@ -147,6 +165,19 @@ namespace LD55
 
 							break;
 						}
+                    case (AudioSourceType.Voice):
+                        {
+							if ((voiceSource.clip?.name ?? string.Empty) != coupler.Clip.name)
+							{
+								voiceSource.clip = coupler.Clip;
+							}
+
+							if (!voiceSource.isPlaying)
+							{
+								voiceSource.Play();
+							}
+							break;
+                        }
 				}
 			}
 #nullable disable
