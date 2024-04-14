@@ -1,6 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Audio;
+using System.Collections;
+using Unity.VisualScripting;
 
 namespace LD55
 {
@@ -109,7 +112,7 @@ namespace LD55
                                 musicSource.clip = coupler.Clip;
                             }
 
-							if (musicSource.isPlaying)
+							if (!musicSource.isPlaying)
 							{
                                 musicSource.Play();
 							}
@@ -118,9 +121,15 @@ namespace LD55
                         }
 					case (AudioSourceType.Effects):
 						{
-                            // we're going to just run over wtf is playing currently because this is more important (probably)
-                            effectsSource.clip = coupler.Clip;
-                            effectsSource.Play();
+                            if (effectsSource.isPlaying)
+                            {
+								PlaySimulSound(coupler.Clip, effectsSource.outputAudioMixerGroup);
+							}
+                            else
+                            {
+								effectsSource.clip = coupler.Clip;
+								effectsSource.Play();
+							}
 
 							break;
 						}
@@ -131,7 +140,7 @@ namespace LD55
 								ambienceSource.clip = coupler.Clip;
 							}
 
-							if (ambienceSource.isPlaying)
+							if (!ambienceSource.isPlaying)
 							{
 								ambienceSource.Play();
 							}
@@ -141,6 +150,20 @@ namespace LD55
 				}
 			}
 #nullable disable
+        }
+
+        private IEnumerator PlaySimulSound(AudioClip clip, AudioMixerGroup group)
+        {
+            AudioSource source = this.AddComponent<AudioSource>();
+            source.playOnAwake = false;
+            source.clip = clip;
+            source.outputAudioMixerGroup = group;
+            source.Play();
+            while (source.isPlaying)
+            {
+				yield return new WaitForSeconds(0.2f);
+			}
+            Destroy(source);
         }
 
 		void Start()
