@@ -102,12 +102,12 @@ namespace LD55
 
             if (audioCouplers != null)
             {
-				AudioEnumCoupler coupler = audioCouplers.RandomElement();
+				AudioEnumCoupler coupler = audioCouplers.Count() > 1 ? audioCouplers.RandomElement() : audioCouplers.First();
                 switch (coupler.Source)
                 {
                     case (AudioSourceType.Music):
                         {
-                            if (musicSource.clip.name != coupler.Clip.name)
+                            if ((musicSource.clip?.name ?? string.Empty) != coupler.Clip.name)
                             {
                                 musicSource.clip = coupler.Clip;
                             }
@@ -135,7 +135,7 @@ namespace LD55
 						}
 					case (AudioSourceType.Ambience):
 						{
-							if (ambienceSource.clip.name != coupler.Clip.name)
+							if ((ambienceSource.clip?.name ?? string.Empty) != coupler.Clip.name)
 							{
 								ambienceSource.clip = coupler.Clip;
 							}
@@ -199,11 +199,39 @@ namespace LD55
                         CanMusicPlay = true;
                         CanEffectsPlay = true;
                         CanAmbiencePlay = false;
-                        break;
+						musicCoupler = AudioCouplers.First(coupler => coupler.Sound == SoundOrMusic.MainTheme);
+						break;
                     }
                 case AudioState.GameOver:
                     {
 						CanMusicPlay = false;
+						CanEffectsPlay = true;
+						CanAmbiencePlay = true;
+						break;
+					}
+                case AudioState.InGameBoss:
+                    {
+						//musicCoupler = AudioCouplers.First(coupler => coupler.Sound == SoundOrMusic.BossTheme);
+						//ambienceCoupler = AudioCouplers.First(coupler => coupler.Sound == SoundOrMusic.BossAmbience);
+						CanMusicPlay = true;
+						CanEffectsPlay = true;
+						CanAmbiencePlay = true;
+						break;
+					}
+				case AudioState.InGameTower:
+					{
+						//musicCoupler = AudioCouplers.First(coupler => coupler.Sound == SoundOrMusic.TowerTheme);
+						//ambienceCoupler = AudioCouplers.First(coupler => coupler.Sound == SoundOrMusic.TowerAmbience);
+						CanMusicPlay = true;
+						CanEffectsPlay = true;
+						CanAmbiencePlay = true;
+						break;
+					}
+				case AudioState.InGameDesert:
+                    {
+						musicCoupler = AudioCouplers.First(coupler => coupler.Sound == SoundOrMusic.DesertTheme);
+						ambienceCoupler = AudioCouplers.First(coupler => coupler.Sound == SoundOrMusic.DesertAmbience);
+						CanMusicPlay = true;
 						CanEffectsPlay = true;
 						CanAmbiencePlay = true;
 						break;
