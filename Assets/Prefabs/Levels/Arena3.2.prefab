@@ -120,6 +120,14 @@ PrefabInstance:
       propertyPath: NextArena
       value: 
       objectReference: {fileID: 7968001620288411952, guid: d2b3c17ed647e904e8a88980052bf9d1, type: 3}
+    - target: {fileID: 5274315418020689465, guid: 08336b1b91d64d0488f9686fc3ceccec, type: 3}
+      propertyPath: Sound
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 5274315418020689465, guid: 08336b1b91d64d0488f9686fc3ceccec, type: 3}
+      propertyPath: AudioState
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6663855107692890887, guid: 08336b1b91d64d0488f9686fc3ceccec, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.461
