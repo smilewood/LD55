@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 697a35da4bfbab240939966036bbb63e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 8
+  MaxHealth: 5
   OnHealthChange:
     m_PersistentCalls:
       m_Calls:
@@ -211,7 +211,7 @@ MonoBehaviour:
   Locked: 0
   SpawnPrefab: {fileID: 3031175302702909618}
   ManaCost: 6
-  ManaLock: 4
+  ManaLock: 3
   Cooldown: 1
   image: {fileID: 3001600990625067100, guid: 69d5ab8d31a04cf4aae5fd3271110f67, type: 3}
 --- !u!1 &7944290465132614061
