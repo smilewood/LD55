@@ -91,5 +91,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Active: 1
   customPassSettings:
-    passEvent: 550
-    screenHeight: 250
+    passEvent: 400
+    screenHeight: 144
