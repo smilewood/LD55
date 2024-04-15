@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56d51c75a64d18347bafa4da7b7df932, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 6
   LookSpeed: 10
   OnMoveStateChange:
     m_PersistentCalls:
