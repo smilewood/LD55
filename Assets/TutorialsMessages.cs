@@ -42,7 +42,7 @@ namespace LD55
 				currentTutorial++;
 				var tut = tutorials[currentTutorial];
 				tut.TutorialPanel.SetActive(true);
-				SoundManager.GlobalSoundManager.PlaySound(tut.VoiceLine);
+				SoundManager.GlobalSoundManager.PlaySound(tut.VoiceLine, false);
 			}
 		}
 

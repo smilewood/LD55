@@ -691,19 +691,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tutorials:
   - TutorialPanel: {fileID: 3986494885908744046}
-    VoiceLine: 0
+    VoiceLine: 46
   - TutorialPanel: {fileID: 3680894424822361529}
-    VoiceLine: 0
+    VoiceLine: 47
   - TutorialPanel: {fileID: 4158512736528538099}
-    VoiceLine: 0
+    VoiceLine: 48
   - TutorialPanel: {fileID: 4481841357258818047}
-    VoiceLine: 0
+    VoiceLine: 49
   - TutorialPanel: {fileID: 4503300819171318360}
-    VoiceLine: 0
+    VoiceLine: 50
   - TutorialPanel: {fileID: 303942742038500693}
-    VoiceLine: 0
+    VoiceLine: 51
   - TutorialPanel: {fileID: 8546134178264972276}
-    VoiceLine: 0
+    VoiceLine: 52
   currentTutorial: -1
 --- !u!1 &3370951593600508678
 GameObject:

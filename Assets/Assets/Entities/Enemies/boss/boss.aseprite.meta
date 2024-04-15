@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 32
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -75,7 +75,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -88,7 +88,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638487900963387239
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -123,7 +123,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: boss_Frame_0
     originalName: 
-    pivot: {x: 0.5, y: -0.7755102}
+    pivot: {x: 0.5, y: 0.53061223}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -143,7 +143,7 @@ ScriptedImporter:
     uvTransform: {x: 737, y: 123}
   - name: boss_Frame_1
     originalName: 
-    pivot: {x: 0.5, y: -0.74}
+    pivot: {x: 0.5, y: 0.53999996}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -163,7 +163,7 @@ ScriptedImporter:
     uvTransform: {x: 473, y: 123}
   - name: boss_Frame_2
     originalName: 
-    pivot: {x: 0.5, y: -0.71999997}
+    pivot: {x: 0.5, y: 0.56}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -183,7 +183,7 @@ ScriptedImporter:
     uvTransform: {x: 539, y: 123}
   - name: boss_Frame_3
     originalName: 
-    pivot: {x: 0.5, y: -0.71999997}
+    pivot: {x: 0.5, y: 0.56}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -203,7 +203,7 @@ ScriptedImporter:
     uvTransform: {x: 605, y: 123}
   - name: boss_Frame_4
     originalName: 
-    pivot: {x: 0.5, y: -0.71999997}
+    pivot: {x: 0.5, y: 0.56}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -223,7 +223,7 @@ ScriptedImporter:
     uvTransform: {x: 671, y: 123}
   - name: boss_Frame_5
     originalName: 
-    pivot: {x: 0.5, y: -0.7755102}
+    pivot: {x: 0.5, y: 0.53061223}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -243,7 +243,7 @@ ScriptedImporter:
     uvTransform: {x: 803, y: 123}
   - name: boss_Frame_6
     originalName: 
-    pivot: {x: 0.5, y: -0.7755102}
+    pivot: {x: 0.5, y: 0.53061223}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -263,7 +263,7 @@ ScriptedImporter:
     uvTransform: {x: 869, y: 123}
   - name: boss_Frame_7
     originalName: 
-    pivot: {x: 0.5, y: -0.7755102}
+    pivot: {x: 0.5, y: 0.53061223}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -283,7 +283,7 @@ ScriptedImporter:
     uvTransform: {x: 935, y: 123}
   - name: boss_Frame_8
     originalName: 
-    pivot: {x: 0.5, y: -0.79591835}
+    pivot: {x: 0.5, y: 0.5102041}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -303,7 +303,7 @@ ScriptedImporter:
     uvTransform: {x: 202, y: 184}
   - name: boss_Frame_9
     originalName: 
-    pivot: {x: 0.5, y: -0.7254902}
+    pivot: {x: 0.5, y: 0.5294118}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -323,7 +323,7 @@ ScriptedImporter:
     uvTransform: {x: 210, y: 123}
   - name: boss_Frame_10
     originalName: 
-    pivot: {x: 0.5, y: -0.7254902}
+    pivot: {x: 0.5, y: 0.5294118}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -343,7 +343,7 @@ ScriptedImporter:
     uvTransform: {x: 276, y: 123}
   - name: boss_Frame_11
     originalName: 
-    pivot: {x: 0.5, y: -0.7058824}
+    pivot: {x: 0.5, y: 0.54901963}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -363,7 +363,7 @@ ScriptedImporter:
     uvTransform: {x: 342, y: 123}
   - name: boss_Frame_48
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -383,7 +383,7 @@ ScriptedImporter:
     uvTransform: {x: 995, y: 281}
   - name: boss_Frame_49
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -403,7 +403,7 @@ ScriptedImporter:
     uvTransform: {x: 993, y: 486}
   - name: boss_Frame_50
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -423,7 +423,7 @@ ScriptedImporter:
     uvTransform: {x: 797, y: 514}
   - name: boss_Frame_51
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -443,7 +443,7 @@ ScriptedImporter:
     uvTransform: {x: 989, y: 511}
   - name: boss_Frame_52
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -463,7 +463,7 @@ ScriptedImporter:
     uvTransform: {x: 605, y: 517}
   - name: boss_Frame_53
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -483,7 +483,7 @@ ScriptedImporter:
     uvTransform: {x: 556, y: 515}
   - name: boss_Frame_54
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -503,7 +503,7 @@ ScriptedImporter:
     uvTransform: {x: 446, y: 514}
   - name: boss_Frame_55
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -523,7 +523,7 @@ ScriptedImporter:
     uvTransform: {x: 902, y: 538}
   - name: boss_Frame_56
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -543,7 +543,7 @@ ScriptedImporter:
     uvTransform: {x: 934, y: 538}
   - name: boss_Frame_57
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -563,7 +563,7 @@ ScriptedImporter:
     uvTransform: {x: 966, y: 538}
   - name: boss_Frame_58
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -583,7 +583,7 @@ ScriptedImporter:
     uvTransform: {x: 234, y: 566}
   - name: boss_Frame_59
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -603,7 +603,7 @@ ScriptedImporter:
     uvTransform: {x: 266, y: 566}
   - name: boss_Frame_60
     originalName: 
-    pivot: {x: 0.5, y: -0.6415094}
+    pivot: {x: 0.5, y: 0.5660378}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -623,7 +623,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 869}
   - name: boss_Frame_61
     originalName: 
-    pivot: {x: 0.51724136, y: -0.5178572}
+    pivot: {x: 0.51724136, y: 0.625}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -643,7 +643,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 667}
   - name: boss_Frame_62
     originalName: 
-    pivot: {x: 0.5263158, y: -0.7058824}
+    pivot: {x: 0.5263158, y: 0.54901963}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -663,7 +663,7 @@ ScriptedImporter:
     uvTransform: {x: 408, y: 123}
   - name: boss_Frame_63
     originalName: 
-    pivot: {x: 0.5, y: -0.7755102}
+    pivot: {x: 0.5, y: 0.53061223}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -683,7 +683,7 @@ ScriptedImporter:
     uvTransform: {x: 268, y: 184}
   - name: boss_Frame_64
     originalName: 
-    pivot: {x: 0.50877196, y: -0.6603774}
+    pivot: {x: 0.50877196, y: 0.5471698}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -703,7 +703,7 @@ ScriptedImporter:
     uvTransform: {x: 145, y: 123}
   - name: boss_Frame_65
     originalName: 
-    pivot: {x: 0.51724136, y: -0.56363636}
+    pivot: {x: 0.51724136, y: 0.59999996}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -723,7 +723,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 731}
   - name: boss_Frame_66
     originalName: 
-    pivot: {x: 0.51724136, y: -0.7755102}
+    pivot: {x: 0.51724136, y: 0.53061223}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -743,7 +743,7 @@ ScriptedImporter:
     uvTransform: {x: 334, y: 184}
   - name: boss_Frame_67
     originalName: 
-    pivot: {x: 0.5, y: -0.7755102}
+    pivot: {x: 0.5, y: 0.53061223}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -763,7 +763,7 @@ ScriptedImporter:
     uvTransform: {x: 400, y: 184}
   - name: boss_Frame_92
     originalName: 
-    pivot: {x: 0.5, y: -1.9615386}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -783,7 +783,7 @@ ScriptedImporter:
     uvTransform: {x: 837, y: 486}
   - name: boss_Frame_93
     originalName: 
-    pivot: {x: 0.5, y: -1.5}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -803,7 +803,7 @@ ScriptedImporter:
     uvTransform: {x: 995, y: 241}
   - name: boss_Frame_94
     originalName: 
-    pivot: {x: 0.5, y: -2.3636365}
+    pivot: {x: 0.5, y: 0.54545456}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -823,7 +823,7 @@ ScriptedImporter:
     uvTransform: {x: 202, y: 566}
   - name: boss_Frame_95
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -843,7 +843,7 @@ ScriptedImporter:
     uvTransform: {x: 298, y: 566}
   - name: boss_Frame_96
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -863,7 +863,7 @@ ScriptedImporter:
     uvTransform: {x: 330, y: 566}
   - name: boss_Frame_97
     originalName: 
-    pivot: {x: 0.5, y: -1.6333334}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -883,7 +883,7 @@ ScriptedImporter:
     uvTransform: {x: 765, y: 486}
   - name: boss_Frame_98
     originalName: 
-    pivot: {x: 0.5, y: -2}
+    pivot: {x: 0.5, y: 0.56}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -903,7 +903,7 @@ ScriptedImporter:
     uvTransform: {x: 261, y: 442}
   - name: boss_Frame_99
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -923,7 +923,7 @@ ScriptedImporter:
     uvTransform: {x: 362, y: 566}
   - name: boss_Frame_100
     originalName: 
-    pivot: {x: 0.5, y: -0.79545456}
+    pivot: {x: 0.5, y: 0.65909094}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -943,7 +943,7 @@ ScriptedImporter:
     uvTransform: {x: 849, y: 184}
   - name: boss_Frame_101
     originalName: 
-    pivot: {x: 0.5, y: -0.79545456}
+    pivot: {x: 0.5, y: 0.65909094}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -963,7 +963,7 @@ ScriptedImporter:
     uvTransform: {x: 145, y: 432}
   - name: boss_Frame_102
     originalName: 
-    pivot: {x: 0.5, y: -0.8181819}
+    pivot: {x: 0.5, y: 0.6363636}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -983,7 +983,7 @@ ScriptedImporter:
     uvTransform: {x: 145, y: 484}
   - name: boss_Frame_103
     originalName: 
-    pivot: {x: 0.5, y: -0.64}
+    pivot: {x: 0.5, y: 0.64}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1003,7 +1003,7 @@ ScriptedImporter:
     uvTransform: {x: 145, y: 374}
   - name: boss_Frame_104
     originalName: 
-    pivot: {x: 0.5, y: -0.8510638}
+    pivot: {x: 0.5, y: 0.5106383}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1023,7 +1023,7 @@ ScriptedImporter:
     uvTransform: {x: 744, y: 4}
   - name: boss_Frame_105
     originalName: 
-    pivot: {x: 0.5081967, y: -1.275}
+    pivot: {x: 0.5081967, y: 0.32500002}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1043,7 +1043,7 @@ ScriptedImporter:
     uvTransform: {x: 393, y: 70}
   - name: boss_Frame_106
     originalName: 
-    pivot: {x: 0.51724136, y: -1.1777778}
+    pivot: {x: 0.51724136, y: 0.24444444}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1063,7 +1063,7 @@ ScriptedImporter:
     uvTransform: {x: 145, y: 70}
   - name: boss_Frame_107
     originalName: 
-    pivot: {x: 0.5, y: -1}
+    pivot: {x: 0.5, y: 0.1851852}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1083,7 +1083,7 @@ ScriptedImporter:
     uvTransform: {x: 252, y: 4}
   - name: boss_Frame_108
     originalName: 
-    pivot: {x: 0.5, y: -0.94827586}
+    pivot: {x: 0.5, y: 0.15517241}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1103,7 +1103,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: boss_Frame_109
     originalName: 
-    pivot: {x: 0.5, y: -1.0588236}
+    pivot: {x: 0.5, y: 0.19607843}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1123,7 +1123,7 @@ ScriptedImporter:
     uvTransform: {x: 500, y: 4}
   - name: boss_Frame_110
     originalName: 
-    pivot: {x: 0.5, y: -1.4473684}
+    pivot: {x: 0.5, y: 0.23684211}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1143,7 +1143,7 @@ ScriptedImporter:
     uvTransform: {x: 653, y: 70}
   - name: boss_Frame_144
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1163,7 +1163,7 @@ ScriptedImporter:
     uvTransform: {x: 394, y: 566}
   - name: boss_Frame_145
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1183,7 +1183,7 @@ ScriptedImporter:
     uvTransform: {x: 426, y: 566}
   - name: boss_Frame_146
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1203,7 +1203,7 @@ ScriptedImporter:
     uvTransform: {x: 458, y: 566}
   - name: boss_Frame_147
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1223,7 +1223,7 @@ ScriptedImporter:
     uvTransform: {x: 490, y: 566}
   - name: boss_Frame_148
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1243,7 +1243,7 @@ ScriptedImporter:
     uvTransform: {x: 522, y: 566}
   - name: boss_Frame_149
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1263,7 +1263,7 @@ ScriptedImporter:
     uvTransform: {x: 554, y: 566}
   - name: boss_Frame_150
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1283,7 +1283,7 @@ ScriptedImporter:
     uvTransform: {x: 586, y: 566}
   - name: boss_Frame_151
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1303,7 +1303,7 @@ ScriptedImporter:
     uvTransform: {x: 618, y: 566}
   - name: boss_Frame_152
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1323,7 +1323,7 @@ ScriptedImporter:
     uvTransform: {x: 650, y: 566}
   - name: boss_Frame_153
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1343,7 +1343,7 @@ ScriptedImporter:
     uvTransform: {x: 682, y: 566}
   - name: boss_Frame_154
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1363,7 +1363,7 @@ ScriptedImporter:
     uvTransform: {x: 714, y: 566}
   - name: boss_Frame_155
     originalName: 
-    pivot: {x: 0.3888889, y: -0.8333334}
+    pivot: {x: 0.3888889, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1383,7 +1383,7 @@ ScriptedImporter:
     uvTransform: {x: 725, y: 184}
   - name: boss_Frame_156
     originalName: 
-    pivot: {x: 0.34042552, y: -0.85999995}
+    pivot: {x: 0.34042552, y: 0.42}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1403,7 +1403,7 @@ ScriptedImporter:
     uvTransform: {x: 676, y: 241}
   - name: boss_Frame_157
     originalName: 
-    pivot: {x: 0.22916667, y: -0.923077}
+    pivot: {x: 0.22916667, y: 0.30769232}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1423,7 +1423,7 @@ ScriptedImporter:
     uvTransform: {x: 382, y: 241}
   - name: boss_Frame_158
     originalName: 
-    pivot: {x: 0.24, y: -0.923077}
+    pivot: {x: 0.24, y: 0.30769232}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1443,7 +1443,7 @@ ScriptedImporter:
     uvTransform: {x: 324, y: 241}
   - name: boss_Frame_159
     originalName: 
-    pivot: {x: 0.50980395, y: -0.037974685}
+    pivot: {x: 0.50980395, y: 0.77215195}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1463,7 +1463,7 @@ ScriptedImporter:
     uvTransform: {x: 72, y: 935}
   - name: boss_Frame_160
     originalName: 
-    pivot: {x: 0.516129, y: 0}
+    pivot: {x: 0.516129, y: 0.72727275}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1483,7 +1483,7 @@ ScriptedImporter:
     uvTransform: {x: 72, y: 261}
   - name: boss_Frame_161
     originalName: 
-    pivot: {x: 0.4923077, y: 0}
+    pivot: {x: 0.4923077, y: 0.72727275}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1503,7 +1503,7 @@ ScriptedImporter:
     uvTransform: {x: 72, y: 70}
   - name: boss_Frame_162
     originalName: 
-    pivot: {x: 0.4923077, y: -0.011494253}
+    pivot: {x: 0.4923077, y: 0.7241379}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1523,7 +1523,7 @@ ScriptedImporter:
     uvTransform: {x: 72, y: 166}
   - name: boss_Frame_187
     originalName: 
-    pivot: {x: 0.5, y: -4.3076925}
+    pivot: {x: 0.5, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1543,7 +1543,7 @@ ScriptedImporter:
     uvTransform: {x: 746, y: 566}
   - name: boss_Frame_188
     originalName: 
-    pivot: {x: 0.38709676, y: -2.0384617}
+    pivot: {x: 0.38709676, y: 0.42307693}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1563,7 +1563,7 @@ ScriptedImporter:
     uvTransform: {x: 650, y: 486}
   - name: boss_Frame_189
     originalName: 
-    pivot: {x: 0.32352942, y: -1.8928572}
+    pivot: {x: 0.32352942, y: 0.39285716}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1583,7 +1583,7 @@ ScriptedImporter:
     uvTransform: {x: 905, y: 400}
   - name: boss_Frame_190
     originalName: 
-    pivot: {x: 0.32432434, y: -1.7}
+    pivot: {x: 0.32432434, y: 0.43333337}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1603,7 +1603,7 @@ ScriptedImporter:
     uvTransform: {x: 609, y: 400}
   - name: boss_Frame_191
     originalName: 
-    pivot: {x: 0.2857143, y: -1.6451613}
+    pivot: {x: 0.2857143, y: 0.41935483}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1623,7 +1623,7 @@ ScriptedImporter:
     uvTransform: {x: 654, y: 400}
   - name: boss_Frame_192
     originalName: 
-    pivot: {x: 0.3030303, y: -1.3783784}
+    pivot: {x: 0.3030303, y: 0.35135135}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1643,7 +1643,7 @@ ScriptedImporter:
     uvTransform: {x: 325, y: 486}
   - name: boss_Frame_193
     originalName: 
-    pivot: {x: 0.32352942, y: -1.2564102}
+    pivot: {x: 0.32352942, y: 0.3846154}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1663,7 +1663,7 @@ ScriptedImporter:
     uvTransform: {x: 283, y: 486}
   - name: boss_Frame_194
     originalName: 
-    pivot: {x: 0.31428573, y: -1.2564102}
+    pivot: {x: 0.31428573, y: 0.3846154}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1683,7 +1683,7 @@ ScriptedImporter:
     uvTransform: {x: 983, y: 302}
   - name: boss_Frame_195
     originalName: 
-    pivot: {x: 0.55357146, y: -0.99999994}
+    pivot: {x: 0.55357146, y: 0.3617021}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1703,7 +1703,7 @@ ScriptedImporter:
     uvTransform: {x: 597, y: 184}
   - name: boss_Frame_196
     originalName: 
-    pivot: {x: 0.5660378, y: -0.9245283}
+    pivot: {x: 0.5660378, y: 0.2830189}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1723,7 +1723,7 @@ ScriptedImporter:
     uvTransform: {x: 202, y: 241}
   - name: boss_Frame_197
     originalName: 
-    pivot: {x: 0.6296296, y: -0.71212125}
+    pivot: {x: 0.6296296, y: 0.25757575}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1743,7 +1743,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 434}
   - name: boss_Frame_198
     originalName: 
-    pivot: {x: 0.627451, y: -0.72307694}
+    pivot: {x: 0.627451, y: 0.26153848}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1763,7 +1763,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 594}
   - name: boss_Frame_199
     originalName: 
-    pivot: {x: 0.43333337, y: -0.010416667}
+    pivot: {x: 0.43333337, y: 0.65625}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1783,7 +1783,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 70}
   - name: boss_Frame_200
     originalName: 
-    pivot: {x: 0.39999998, y: -0.021978023}
+    pivot: {x: 0.39999998, y: 0.6813187}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1803,7 +1803,7 @@ ScriptedImporter:
     uvTransform: {x: 72, y: 646}
   - name: boss_Frame_201
     originalName: 
-    pivot: {x: 0.39999998, y: -0.021978023}
+    pivot: {x: 0.39999998, y: 0.6813187}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1823,7 +1823,7 @@ ScriptedImporter:
     uvTransform: {x: 72, y: 745}
   - name: boss_Frame_223
     originalName: 
-    pivot: {x: 0.69696975, y: -1.8928572}
+    pivot: {x: 0.69696975, y: 0.39285716}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1843,7 +1843,7 @@ ScriptedImporter:
     uvTransform: {x: 947, y: 400}
   - name: boss_Frame_224
     originalName: 
-    pivot: {x: 0.5588235, y: -1.4}
+    pivot: {x: 0.5588235, y: 0.42857143}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1863,7 +1863,7 @@ ScriptedImporter:
     uvTransform: {x: 366, y: 486}
   - name: boss_Frame_225
     originalName: 
-    pivot: {x: 0.51428574, y: -1.0930233}
+    pivot: {x: 0.51428574, y: 0.39534885}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1883,7 +1883,7 @@ ScriptedImporter:
     uvTransform: {x: 145, y: 961}
   - name: boss_Frame_226
     originalName: 
-    pivot: {x: 0.5405406, y: -1.1463414}
+    pivot: {x: 0.5405406, y: 0.41463414}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1903,7 +1903,7 @@ ScriptedImporter:
     uvTransform: {x: 145, y: 912}
   - name: boss_Frame_227
     originalName: 
-    pivot: {x: 0.5609756, y: -1.0909091}
+    pivot: {x: 0.5609756, y: 0.36363637}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1923,7 +1923,7 @@ ScriptedImporter:
     uvTransform: {x: 145, y: 536}
   - name: boss_Frame_228
     originalName: 
-    pivot: {x: 0.55, y: -1.0666667}
+    pivot: {x: 0.55, y: 0.35555556}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1943,7 +1943,7 @@ ScriptedImporter:
     uvTransform: {x: 980, y: 184}
   - name: boss_Frame_229
     originalName: 
-    pivot: {x: 0.55, y: -1.1627907}
+    pivot: {x: 0.55, y: 0.3255814}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1963,7 +1963,7 @@ ScriptedImporter:
     uvTransform: {x: 145, y: 588}
   - name: boss_Frame_36
     originalName: 
-    pivot: {x: 0.5, y: -1.117647}
+    pivot: {x: 0.5, y: 0.7647059}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1983,7 +1983,7 @@ ScriptedImporter:
     uvTransform: {x: 824, y: 350}
   - name: boss_Frame_37
     originalName: 
-    pivot: {x: 0.5, y: -1.0571429}
+    pivot: {x: 0.5, y: 0.7714286}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2003,7 +2003,7 @@ ScriptedImporter:
     uvTransform: {x: 513, y: 350}
   - name: boss_Frame_38
     originalName: 
-    pivot: {x: 0.5, y: -1.0285715}
+    pivot: {x: 0.5, y: 0.8}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2023,7 +2023,7 @@ ScriptedImporter:
     uvTransform: {x: 575, y: 350}
   - name: boss_Frame_39
     originalName: 
-    pivot: {x: 0.5, y: -1.0285715}
+    pivot: {x: 0.5, y: 0.8}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2043,7 +2043,7 @@ ScriptedImporter:
     uvTransform: {x: 637, y: 350}
   - name: boss_Frame_40
     originalName: 
-    pivot: {x: 0.5, y: -1.0285715}
+    pivot: {x: 0.5, y: 0.8}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2063,7 +2063,7 @@ ScriptedImporter:
     uvTransform: {x: 699, y: 350}
   - name: boss_Frame_41
     originalName: 
-    pivot: {x: 0.5, y: -1.117647}
+    pivot: {x: 0.5, y: 0.7647059}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2083,7 +2083,7 @@ ScriptedImporter:
     uvTransform: {x: 886, y: 350}
   - name: boss_Frame_42
     originalName: 
-    pivot: {x: 0.5, y: -1.117647}
+    pivot: {x: 0.5, y: 0.7647059}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2103,7 +2103,7 @@ ScriptedImporter:
     uvTransform: {x: 948, y: 350}
   - name: boss_Frame_43
     originalName: 
-    pivot: {x: 0.5, y: -1.117647}
+    pivot: {x: 0.5, y: 0.7647059}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2123,7 +2123,7 @@ ScriptedImporter:
     uvTransform: {x: 202, y: 400}
   - name: boss_Frame_44
     originalName: 
-    pivot: {x: 0.5, y: -1.1470588}
+    pivot: {x: 0.5, y: 0.7352941}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2143,7 +2143,7 @@ ScriptedImporter:
     uvTransform: {x: 264, y: 400}
   - name: boss_Frame_45
     originalName: 
-    pivot: {x: 0.5, y: -1.0277778}
+    pivot: {x: 0.5, y: 0.75}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2163,7 +2163,7 @@ ScriptedImporter:
     uvTransform: {x: 327, y: 350}
   - name: boss_Frame_46
     originalName: 
-    pivot: {x: 0.5, y: -1.0277778}
+    pivot: {x: 0.5, y: 0.75}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2183,7 +2183,7 @@ ScriptedImporter:
     uvTransform: {x: 389, y: 350}
   - name: boss_Frame_47
     originalName: 
-    pivot: {x: 0.5, y: -1}
+    pivot: {x: 0.5, y: 0.7777778}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2203,7 +2203,7 @@ ScriptedImporter:
     uvTransform: {x: 451, y: 350}
   - name: boss_Frame_84
     originalName: 
-    pivot: {x: 0.4528302, y: -0.8947368}
+    pivot: {x: 0.4528302, y: 0.7894737}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2223,7 +2223,7 @@ ScriptedImporter:
     uvTransform: {x: 862, y: 302}
   - name: boss_Frame_85
     originalName: 
-    pivot: {x: 0.44, y: -0.65909094}
+    pivot: {x: 0.44, y: 0.79545456}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2243,7 +2243,7 @@ ScriptedImporter:
     uvTransform: {x: 967, y: 70}
   - name: boss_Frame_86
     originalName: 
-    pivot: {x: 0.47058827, y: -1}
+    pivot: {x: 0.47058827, y: 0.7777778}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2263,7 +2263,7 @@ ScriptedImporter:
     uvTransform: {x: 202, y: 442}
   - name: boss_Frame_87
     originalName: 
-    pivot: {x: 0.5, y: -1.117647}
+    pivot: {x: 0.5, y: 0.7647059}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2283,7 +2283,7 @@ ScriptedImporter:
     uvTransform: {x: 326, y: 400}
   - name: boss_Frame_88
     originalName: 
-    pivot: {x: 0.55769235, y: -0.92105263}
+    pivot: {x: 0.55769235, y: 0.7631579}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2303,7 +2303,7 @@ ScriptedImporter:
     uvTransform: {x: 923, y: 302}
   - name: boss_Frame_89
     originalName: 
-    pivot: {x: 0.5882353, y: -0.7380952}
+    pivot: {x: 0.5882353, y: 0.7857143}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2323,7 +2323,7 @@ ScriptedImporter:
     uvTransform: {x: 202, y: 350}
   - name: boss_Frame_90
     originalName: 
-    pivot: {x: 0.5090909, y: -1.117647}
+    pivot: {x: 0.5090909, y: 0.7647059}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2343,7 +2343,7 @@ ScriptedImporter:
     uvTransform: {x: 761, y: 350}
   - name: boss_Frame_91
     originalName: 
-    pivot: {x: 0.5, y: -1.117647}
+    pivot: {x: 0.5, y: 0.7647059}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2363,7 +2363,7 @@ ScriptedImporter:
     uvTransform: {x: 388, y: 400}
   - name: boss_Frame_133
     originalName: 
-    pivot: {x: 0.5, y: -1.0294118}
+    pivot: {x: 0.5, y: 0.85294116}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2383,7 +2383,7 @@ ScriptedImporter:
     uvTransform: {x: 261, y: 350}
   - name: boss_Frame_134
     originalName: 
-    pivot: {x: 0.5, y: -1.0294118}
+    pivot: {x: 0.5, y: 0.85294116}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2403,7 +2403,7 @@ ScriptedImporter:
     uvTransform: {x: 145, y: 686}
   - name: boss_Frame_135
     originalName: 
-    pivot: {x: 0.5, y: -1.0909091}
+    pivot: {x: 0.5, y: 0.8484849}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2423,7 +2423,7 @@ ScriptedImporter:
     uvTransform: {x: 450, y: 400}
   - name: boss_Frame_136
     originalName: 
-    pivot: {x: 0.5, y: -1.2333333}
+    pivot: {x: 0.5, y: 0.90000004}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2443,7 +2443,7 @@ ScriptedImporter:
     uvTransform: {x: 557, y: 400}
   - name: boss_Frame_137
     originalName: 
-    pivot: {x: 0.5, y: -3.235294}
+    pivot: {x: 0.5, y: 0.5294118}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2463,7 +2463,7 @@ ScriptedImporter:
     uvTransform: {x: 949, y: 511}
   - name: boss_Frame_138
     originalName: 
-    pivot: {x: 0.5, y: -3.235294}
+    pivot: {x: 0.5, y: 0.5294118}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2483,7 +2483,7 @@ ScriptedImporter:
     uvTransform: {x: 913, y: 486}
   - name: boss_Frame_139
     originalName: 
-    pivot: {x: 0.5, y: -3.2941177}
+    pivot: {x: 0.5, y: 0.47058824}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2503,7 +2503,7 @@ ScriptedImporter:
     uvTransform: {x: 953, y: 486}
   - name: boss_Frame_140
     originalName: 
-    pivot: {x: 0.5, y: -3.2941177}
+    pivot: {x: 0.5, y: 0.47058824}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2523,7 +2523,7 @@ ScriptedImporter:
     uvTransform: {x: 742, y: 538}
   - name: boss_Frame_141
     originalName: 
-    pivot: {x: 0.5, y: -3.235294}
+    pivot: {x: 0.5, y: 0.5294118}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2543,7 +2543,7 @@ ScriptedImporter:
     uvTransform: {x: 782, y: 538}
   - name: boss_Frame_142
     originalName: 
-    pivot: {x: 0.5, y: -3.235294}
+    pivot: {x: 0.5, y: 0.5294118}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2563,7 +2563,7 @@ ScriptedImporter:
     uvTransform: {x: 822, y: 538}
   - name: boss_Frame_143
     originalName: 
-    pivot: {x: 0.5, y: -3.235294}
+    pivot: {x: 0.5, y: 0.5294118}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2583,7 +2583,7 @@ ScriptedImporter:
     uvTransform: {x: 862, y: 538}
   - name: boss_Frame_179
     originalName: 
-    pivot: {x: 0.31914893, y: -1.5172414}
+    pivot: {x: 0.31914893, y: 0.6896552}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2603,7 +2603,7 @@ ScriptedImporter:
     uvTransform: {x: 502, y: 400}
   - name: boss_Frame_180
     originalName: 
-    pivot: {x: 0.32608697, y: -3.4705882}
+    pivot: {x: 0.32608697, y: 0.29411766}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2623,7 +2623,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 1003}
   - name: boss_Frame_181
     originalName: 
-    pivot: {x: 0.21276595, y: -3.5}
+    pivot: {x: 0.21276595, y: 0.055555556}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2643,7 +2643,7 @@ ScriptedImporter:
     uvTransform: {x: 499, y: 512}
   - name: boss_Frame_182
     originalName: 
-    pivot: {x: 0.1388889, y: -3.8235295}
+    pivot: {x: 0.1388889, y: -0.05882353}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2663,7 +2663,7 @@ ScriptedImporter:
     uvTransform: {x: 869, y: 486}
   - name: boss_Frame_183
     originalName: 
-    pivot: {x: 0.5106383, y: -0.046153847}
+    pivot: {x: 0.5106383, y: 0.93846154}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2683,7 +2683,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 930}
   - name: boss_Frame_184
     originalName: 
-    pivot: {x: 0.46428573, y: -0.014492754}
+    pivot: {x: 0.46428573, y: 0.9130435}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2703,7 +2703,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 174}
   - name: boss_Frame_185
     originalName: 
-    pivot: {x: 0.34, y: -2.65}
+    pivot: {x: 0.34, y: 0.55}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2723,7 +2723,7 @@ ScriptedImporter:
     uvTransform: {x: 753, y: 400}
   - name: boss_Frame_186
     originalName: 
-    pivot: {x: 0.3265306, y: -3.0555556}
+    pivot: {x: 0.3265306, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2743,7 +2743,7 @@ ScriptedImporter:
     uvTransform: {x: 499, y: 486}
   - name: boss_Frame_216
     originalName: 
-    pivot: {x: 0.5, y: -2}
+    pivot: {x: 0.5, y: 0.6666667}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2763,7 +2763,7 @@ ScriptedImporter:
     uvTransform: {x: 689, y: 486}
   - name: boss_Frame_217
     originalName: 
-    pivot: {x: 0.53125, y: -3}
+    pivot: {x: 0.53125, y: 0.2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2783,7 +2783,7 @@ ScriptedImporter:
     uvTransform: {x: 797, y: 486}
   - name: boss_Frame_218
     originalName: 
-    pivot: {x: 0.59375, y: -3.4736843}
+    pivot: {x: 0.59375, y: -0.10526316}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2803,7 +2803,7 @@ ScriptedImporter:
     uvTransform: {x: 869, y: 511}
   - name: boss_Frame_219
     originalName: 
-    pivot: {x: 0.59375, y: -3.6666667}
+    pivot: {x: 0.59375, y: -0.11111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2823,7 +2823,7 @@ ScriptedImporter:
     uvTransform: {x: 909, y: 511}
   - name: boss_Frame_220
     originalName: 
-    pivot: {x: 0.2916667, y: -2.2380953}
+    pivot: {x: 0.2916667, y: 0.8095238}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2843,7 +2843,7 @@ ScriptedImporter:
     uvTransform: {x: 697, y: 400}
   - name: boss_Frame_221
     originalName: 
-    pivot: {x: 0.26666668, y: -2.4}
+    pivot: {x: 0.26666668, y: 0.8}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2863,7 +2863,7 @@ ScriptedImporter:
     uvTransform: {x: 446, y: 486}
   - name: boss_Frame_222
     originalName: 
-    pivot: {x: 0.2826087, y: -2.4285715}
+    pivot: {x: 0.2826087, y: 0.61904764}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2883,7 +2883,7 @@ ScriptedImporter:
     uvTransform: {x: 811, y: 400}
   - name: boss_Frame_24
     originalName: 
-    pivot: {x: 0.5, y: -1.1750001}
+    pivot: {x: 0.5, y: 0.425}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2903,7 +2903,7 @@ ScriptedImporter:
     uvTransform: {x: 731, y: 241}
   - name: boss_Frame_25
     originalName: 
-    pivot: {x: 0.5, y: -1.1750001}
+    pivot: {x: 0.5, y: 0.425}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2923,7 +2923,7 @@ ScriptedImporter:
     uvTransform: {x: 797, y: 241}
   - name: boss_Frame_26
     originalName: 
-    pivot: {x: 0.5, y: -1.15}
+    pivot: {x: 0.5, y: 0.45000002}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2943,7 +2943,7 @@ ScriptedImporter:
     uvTransform: {x: 863, y: 241}
   - name: boss_Frame_27
     originalName: 
-    pivot: {x: 0.5, y: -1.15}
+    pivot: {x: 0.5, y: 0.45000002}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2963,7 +2963,7 @@ ScriptedImporter:
     uvTransform: {x: 929, y: 241}
   - name: boss_Frame_28
     originalName: 
-    pivot: {x: 0.5, y: -1.15}
+    pivot: {x: 0.5, y: 0.45000002}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2983,7 +2983,7 @@ ScriptedImporter:
     uvTransform: {x: 202, y: 302}
   - name: boss_Frame_29
     originalName: 
-    pivot: {x: 0.5, y: -1.1750001}
+    pivot: {x: 0.5, y: 0.425}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3003,7 +3003,7 @@ ScriptedImporter:
     uvTransform: {x: 268, y: 302}
   - name: boss_Frame_30
     originalName: 
-    pivot: {x: 0.5, y: -1.1750001}
+    pivot: {x: 0.5, y: 0.425}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3023,7 +3023,7 @@ ScriptedImporter:
     uvTransform: {x: 334, y: 302}
   - name: boss_Frame_31
     originalName: 
-    pivot: {x: 0.5, y: -1.1750001}
+    pivot: {x: 0.5, y: 0.425}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3043,7 +3043,7 @@ ScriptedImporter:
     uvTransform: {x: 400, y: 302}
   - name: boss_Frame_32
     originalName: 
-    pivot: {x: 0.5, y: -1.2}
+    pivot: {x: 0.5, y: 0.4}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3063,7 +3063,7 @@ ScriptedImporter:
     uvTransform: {x: 466, y: 302}
   - name: boss_Frame_33
     originalName: 
-    pivot: {x: 0.5, y: -1.2}
+    pivot: {x: 0.5, y: 0.4}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3083,7 +3083,7 @@ ScriptedImporter:
     uvTransform: {x: 532, y: 302}
   - name: boss_Frame_34
     originalName: 
-    pivot: {x: 0.5, y: -1.2}
+    pivot: {x: 0.5, y: 0.4}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3103,7 +3103,7 @@ ScriptedImporter:
     uvTransform: {x: 598, y: 302}
   - name: boss_Frame_35
     originalName: 
-    pivot: {x: 0.5, y: -1.1750001}
+    pivot: {x: 0.5, y: 0.425}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3123,7 +3123,7 @@ ScriptedImporter:
     uvTransform: {x: 664, y: 302}
   - name: boss_Frame_76
     originalName: 
-    pivot: {x: 0.5, y: -0.8913044}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3143,7 +3143,7 @@ ScriptedImporter:
     uvTransform: {x: 531, y: 184}
   - name: boss_Frame_77
     originalName: 
-    pivot: {x: 0.5263158, y: -0.8085106}
+    pivot: {x: 0.5263158, y: 0.5531915}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3163,7 +3163,7 @@ ScriptedImporter:
     uvTransform: {x: 466, y: 184}
   - name: boss_Frame_78
     originalName: 
-    pivot: {x: 0.5357143, y: -1.0714285}
+    pivot: {x: 0.5357143, y: 0.45238096}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3183,7 +3183,7 @@ ScriptedImporter:
     uvTransform: {x: 612, y: 241}
   - name: boss_Frame_79
     originalName: 
-    pivot: {x: 0.5, y: -1.1750001}
+    pivot: {x: 0.5, y: 0.425}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3203,7 +3203,7 @@ ScriptedImporter:
     uvTransform: {x: 730, y: 302}
   - name: boss_Frame_80
     originalName: 
-    pivot: {x: 0.50877196, y: -1}
+    pivot: {x: 0.50877196, y: 0.45454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3223,7 +3223,7 @@ ScriptedImporter:
     uvTransform: {x: 915, y: 184}
   - name: boss_Frame_81
     originalName: 
-    pivot: {x: 0.51724136, y: -0.9111111}
+    pivot: {x: 0.51724136, y: 0.51111114}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3243,7 +3243,7 @@ ScriptedImporter:
     uvTransform: {x: 901, y: 70}
   - name: boss_Frame_82
     originalName: 
-    pivot: {x: 0.51724136, y: -1.1219512}
+    pivot: {x: 0.51724136, y: 0.4390244}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3263,7 +3263,7 @@ ScriptedImporter:
     uvTransform: {x: 546, y: 241}
   - name: boss_Frame_83
     originalName: 
-    pivot: {x: 0.5, y: -1.1750001}
+    pivot: {x: 0.5, y: 0.425}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3283,7 +3283,7 @@ ScriptedImporter:
     uvTransform: {x: 796, y: 302}
   - name: boss_Frame_122
     originalName: 
-    pivot: {x: 0.48780486, y: -1.0789474}
+    pivot: {x: 0.48780486, y: 0.6052632}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3303,7 +3303,7 @@ ScriptedImporter:
     uvTransform: {x: 145, y: 728}
   - name: boss_Frame_123
     originalName: 
-    pivot: {x: 0.48780486, y: -1.0789474}
+    pivot: {x: 0.48780486, y: 0.6052632}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3323,7 +3323,7 @@ ScriptedImporter:
     uvTransform: {x: 145, y: 774}
   - name: boss_Frame_124
     originalName: 
-    pivot: {x: 0.48780486, y: -1.1052631}
+    pivot: {x: 0.48780486, y: 0.57894737}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3343,7 +3343,7 @@ ScriptedImporter:
     uvTransform: {x: 145, y: 820}
   - name: boss_Frame_125
     originalName: 
-    pivot: {x: 0.48780486, y: -1.1578947}
+    pivot: {x: 0.48780486, y: 0.5263158}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3363,7 +3363,7 @@ ScriptedImporter:
     uvTransform: {x: 145, y: 866}
   - name: boss_Frame_126
     originalName: 
-    pivot: {x: 0.5, y: -0.8510638}
+    pivot: {x: 0.5, y: 0.5106383}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3383,7 +3383,7 @@ ScriptedImporter:
     uvTransform: {x: 866, y: 4}
   - name: boss_Frame_127
     originalName: 
-    pivot: {x: 0.5081967, y: -1.275}
+    pivot: {x: 0.5081967, y: 0.32500002}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3403,7 +3403,7 @@ ScriptedImporter:
     uvTransform: {x: 523, y: 70}
   - name: boss_Frame_128
     originalName: 
-    pivot: {x: 0.51724136, y: -1.1777778}
+    pivot: {x: 0.51724136, y: 0.24444444}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3423,7 +3423,7 @@ ScriptedImporter:
     uvTransform: {x: 269, y: 70}
   - name: boss_Frame_129
     originalName: 
-    pivot: {x: 0.5, y: -1}
+    pivot: {x: 0.5, y: 0.1851852}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3443,7 +3443,7 @@ ScriptedImporter:
     uvTransform: {x: 376, y: 4}
   - name: boss_Frame_130
     originalName: 
-    pivot: {x: 0.5, y: -0.94827586}
+    pivot: {x: 0.5, y: 0.15517241}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3463,7 +3463,7 @@ ScriptedImporter:
     uvTransform: {x: 128, y: 4}
   - name: boss_Frame_131
     originalName: 
-    pivot: {x: 0.5, y: -1.0588236}
+    pivot: {x: 0.5, y: 0.19607843}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3483,7 +3483,7 @@ ScriptedImporter:
     uvTransform: {x: 622, y: 4}
   - name: boss_Frame_132
     originalName: 
-    pivot: {x: 0.5, y: -1.4473684}
+    pivot: {x: 0.5, y: 0.23684211}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3503,7 +3503,7 @@ ScriptedImporter:
     uvTransform: {x: 777, y: 70}
   - name: boss_Frame_171
     originalName: 
-    pivot: {x: 0.3888889, y: -0.8333334}
+    pivot: {x: 0.3888889, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3523,7 +3523,7 @@ ScriptedImporter:
     uvTransform: {x: 787, y: 184}
   - name: boss_Frame_172
     originalName: 
-    pivot: {x: 0.3478261, y: -0.85999995}
+    pivot: {x: 0.3478261, y: 0.42}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3543,7 +3543,7 @@ ScriptedImporter:
     uvTransform: {x: 145, y: 316}
   - name: boss_Frame_173
     originalName: 
-    pivot: {x: 0.19565217, y: -0.923077}
+    pivot: {x: 0.19565217, y: 0.30769232}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3563,7 +3563,7 @@ ScriptedImporter:
     uvTransform: {x: 438, y: 241}
   - name: boss_Frame_174
     originalName: 
-    pivot: {x: 0.17391305, y: -0.923077}
+    pivot: {x: 0.17391305, y: 0.30769232}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3583,7 +3583,7 @@ ScriptedImporter:
     uvTransform: {x: 492, y: 241}
   - name: boss_Frame_175
     originalName: 
-    pivot: {x: 0.5531915, y: -0.22388059}
+    pivot: {x: 0.5531915, y: 0.73134327}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3603,7 +3603,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 794}
   - name: boss_Frame_176
     originalName: 
-    pivot: {x: 0.53333336, y: 0}
+    pivot: {x: 0.53333336, y: 0.7710843}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3623,7 +3623,7 @@ ScriptedImporter:
     uvTransform: {x: 72, y: 844}
   - name: boss_Frame_177
     originalName: 
-    pivot: {x: 0.52459013, y: 0}
+    pivot: {x: 0.52459013, y: 0.7529412}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3643,7 +3643,7 @@ ScriptedImporter:
     uvTransform: {x: 72, y: 461}
   - name: boss_Frame_178
     originalName: 
-    pivot: {x: 0.52459013, y: -0.011904762}
+    pivot: {x: 0.52459013, y: 0.75}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3663,7 +3663,7 @@ ScriptedImporter:
     uvTransform: {x: 72, y: 554}
   - name: boss_Frame_209
     originalName: 
-    pivot: {x: 0.55357146, y: -0.99999994}
+    pivot: {x: 0.55357146, y: 0.3617021}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3683,7 +3683,7 @@ ScriptedImporter:
     uvTransform: {x: 661, y: 184}
   - name: boss_Frame_210
     originalName: 
-    pivot: {x: 0.5660378, y: -1}
+    pivot: {x: 0.5660378, y: 0.25490198}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3703,7 +3703,7 @@ ScriptedImporter:
     uvTransform: {x: 263, y: 241}
   - name: boss_Frame_211
     originalName: 
-    pivot: {x: 0.59183675, y: -0.91525424}
+    pivot: {x: 0.59183675, y: 0.16949153}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3723,7 +3723,7 @@ ScriptedImporter:
     uvTransform: {x: 145, y: 184}
   - name: boss_Frame_212
     originalName: 
-    pivot: {x: 0.6041667, y: -0.9649123}
+    pivot: {x: 0.6041667, y: 0.15789473}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3743,7 +3743,7 @@ ScriptedImporter:
     uvTransform: {x: 145, y: 251}
   - name: boss_Frame_213
     originalName: 
-    pivot: {x: 0.46428573, y: -0.010416667}
+    pivot: {x: 0.46428573, y: 0.65625}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3763,7 +3763,7 @@ ScriptedImporter:
     uvTransform: {x: 72, y: 357}
   - name: boss_Frame_214
     originalName: 
-    pivot: {x: 0.39130434, y: -0.023809524}
+    pivot: {x: 0.39130434, y: 0.7380952}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3783,7 +3783,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 251}
   - name: boss_Frame_215
     originalName: 
-    pivot: {x: 0.39130434, y: -0.024096385}
+    pivot: {x: 0.39130434, y: 0.74698794}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3803,7 +3803,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 343}
   - name: boss_Frame_12
     originalName: 
-    pivot: {x: 0.5, y: -2.55}
+    pivot: {x: 0.5, y: 0.65000004}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3823,7 +3823,7 @@ ScriptedImporter:
     uvTransform: {x: 293, y: 442}
   - name: boss_Frame_13
     originalName: 
-    pivot: {x: 0.5, y: -2.5}
+    pivot: {x: 0.5, y: 0.7}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3843,7 +3843,7 @@ ScriptedImporter:
     uvTransform: {x: 329, y: 442}
   - name: boss_Frame_14
     originalName: 
-    pivot: {x: 0.5, y: -2.45}
+    pivot: {x: 0.5, y: 0.75}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3863,7 +3863,7 @@ ScriptedImporter:
     uvTransform: {x: 365, y: 442}
   - name: boss_Frame_15
     originalName: 
-    pivot: {x: 0.5, y: -2.45}
+    pivot: {x: 0.5, y: 0.75}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3883,7 +3883,7 @@ ScriptedImporter:
     uvTransform: {x: 401, y: 442}
   - name: boss_Frame_16
     originalName: 
-    pivot: {x: 0.5, y: -2.45}
+    pivot: {x: 0.5, y: 0.75}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3903,7 +3903,7 @@ ScriptedImporter:
     uvTransform: {x: 437, y: 442}
   - name: boss_Frame_17
     originalName: 
-    pivot: {x: 0.5, y: -2.5}
+    pivot: {x: 0.5, y: 0.7}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3923,7 +3923,7 @@ ScriptedImporter:
     uvTransform: {x: 473, y: 442}
   - name: boss_Frame_18
     originalName: 
-    pivot: {x: 0.5, y: -2.55}
+    pivot: {x: 0.5, y: 0.65000004}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3943,7 +3943,7 @@ ScriptedImporter:
     uvTransform: {x: 509, y: 442}
   - name: boss_Frame_19
     originalName: 
-    pivot: {x: 0.5, y: -2.6000001}
+    pivot: {x: 0.5, y: 0.6}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3963,7 +3963,7 @@ ScriptedImporter:
     uvTransform: {x: 545, y: 442}
   - name: boss_Frame_20
     originalName: 
-    pivot: {x: 0.5, y: -2.65}
+    pivot: {x: 0.5, y: 0.55}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -3983,7 +3983,7 @@ ScriptedImporter:
     uvTransform: {x: 581, y: 442}
   - name: boss_Frame_21
     originalName: 
-    pivot: {x: 0.5, y: -2.65}
+    pivot: {x: 0.5, y: 0.55}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4003,7 +4003,7 @@ ScriptedImporter:
     uvTransform: {x: 617, y: 442}
   - name: boss_Frame_22
     originalName: 
-    pivot: {x: 0.5, y: -2.65}
+    pivot: {x: 0.5, y: 0.55}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4023,7 +4023,7 @@ ScriptedImporter:
     uvTransform: {x: 653, y: 442}
   - name: boss_Frame_23
     originalName: 
-    pivot: {x: 0.5, y: -2.6000001}
+    pivot: {x: 0.5, y: 0.6}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4043,7 +4043,7 @@ ScriptedImporter:
     uvTransform: {x: 689, y: 442}
   - name: boss_Frame_68
     originalName: 
-    pivot: {x: 0.5, y: -2.55}
+    pivot: {x: 0.5, y: 0.65000004}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4063,7 +4063,7 @@ ScriptedImporter:
     uvTransform: {x: 725, y: 442}
   - name: boss_Frame_69
     originalName: 
-    pivot: {x: 0.5, y: -2.55}
+    pivot: {x: 0.5, y: 0.65000004}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4083,7 +4083,7 @@ ScriptedImporter:
     uvTransform: {x: 761, y: 442}
   - name: boss_Frame_70
     originalName: 
-    pivot: {x: 0.5, y: -2.5}
+    pivot: {x: 0.5, y: 0.7}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4103,7 +4103,7 @@ ScriptedImporter:
     uvTransform: {x: 797, y: 442}
   - name: boss_Frame_71
     originalName: 
-    pivot: {x: 0.5, y: -2.5}
+    pivot: {x: 0.5, y: 0.7}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4123,7 +4123,7 @@ ScriptedImporter:
     uvTransform: {x: 833, y: 442}
   - name: boss_Frame_72
     originalName: 
-    pivot: {x: 0.5, y: -2.55}
+    pivot: {x: 0.5, y: 0.65000004}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4143,7 +4143,7 @@ ScriptedImporter:
     uvTransform: {x: 869, y: 442}
   - name: boss_Frame_73
     originalName: 
-    pivot: {x: 0.5, y: -2.55}
+    pivot: {x: 0.5, y: 0.65000004}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4163,7 +4163,7 @@ ScriptedImporter:
     uvTransform: {x: 905, y: 442}
   - name: boss_Frame_74
     originalName: 
-    pivot: {x: 0.5, y: -2.6000001}
+    pivot: {x: 0.5, y: 0.6}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4183,7 +4183,7 @@ ScriptedImporter:
     uvTransform: {x: 941, y: 442}
   - name: boss_Frame_75
     originalName: 
-    pivot: {x: 0.5, y: -2.6000001}
+    pivot: {x: 0.5, y: 0.6}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4203,7 +4203,7 @@ ScriptedImporter:
     uvTransform: {x: 977, y: 442}
   - name: boss_Frame_111
     originalName: 
-    pivot: {x: 0.5, y: -2.45}
+    pivot: {x: 0.5, y: 0.75}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4223,7 +4223,7 @@ ScriptedImporter:
     uvTransform: {x: 202, y: 538}
   - name: boss_Frame_112
     originalName: 
-    pivot: {x: 0.5, y: -2.3}
+    pivot: {x: 0.5, y: 0.90000004}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4243,7 +4243,7 @@ ScriptedImporter:
     uvTransform: {x: 238, y: 538}
   - name: boss_Frame_113
     originalName: 
-    pivot: {x: 0.5, y: -2.3}
+    pivot: {x: 0.5, y: 0.90000004}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4263,7 +4263,7 @@ ScriptedImporter:
     uvTransform: {x: 274, y: 538}
   - name: boss_Frame_114
     originalName: 
-    pivot: {x: 0.53333336, y: -0.8888889}
+    pivot: {x: 0.53333336, y: 0.8888889}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4283,7 +4283,7 @@ ScriptedImporter:
     uvTransform: {x: 408, y: 486}
   - name: boss_Frame_115
     originalName: 
-    pivot: {x: 0.5, y: -2.55}
+    pivot: {x: 0.5, y: 0.65000004}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4303,7 +4303,7 @@ ScriptedImporter:
     uvTransform: {x: 310, y: 538}
   - name: boss_Frame_116
     originalName: 
-    pivot: {x: 0.5, y: -2.8}
+    pivot: {x: 0.5, y: 0.4}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4323,7 +4323,7 @@ ScriptedImporter:
     uvTransform: {x: 346, y: 538}
   - name: boss_Frame_117
     originalName: 
-    pivot: {x: 0.5, y: -3.05}
+    pivot: {x: 0.5, y: 0.15}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4343,7 +4343,7 @@ ScriptedImporter:
     uvTransform: {x: 382, y: 538}
   - name: boss_Frame_118
     originalName: 
-    pivot: {x: 0.5, y: -3.15}
+    pivot: {x: 0.5, y: 0.05}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4363,7 +4363,7 @@ ScriptedImporter:
     uvTransform: {x: 418, y: 538}
   - name: boss_Frame_119
     originalName: 
-    pivot: {x: 0.5, y: -3.2}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4383,7 +4383,7 @@ ScriptedImporter:
     uvTransform: {x: 454, y: 538}
   - name: boss_Frame_120
     originalName: 
-    pivot: {x: 0.5, y: -3.15}
+    pivot: {x: 0.5, y: 0.05}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4403,7 +4403,7 @@ ScriptedImporter:
     uvTransform: {x: 490, y: 538}
   - name: boss_Frame_121
     originalName: 
-    pivot: {x: 0.5, y: -3.2}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4423,7 +4423,7 @@ ScriptedImporter:
     uvTransform: {x: 526, y: 538}
   - name: boss_Frame_163
     originalName: 
-    pivot: {x: 0.32432434, y: -2.2608695}
+    pivot: {x: 0.32432434, y: 0.5217391}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4443,7 +4443,7 @@ ScriptedImporter:
     uvTransform: {x: 605, y: 486}
   - name: boss_Frame_164
     originalName: 
-    pivot: {x: 0.25, y: -1.9000001}
+    pivot: {x: 0.25, y: 0.23333335}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4463,7 +4463,7 @@ ScriptedImporter:
     uvTransform: {x: 988, y: 400}
   - name: boss_Frame_165
     originalName: 
-    pivot: {x: -0.107142866, y: -2.4074075}
+    pivot: {x: -0.107142866, y: -0.037037037}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4483,7 +4483,7 @@ ScriptedImporter:
     uvTransform: {x: 729, y: 486}
   - name: boss_Frame_166
     originalName: 
-    pivot: {x: -0.1875, y: -2.0666668}
+    pivot: {x: -0.1875, y: 0.06666667}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4503,7 +4503,7 @@ ScriptedImporter:
     uvTransform: {x: 865, y: 400}
   - name: boss_Frame_167
     originalName: 
-    pivot: {x: 0.5625, y: -0.65217394}
+    pivot: {x: 0.5625, y: 0.73913044}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4523,7 +4523,7 @@ ScriptedImporter:
     uvTransform: {x: 988, y: 4}
   - name: boss_Frame_168
     originalName: 
-    pivot: {x: 0.59375, y: -0.72727275}
+    pivot: {x: 0.59375, y: 0.72727275}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4543,7 +4543,7 @@ ScriptedImporter:
     uvTransform: {x: 243, y: 486}
   - name: boss_Frame_169
     originalName: 
-    pivot: {x: 0.5757576, y: -0.79545456}
+    pivot: {x: 0.5757576, y: 0.65909094}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4563,7 +4563,7 @@ ScriptedImporter:
     uvTransform: {x: 202, y: 486}
   - name: boss_Frame_170
     originalName: 
-    pivot: {x: 0.6666667, y: -0.012820513}
+    pivot: {x: 0.6666667, y: 0.8076923}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4583,7 +4583,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 508}
   - name: boss_Frame_202
     originalName: 
-    pivot: {x: 0.5714286, y: -2.8}
+    pivot: {x: 0.5714286, y: 0.4}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4603,7 +4603,7 @@ ScriptedImporter:
     uvTransform: {x: 562, y: 538}
   - name: boss_Frame_203
     originalName: 
-    pivot: {x: 0.60714287, y: -3.3}
+    pivot: {x: 0.60714287, y: -0.1}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4623,7 +4623,7 @@ ScriptedImporter:
     uvTransform: {x: 598, y: 538}
   - name: boss_Frame_204
     originalName: 
-    pivot: {x: 0.7906977, y: -1.7435898}
+    pivot: {x: 0.7906977, y: -0.102564104}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4643,7 +4643,7 @@ ScriptedImporter:
     uvTransform: {x: 145, y: 639}
   - name: boss_Frame_205
     originalName: 
-    pivot: {x: 0.7804878, y: -3.4285715}
+    pivot: {x: 0.7804878, y: -0.3809524}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4663,7 +4663,7 @@ ScriptedImporter:
     uvTransform: {x: 556, y: 486}
   - name: boss_Frame_206
     originalName: 
-    pivot: {x: 0.3214286, y: -2.2}
+    pivot: {x: 0.3214286, y: 1}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4683,7 +4683,7 @@ ScriptedImporter:
     uvTransform: {x: 634, y: 538}
   - name: boss_Frame_207
     originalName: 
-    pivot: {x: 0.2857143, y: -2.25}
+    pivot: {x: 0.2857143, y: 0.95}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -4703,7 +4703,7 @@ ScriptedImporter:
     uvTransform: {x: 670, y: 538}
   - name: boss_Frame_208
     originalName: 
-    pivot: {x: 0.2857143, y: -2.3500001}
+    pivot: {x: 0.2857143, y: 0.85}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -6572,7 +6572,43 @@ ScriptedImporter:
       spriteId: c45eae648a0739446bbebab6e3a31e37
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
