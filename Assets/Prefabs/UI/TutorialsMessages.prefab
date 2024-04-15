@@ -71,7 +71,7 @@ MonoBehaviour:
     Use
     W A S D to move.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a4623903a3dc7d642817d6a544fb8fbd, type: 2}
   m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 1.8393859}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &303942742038500693
@@ -299,7 +299,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Defeat Cuauhtlequetzqui
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a4623903a3dc7d642817d6a544fb8fbd, type: 2}
   m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -363,7 +363,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &2228768515903665536
@@ -433,8 +433,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: The Moth Child
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
-  m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a4623903a3dc7d642817d6a544fb8fbd, type: 2}
+  m_sharedMaterial: {fileID: 4556832380984213751, guid: a4623903a3dc7d642817d6a544fb8fbd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -567,7 +567,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: First Flight
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a4623903a3dc7d642817d6a544fb8fbd, type: 2}
   m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -631,7 +631,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &3353086339828473800
@@ -691,19 +691,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tutorials:
   - TutorialPanel: {fileID: 3986494885908744046}
-    VoiceLine: 0
+    VoiceLine: 46
   - TutorialPanel: {fileID: 3680894424822361529}
-    VoiceLine: 0
+    VoiceLine: 47
   - TutorialPanel: {fileID: 4158512736528538099}
-    VoiceLine: 0
+    VoiceLine: 48
   - TutorialPanel: {fileID: 4481841357258818047}
-    VoiceLine: 0
+    VoiceLine: 49
   - TutorialPanel: {fileID: 4503300819171318360}
-    VoiceLine: 0
+    VoiceLine: 50
   - TutorialPanel: {fileID: 303942742038500693}
-    VoiceLine: 0
+    VoiceLine: 51
   - TutorialPanel: {fileID: 8546134178264972276}
-    VoiceLine: 0
+    VoiceLine: 52
   currentTutorial: -1
 --- !u!1 &3370951593600508678
 GameObject:
@@ -773,7 +773,7 @@ MonoBehaviour:
   m_text: These are your mana and health crystals. If either one drops too low, your
     spirit will tear apart! Be careful.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a4623903a3dc7d642817d6a544fb8fbd, type: 2}
   m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -837,7 +837,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &3458541551446906781
@@ -914,7 +914,7 @@ MonoBehaviour:
     \nAllies can be enhanced every
     so often, as well as your prowess as a Summoned.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a4623903a3dc7d642817d6a544fb8fbd, type: 2}
   m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -978,7 +978,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 1.8393859}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &3680894424822361529
@@ -1518,7 +1518,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Mana and Health
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a4623903a3dc7d642817d6a544fb8fbd, type: 2}
   m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1582,7 +1582,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &5710519545924114591
@@ -1656,7 +1656,7 @@ MonoBehaviour:
     \nThere are discarded mana crystals across
     the desert that you can pick up to recharge your own mana.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a4623903a3dc7d642817d6a544fb8fbd, type: 2}
   m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1720,7 +1720,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 1.8393859}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &5983456266435407651
@@ -1792,7 +1792,7 @@ MonoBehaviour:
     Ascended is your slayer, Cuauhtlequetzqui. Take his place, and you will once
     again have life."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a4623903a3dc7d642817d6a544fb8fbd, type: 2}
   m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1856,7 +1856,7 @@ MonoBehaviour:
   m_margin: {x: -1.8393859, y: 0, z: 0, w: 1.8393859}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &6489599220551872576
@@ -1926,7 +1926,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Child of Malinalxochitl
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a4623903a3dc7d642817d6a544fb8fbd, type: 2}
   m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1990,7 +1990,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &7493164017645034986
@@ -2064,7 +2064,7 @@ MonoBehaviour:
     Q and E cycle between types
     of allies.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a4623903a3dc7d642817d6a544fb8fbd, type: 2}
   m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2128,7 +2128,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 1.8393707}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &7630805756401630305
@@ -2198,7 +2198,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Magical Flight
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a4623903a3dc7d642817d6a544fb8fbd, type: 2}
   m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2262,7 +2262,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &7779868852140122993
@@ -2332,10 +2332,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Welcome to the Eternal Desert, Copil. You were slain long ago, but I have
     summoned you for a second chance at life. \n\\nAllow me to briefly introduce
-    your new abilities as a Summoned."
+    your new abilities as a Summoned.\n\\nClick text to continue tutorial"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
-  m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a4623903a3dc7d642817d6a544fb8fbd, type: 2}
+  m_sharedMaterial: {fileID: 4556832380984213751, guid: a4623903a3dc7d642817d6a544fb8fbd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2359,7 +2359,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
+  m_fontSize: 28.5
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2468,7 +2468,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Summoning Allies
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a4623903a3dc7d642817d6a544fb8fbd, type: 2}
   m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2532,7 +2532,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &8546134178264972276
