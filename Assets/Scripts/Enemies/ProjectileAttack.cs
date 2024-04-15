@@ -10,7 +10,7 @@ namespace LD55
 {
     public class ProjectileAttack : MonoBehaviour
     {
-        public int projectilesPerSecond;
+        public float projectilesPerSecond;
         private float cooldownSec; // inverse of projectilesPerSecond
         private float cooldownTimeRemaining;
         public GameObject projectileToSpawn;
