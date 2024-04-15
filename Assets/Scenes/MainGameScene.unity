@@ -11868,7 +11868,7 @@ PrefabInstance:
     - target: {fileID: 517055194162495458, guid: 211c0fc9a34d53542a55b061f52c9e71, type: 3}
       propertyPath: SummonTypes.Array.data[1]
       value: 
-      objectReference: {fileID: 6210355816573556233, guid: 99b0a0af26f8e2e42ac10324ff7334ca, type: 3}
+      objectReference: {fileID: 6210355816573556233, guid: ee32efbc4ca00094585dca26ebd000d2, type: 3}
     - target: {fileID: 1277908053000689750, guid: 211c0fc9a34d53542a55b061f52c9e71, type: 3}
       propertyPath: m_Name
       value: HUD
