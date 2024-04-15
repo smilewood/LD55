@@ -60,6 +60,10 @@ PrefabInstance:
       propertyPath: ManaCost
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5221860553101872826, guid: 6d6859d5a3faeef49b28b4d7481295c5, type: 3}
+      propertyPath: ManaLock
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
