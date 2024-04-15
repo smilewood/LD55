@@ -73,8 +73,12 @@ namespace LD55
         [CanBeNull]
         GameObject FindClosestObjectWithTag(string tag)
         {
+            //attack the closest enemy that has the AttackMe script on it
             return GameObject.FindGameObjectsWithTag(tag)
-                .OrderBy(obj => (obj.transform.position - this.transform.position).magnitude).First();
+                .Where(obj => obj.TryGetComponent<EnemyCanAttackMe>(out _))
+                .OrderBy(obj => (obj.transform.position - this.transform.position).magnitude)
+                .First();
         }
+
     }
 }

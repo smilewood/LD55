@@ -1,3 +1,4 @@
+using System.Linq;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -31,6 +32,15 @@ namespace LD55
       protected void SetTarget(Vector3 target)
       {
          this.navMeshAgent.SetDestination(target);
+      }
+      
+      public Transform FindTargetPosition()
+      {
+         var objs = GameObject.FindGameObjectsWithTag("Player");
+         return objs.Where(obj => obj.gameObject.TryGetComponent<EnemyCanAttackMe>(out _))
+            .Select(obj => obj.transform)
+            .OrderBy(obj => (obj.position - transform.position).magnitude)
+            .First();
       }
    }
 }
