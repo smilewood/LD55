@@ -79,6 +79,16 @@ namespace LD55
         None,
         TowerTheme,
         BossTheme,
+        ManaPickup,
+        ChargerZoom,
+
+        TutorialIntro,
+        TutorialMoving,
+        TutorialManaHP,
+        TutorialAllies,
+        TutorialSummoning,
+        TutorialFlying,
+        TutorialFight,
 	}
 
     public enum AudioSourceType

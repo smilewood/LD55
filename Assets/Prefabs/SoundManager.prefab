@@ -226,6 +226,12 @@ MonoBehaviour:
   - Sound: 43
     Source: 0
     Clip: {fileID: 8300000, guid: 33034e8db092e824c81add17eb7a4785, type: 3}
+  - Sound: 44
+    Source: 1
+    Clip: {fileID: 8300000, guid: 7310eff3d2b925f4898bbd71afbb0a1a, type: 3}
+  - Sound: 45
+    Source: 1
+    Clip: {fileID: 8300000, guid: 2cf71286819820a4f86a2ffbde4be8ae, type: 3}
 --- !u!82 &7000395054637141726
 AudioSource:
   m_ObjectHideFlags: 0

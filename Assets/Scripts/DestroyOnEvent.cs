@@ -32,6 +32,11 @@ namespace LD55
          {
             BloodSplatterManager.SpawnBlood(transform.position);
          }
+         else if (ManaOnDestroy > 0)
+            {
+                // not an enemy so it's a mana crystal
+                SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.ManaPickup);
+            }
 
          if (ActuallyDestroyMe)
          {
