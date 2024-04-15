@@ -77,6 +77,8 @@ namespace LD55
         VoiceLaugh,
         
         None,
+        TowerTheme,
+        BossTheme,
 	}
 
     public enum AudioSourceType
@@ -264,7 +266,7 @@ namespace LD55
 					}
                 case AudioState.InGameBoss:
                     {
-						//musicCoupler = AudioCouplers.First(coupler => coupler.Sound == SoundOrMusic.BossTheme);
+						musicCoupler = AudioCouplers.First(coupler => coupler.Sound == SoundOrMusic.BossTheme);
 						ambienceCoupler = AudioCouplers.First(coupler => coupler.Sound == SoundOrMusic.TowerAmbience);
 						CanMusicPlay = true;
 						CanEffectsPlay = true;
@@ -273,7 +275,7 @@ namespace LD55
 					}
 				case AudioState.InGameTower:
 					{
-						//musicCoupler = AudioCouplers.First(coupler => coupler.Sound == SoundOrMusic.TowerTheme);
+						musicCoupler = AudioCouplers.First(coupler => coupler.Sound == SoundOrMusic.TowerTheme);
 						ambienceCoupler = AudioCouplers.First(coupler => coupler.Sound == SoundOrMusic.TowerAmbience);
 						CanMusicPlay = true;
 						CanEffectsPlay = true;
