@@ -154,6 +154,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   ActuallyDestroyMe: 1
+  SpawnBlood: 0
 --- !u!114 &6210355816573556233
 MonoBehaviour:
   m_ObjectHideFlags: 0

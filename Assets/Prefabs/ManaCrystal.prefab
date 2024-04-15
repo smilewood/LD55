@@ -4925,6 +4925,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   ActuallyDestroyMe: 1
+  SpawnBlood: 0
 --- !u!54 &553999355153295226
 Rigidbody:
   m_ObjectHideFlags: 0

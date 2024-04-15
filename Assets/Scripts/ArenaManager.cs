@@ -15,16 +15,28 @@ namespace LD55
       public GameObject NextArena;
       public static ArenaManager ActiveArena;
       public bool FinalLevel;
-      // Start is called before the first frame update
-      void Start()
-      {
-         ActiveArena = this;
-         ActiveEnemies = EnemyParent.transform.Cast<Transform>().Select((t) => t.gameObject).ToList();
-         foreach(GameObject enemy in ActiveEnemies)
-         {
-            enemy.GetComponent<DestroyOnEvents>().OnDeath.AddListener(() => OnEnemyDamage(enemy));
-         }
-      }
+        // Start is called before the first frame update
+        void Start()
+        {
+            ActiveArena = this;
+            ActiveEnemies = EnemyParent.transform.Cast<Transform>().Select((t) => t.gameObject).ToList();
+            foreach (GameObject enemy in ActiveEnemies)
+            {
+                enemy.GetComponent<DestroyOnEvents>().OnDeath.AddListener(() => OnEnemyDamage(enemy));
+            }
+
+
+            BloodSplatter BloodSplatterManager = FindObjectOfType<BloodSplatter>();
+            if (BloodSplatterManager == null)
+            {
+                Debug.LogError("BloodSplatterManager not found");
+            }
+            else
+            {
+                OnArenaClear.AddListener(BloodSplatterManager.ClearBlood);
+            }
+        
+        }
 
       private void OnEnemyDamage(GameObject enemy)
       {

@@ -8,15 +8,36 @@ namespace LD55
       public float ManaOnDestroy;
       public UnityEvent OnDeath;
       public bool ActuallyDestroyMe = true;
-      public void DestroyMe()
+      [SerializeField] private bool SpawnBlood = true;
+      private BloodSplatter BloodSplatterManager; 
+
+        private void Start()
+        {
+            if (SpawnBlood)
+            {
+                BloodSplatterManager = FindObjectOfType<BloodSplatter>();
+                if (BloodSplatterManager == null)
+                {
+                    Debug.LogError("BloodSplatterManager not found");
+                }
+            }
+        }
+
+        public void DestroyMe()
       {
          OnDeath?.Invoke();
          PlayerMana.ManaChangeEvent.Invoke(ManaOnDestroy);
          
+         if(SpawnBlood)
+         {
+            BloodSplatterManager.SpawnBlood(transform.position);
+         }
+
          if (ActuallyDestroyMe)
          {
             Destroy(this.gameObject);
          }
+
       }
 
       public void OnZeroHealth (HealthTracker hp, int _)
