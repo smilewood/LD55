@@ -8,6 +8,8 @@ namespace LD55
 	{
 		public GameObject TutorialPanel;
 		public SoundOrMusic VoiceLine;
+		public bool EnableMovement;
+		public bool EnableSummoning;
 	}
 
 	public class TutorialsMessages : MonoBehaviour
@@ -16,14 +18,43 @@ namespace LD55
 
 		public int currentTutorial = -1;
 
-		void Awake()
-		{
-			AdvanceTutorial();
-		}
+		private PlayerMouseActions pma;
+		private PlayerMovement pm;
 
-		public void CompleteTutorial()
+		private bool tutorialComplete = false;
+
+      void Awake()
 		{
-			// end it and go to next prefab 
+			GameObject player = GameObject.Find("PlayerRoot");
+			if (player != null) 
+			{
+            pma = player.GetComponent<PlayerMouseActions>();
+            pma.CanISummon = false;
+            pm = player.GetComponent<PlayerMovement>();
+            pm.CanIMove = false;
+         }
+
+         AdvanceTutorial();
+      }
+
+		public void HideCurrentTutorial()
+		{
+         if (!tutorialComplete)
+         {
+				foreach (var tut in tutorials)
+				{
+					tut.TutorialPanel.SetActive(false);
+				}
+			}
+      }
+
+		public void ResumeCurrentTutorial()
+		{
+			if (!tutorialComplete) 
+			{
+            var tut = tutorials[currentTutorial];
+            tut.TutorialPanel.SetActive(true);
+         }
 		}
 
 		public void AdvanceTutorial()
@@ -33,22 +64,33 @@ namespace LD55
 				tut.TutorialPanel.SetActive(false);
 			}
 
-			if (currentTutorial == tutorials.Count - 1)
-			{
-				CompleteTutorial();
-			}
-			else
-			{
+			if (currentTutorial != tutorials.Count - 1)
+         {
 				currentTutorial++;
 				var tut = tutorials[currentTutorial];
 				tut.TutorialPanel.SetActive(true);
 				SoundManager.GlobalSoundManager.PlaySound(tut.VoiceLine, false);
-			}
+            
+            pma.CanISummon = tut.EnableSummoning;
+            pm.CanIMove = tut.EnableMovement;
+         }
+			else
+			{
+				tutorialComplete = true;
+         }
 		}
 
 		public void SkipCurrentTutorial()
 		{
 			AdvanceTutorial();
 		}
-	}
+
+      void Update()
+      {
+         if (Input.GetButtonDown("Space"))
+			{
+				SkipCurrentTutorial();
+			}
+      }
+   }
 }

@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6210355816573556233, guid: 4643b11f830f6294c955cc1b43491d3c, type: 3}
       propertyPath: ManaCost
-      value: 1.5
+      value: 1.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
