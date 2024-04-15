@@ -6,6 +6,7 @@ namespace LD55
 {
    public class Spawnable : MonoBehaviour
    {
+      public bool Locked;
       public GameObject SpawnPrefab;
       public float ManaCost;
       public float ManaLock;

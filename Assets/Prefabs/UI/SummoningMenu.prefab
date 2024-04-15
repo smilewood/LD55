@@ -279,6 +279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SummonTypes:
   - {fileID: 6210355816573556233, guid: 4643b11f830f6294c955cc1b43491d3c, type: 3}
+  - {fileID: 6908497582715893352, guid: 280789c89ed89074aa64b0f561581940, type: 3}
   PrevImage: {fileID: 306012796374123347}
   CurImage: {fileID: 3332664919445277713}
   NextImage: {fileID: 1360182939112609482}
