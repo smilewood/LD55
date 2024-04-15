@@ -47,6 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c43707593ccc4bd4a8f1f7c9c244e850, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Locked: 0
   SpawnPrefab: {fileID: 1273154182858612263}
   ManaCost: 1.5
   ManaLock: 1
@@ -120,8 +121,34 @@ PrefabInstance:
     - {fileID: 1735436997061824717, guid: ea0aade3cbad45143a554d87e3bd3f2e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4616280298333867531, guid: ea0aade3cbad45143a554d87e3bd3f2e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3429323333844365717}
   m_SourcePrefab: {fileID: 100100000, guid: ea0aade3cbad45143a554d87e3bd3f2e, type: 3}
+--- !u!1 &537186986375141179 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4616280298333867531, guid: ea0aade3cbad45143a554d87e3bd3f2e, type: 3}
+  m_PrefabInstance: {fileID: 5144283742525282608}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3429323333844365717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537186986375141179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c43707593ccc4bd4a8f1f7c9c244e850, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Locked: 0
+  SpawnPrefab: {fileID: 0}
+  ManaCost: 0
+  ManaLock: 1
+  Cooldown: 0
+  image: {fileID: 0}
 --- !u!4 &2636861245212871908 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7204679245755389396, guid: ea0aade3cbad45143a554d87e3bd3f2e, type: 3}
@@ -183,8 +210,34 @@ PrefabInstance:
     - {fileID: 1735436997061824717, guid: ea0aade3cbad45143a554d87e3bd3f2e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4616280298333867531, guid: ea0aade3cbad45143a554d87e3bd3f2e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2056528527418277286}
   m_SourcePrefab: {fileID: 100100000, guid: ea0aade3cbad45143a554d87e3bd3f2e, type: 3}
+--- !u!1 &1243780638251863487 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4616280298333867531, guid: ea0aade3cbad45143a554d87e3bd3f2e, type: 3}
+  m_PrefabInstance: {fileID: 5859914976366543796}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2056528527418277286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243780638251863487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c43707593ccc4bd4a8f1f7c9c244e850, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Locked: 0
+  SpawnPrefab: {fileID: 0}
+  ManaCost: 0
+  ManaLock: 1
+  Cooldown: 0
+  image: {fileID: 0}
 --- !u!4 &3652049886312978016 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7204679245755389396, guid: ea0aade3cbad45143a554d87e3bd3f2e, type: 3}
