@@ -10,13 +10,15 @@ GameObject:
   m_Component:
   - component: {fileID: 3298384168759857936}
   - component: {fileID: 6569182672095266575}
-  - component: {fileID: -4740872735166204759}
   - component: {fileID: -4431095999304149484}
   - component: {fileID: 2992278670514003661}
   - component: {fileID: 1230945594946615797}
+  - component: {fileID: 4862477960974846223}
+  - component: {fileID: 3149270885142377872}
   - component: {fileID: 6210355816573556233}
+  - component: {fileID: 5593867388198018965}
   m_Layer: 0
-  m_Name: Locust
+  m_Name: TankBase
   m_TagString: Seeker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51,37 +53,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b96a197a4cc23934e8ae9b9a86617b46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 20
---- !u!114 &-4740872735166204759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1020712989042804943}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 476da2345ccfe7b40a2ee128e34e5f8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TypeToDamage: Enemy
-  DamageAmount: 1
-  OnDealDamage:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1230945594946615797}
-        m_TargetAssemblyTypeName: LD55.DestroyOnEvents, Assembly-CSharp
-        m_MethodName: DestroyMe
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  ManaOnKill: 0
+  moveSpeed: 5
 --- !u!114 &-4431095999304149484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94,7 +66,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 697a35da4bfbab240939966036bbb63e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 1
+  MaxHealth: 10
   OnHealthChange:
     m_PersistentCalls:
       m_Calls:
@@ -153,6 +125,33 @@ MonoBehaviour:
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
+  ActuallyDestroyMe: 1
+--- !u!114 &4862477960974846223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020712989042804943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 910c9c145bb283d46a3b1ea6c7575aea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3149270885142377872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020712989042804943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7d838258a611f14a93d45ba908cc019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  LookSpeed: 2
 --- !u!114 &6210355816573556233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,9 +165,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnPrefab: {fileID: 1020712989042804943}
-  ManaCost: 2
-  Cooldown: 0.2
-  image: {fileID: 7152331250509596665, guid: 2ceeb6144773f7c4fbe0a31d8d1993df, type: 3}
+  ManaCost: 5
+  Cooldown: 1
+  image: {fileID: 7546929197557167200, guid: a322550f787e3e04b97c30a1d7e9c382, type: 3}
+--- !u!195 &5593867388198018965
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020712989042804943}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &6795797903344723361
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,6 +256,18 @@ PrefabInstance:
       value: LayerSprite
       objectReference: {fileID: 0}
     - target: {fileID: 3629965496245577555, guid: 652f718e81017d843a8b591f72c6b47d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629965496245577555, guid: 652f718e81017d843a8b591f72c6b47d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629965496245577555, guid: 652f718e81017d843a8b591f72c6b47d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629965496245577555, guid: 652f718e81017d843a8b591f72c6b47d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -277,10 +310,10 @@ PrefabInstance:
     - target: {fileID: 8044021690710634016, guid: 652f718e81017d843a8b591f72c6b47d, type: 3}
       propertyPath: Animator
       value: 
-      objectReference: {fileID: 9100000, guid: ecadc59d52745ab4882f23b214776a21, type: 2}
+      objectReference: {fileID: 9100000, guid: 82e6d9d7709a4ba4e8eb1d943a805249, type: 2}
     - target: {fileID: 8044021690710634016, guid: 652f718e81017d843a8b591f72c6b47d, type: 3}
       propertyPath: LayerCount
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:

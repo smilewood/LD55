@@ -69,6 +69,7 @@ GameObject:
   - component: {fileID: 3615790821572506711}
   - component: {fileID: 6104116488410160242}
   - component: {fileID: 2128202803641266907}
+  - component: {fileID: 291965267279556220}
   m_Layer: 0
   m_Name: PlayerRoot
   m_TagString: Player
@@ -105,7 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56d51c75a64d18347bafa4da7b7df932, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 6
   LookSpeed: 10
   OnMoveStateChange:
     m_PersistentCalls:
@@ -240,6 +241,24 @@ MonoBehaviour:
   ActiveSpawnable: {fileID: 0}
   SummonParent: {fileID: 0}
   distanceToSpawnFromPlayer: 1
+--- !u!114 &291965267279556220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5893338969060985527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 476da2345ccfe7b40a2ee128e34e5f8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TypeToDamage: Pickup
+  DamageAmount: 1
+  OnDealDamage:
+    m_PersistentCalls:
+      m_Calls: []
+  ManaOnKill: 0
 --- !u!1001 &6582133623312494303
 PrefabInstance:
   m_ObjectHideFlags: 0

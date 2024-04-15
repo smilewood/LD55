@@ -1,0 +1,1595 @@
+fileFormatVersion: 2
+guid: 71d3d38a538504f4eaec6ecc01ca0f6a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: mortar beetle_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.22727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 97
+      width: 28
+      height: 22
+    spriteID: 659fcf7fc0a343f4c94720bebfa57223
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 97}
+  - name: mortar beetle_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 60
+      width: 28
+      height: 16
+    spriteID: b9877864c083f7c4c88f67cb6cde52d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 60}
+  - name: mortar beetle_Frame_4
+    originalName: 
+    pivot: {x: 0.5185185, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 207
+      width: 27
+      height: 24
+    spriteID: 45f92abbd3e8c6f4baa25a4daef7e15c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 207}
+  - name: mortar beetle_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 175
+      width: 28
+      height: 24
+    spriteID: b483caeb3fb9a0e46bcb1fdcaf2a55df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 175}
+  - name: mortar beetle_Frame_10
+    originalName: 
+    pivot: {x: 0.5185185, y: -0.13043478}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 66
+      width: 27
+      height: 23
+    spriteID: 40b69644b128f714494b4c2891edc79f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 66}
+  - name: mortar beetle_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -0.13043478}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 4
+      width: 28
+      height: 23
+    spriteID: 33eda207d52658d429ee849fa9f0f901
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 4}
+  - name: mortar beetle_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -0.22727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 127
+      width: 28
+      height: 22
+    spriteID: b99c0201d983f134da9c233374592c17
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 127}
+  - name: mortar beetle_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.1904762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 157
+      width: 28
+      height: 21
+    spriteID: 76161ac3876c6cc47b1ca32965513028
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 157}
+  - name: mortar beetle_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -0.1904762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 186
+      width: 28
+      height: 21
+    spriteID: 592fe20761883a743b1284424b103501
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 186}
+  - name: mortar beetle_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -0.1904762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 215
+      width: 28
+      height: 21
+    spriteID: bc34f133337a3034d91ce444c059a02c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 215}
+  - name: mortar beetle_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.1904762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 4
+      width: 28
+      height: 21
+    spriteID: 55a8f8c4dd34e0a488add2f5457b476a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 4}
+  - name: mortar beetle_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.24}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 109
+      width: 28
+      height: 25
+    spriteID: e877dea05a0401340935ed5d169673f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 109}
+  - name: mortar beetle_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -0.24}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 142
+      width: 28
+      height: 25
+    spriteID: 7418c0abfe2d8424390572d9597bf3f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 142}
+  - name: mortar beetle_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: -0.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 84
+      width: 28
+      height: 16
+    spriteID: c864b2939ccbc4a438cb3a6d3ec62aab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 84}
+  - name: mortar beetle_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: -0.3529412}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 4
+      width: 28
+      height: 17
+    spriteID: 77126dd0683e92747926f0de1c001267
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 4}
+  - name: mortar beetle_Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: -0.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 123
+      width: 28
+      height: 18
+    spriteID: e514237e0913ea842b55832c7c9b4ae9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 123}
+  - name: mortar beetle_Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: -0.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 149
+      width: 28
+      height: 18
+    spriteID: f8341fd993152704eb61c0096494a45d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 149}
+  - name: mortar beetle_Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: -0.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 175
+      width: 28
+      height: 18
+    spriteID: 72f6dd93ef5f6a949a034f7f1df29dd2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 175}
+  - name: mortar beetle_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 201
+      width: 28
+      height: 18
+    spriteID: 2f9a2e4312d1e594b94ced48b5138bf9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 201}
+  - name: mortar beetle_Frame_39
+    originalName: 
+    pivot: {x: 0.5, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 227
+      width: 28
+      height: 18
+    spriteID: 19a3672c92119f24eb1b24db0f930a08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 227}
+  - name: mortar beetle_Frame_40
+    originalName: 
+    pivot: {x: 0.5, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 35
+      width: 28
+      height: 23
+    spriteID: da95419ee944379409eab629933830cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 35}
+  - name: mortar beetle_Frame_41
+    originalName: 
+    pivot: {x: 0.5, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 75
+      width: 28
+      height: 26
+    spriteID: a8f2715481080974e968e9925c099e5e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 75}
+  - name: mortar beetle_Frame_42
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 28
+      height: 28
+    spriteID: d28e10b60aff2f340b8021e586bf8061
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: mortar beetle_Frame_49
+    originalName: 
+    pivot: {x: 0.5, y: -0.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 108
+      width: 28
+      height: 16
+    spriteID: 76b5c828e1437254b8119ceef8417116
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 108}
+  - name: mortar beetle_Frame_50
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 33
+      width: 28
+      height: 20
+    spriteID: f9083e0ad8b2bd549bcf44a6fc0f96da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 33}
+  - name: mortar beetle_Frame_51
+    originalName: 
+    pivot: {x: 0.5, y: -0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 40
+      width: 28
+      height: 27
+    spriteID: 1504c3d8aed6afe4a84fce17b5a116f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 40}
+  - name: mortar beetle_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.2857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 162
+      width: 20
+      height: 21
+    spriteID: 248954d725c2ed34395eabfa018c8380
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 162}
+  - name: mortar beetle_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.2857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 191
+      width: 20
+      height: 21
+    spriteID: bfd023103da796b45865c843679eeee7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 191}
+  - name: mortar beetle_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.2857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 220
+      width: 20
+      height: 21
+    spriteID: 77be90f7a80f7c245a0432d7eb5ab8f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 220}
+  - name: mortar beetle_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: -0.2857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 4
+      width: 20
+      height: 21
+    spriteID: 9f3cafef2ab49484899563628e289035
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 4}
+  - name: mortar beetle_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: -0.1904762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 33
+      width: 20
+      height: 21
+    spriteID: 9236d815fe6097443a0880b22755cbb5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 33}
+  - name: mortar beetle_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: -0.1904762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 62
+      width: 20
+      height: 21
+    spriteID: 5933a3bdd33ea574c9e2e2d574a88ee1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 62}
+  - name: mortar beetle_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: -0.1904762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 91
+      width: 20
+      height: 21
+    spriteID: 5b8d3391b3a6d7c4b95607969f303350
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 91}
+  - name: mortar beetle_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: -0.1904762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 120
+      width: 20
+      height: 21
+    spriteID: 5d44f78101c7ff848baae6173078bbc3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 120}
+  - name: mortar beetle_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: -0.47619048}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 149
+      width: 20
+      height: 21
+    spriteID: 37149b3971e54d64a95c49f3241da4f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 149}
+  - name: mortar beetle_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: -0.47619048}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 178
+      width: 20
+      height: 21
+    spriteID: 983f4eddf2168b442b1688f262ad5490
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 178}
+  - name: mortar beetle_Frame_46
+    originalName: 
+    pivot: {x: 0.5, y: -0.2857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 207
+      width: 20
+      height: 21
+    spriteID: c4b6d0537a726df4aaf35eb53d6380cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 207}
+  - name: mortar beetle_Frame_47
+    originalName: 
+    pivot: {x: 0.5, y: -0.27272728}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 132
+      width: 20
+      height: 22
+    spriteID: 1f6b5d2024341524ebbec48bb5ec6aca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 132}
+  - name: mortar beetle_Frame_48
+    originalName: 
+    pivot: {x: 0.5, y: -0.26086956}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 29
+      width: 20
+      height: 23
+    spriteID: 41031870036ba8948905e8738d1aa872
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 29}
+  - name: mortar beetle_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 32
+      width: 20
+      height: 19
+    spriteID: 56fa64f421c297f4b9dc9f96a9d62baa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 176, y: 32}
+  - name: mortar beetle_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 59
+      width: 20
+      height: 19
+    spriteID: 1d137258172504f4ab25d2ecb2d227d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 176, y: 59}
+  - name: mortar beetle_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 86
+      width: 20
+      height: 19
+    spriteID: 480e6ca631708a641bc0a1c3f8fda92f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 176, y: 86}
+  - name: mortar beetle_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 113
+      width: 20
+      height: 19
+    spriteID: 7fcd6a9804288ac499f211b0b284a58c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 176, y: 113}
+  - name: mortar beetle_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: -0.21052632}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 140
+      width: 20
+      height: 19
+    spriteID: 335e7251c235b754c916e3dd0b2a7bf6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 176, y: 140}
+  - name: mortar beetle_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: -0.21052632}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 167
+      width: 20
+      height: 19
+    spriteID: 10f79d91b7d43d643a47e7d48f9c1b2e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 176, y: 167}
+  - name: mortar beetle_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: -0.21052632}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 194
+      width: 20
+      height: 19
+    spriteID: 8a90519af57e677478a561b26a388ea8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 176, y: 194}
+  - name: mortar beetle_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: -0.21052632}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 221
+      width: 20
+      height: 19
+    spriteID: 54a81ad53bc58fa4dbe6d7cbf44d2d61
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 176, y: 221}
+  - name: mortar beetle_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: -0.36842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 4
+      width: 20
+      height: 19
+    spriteID: 594c9af64899009469baa4c4b74d283f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 4}
+  - name: mortar beetle_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: -0.36842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 31
+      width: 20
+      height: 19
+    spriteID: 5087d6eb3b99de64aa91342abcb2bbe1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 31}
+  - name: mortar beetle_Frame_43
+    originalName: 
+    pivot: {x: 0.47619048, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 4
+      width: 21
+      height: 20
+    spriteID: dc39c0251d798e1449dcfdb22e2da980
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 176, y: 4}
+  - name: mortar beetle_Frame_44
+    originalName: 
+    pivot: {x: 0.5, y: -0.08695652}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 61
+      width: 24
+      height: 23
+    spriteID: 69244d8af7006cf4785dd21d54aef772
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 61}
+  - name: mortar beetle_Frame_45
+    originalName: 
+    pivot: {x: 0.5, y: -0.08695652}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 92
+      width: 24
+      height: 23
+    spriteID: a8377933288de4e45b64a3b70f660a04
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 92}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1372571030
+    name: mortar beetle
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: mortar beetle_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 2
+        y: 5
+        width: 28
+        height: 22
+      spriteId: 659fcf7fc0a343f4c94720bebfa57223
+    - name: mortar beetle_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 2
+        y: 6
+        width: 28
+        height: 16
+      spriteId: b9877864c083f7c4c88f67cb6cde52d0
+    - name: mortar beetle_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 2
+        y: 3
+        width: 27
+        height: 24
+      spriteId: 45f92abbd3e8c6f4baa25a4daef7e15c
+    - name: mortar beetle_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 2
+        y: 3
+        width: 28
+        height: 24
+      spriteId: b483caeb3fb9a0e46bcb1fdcaf2a55df
+    - name: mortar beetle_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 2
+        y: 3
+        width: 27
+        height: 23
+      spriteId: 40b69644b128f714494b4c2891edc79f
+    - name: mortar beetle_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 2
+        y: 3
+        width: 28
+        height: 23
+      spriteId: 33eda207d52658d429ee849fa9f0f901
+    - name: mortar beetle_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 2
+        y: 5
+        width: 28
+        height: 22
+      spriteId: b99c0201d983f134da9c233374592c17
+    - name: mortar beetle_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 2
+        y: 4
+        width: 28
+        height: 21
+      spriteId: 76161ac3876c6cc47b1ca32965513028
+    - name: mortar beetle_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 2
+        y: 4
+        width: 28
+        height: 21
+      spriteId: 592fe20761883a743b1284424b103501
+    - name: mortar beetle_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 2
+        y: 4
+        width: 28
+        height: 21
+      spriteId: bc34f133337a3034d91ce444c059a02c
+    - name: mortar beetle_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 2
+        y: 4
+        width: 28
+        height: 21
+      spriteId: 55a8f8c4dd34e0a488add2f5457b476a
+    - name: mortar beetle_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 2
+        y: 6
+        width: 28
+        height: 25
+      spriteId: e877dea05a0401340935ed5d169673f7
+    - name: mortar beetle_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 2
+        y: 6
+        width: 28
+        height: 25
+      spriteId: 7418c0abfe2d8424390572d9597bf3f4
+    - name: mortar beetle_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 2
+        y: 6
+        width: 28
+        height: 16
+      spriteId: c864b2939ccbc4a438cb3a6d3ec62aab
+    - name: mortar beetle_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 2
+        y: 6
+        width: 28
+        height: 17
+      spriteId: 77126dd0683e92747926f0de1c001267
+    - name: mortar beetle_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 2
+        y: 5
+        width: 28
+        height: 18
+      spriteId: e514237e0913ea842b55832c7c9b4ae9
+    - name: mortar beetle_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 2
+        y: 5
+        width: 28
+        height: 18
+      spriteId: f8341fd993152704eb61c0096494a45d
+    - name: mortar beetle_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 2
+        y: 5
+        width: 28
+        height: 18
+      spriteId: 72f6dd93ef5f6a949a034f7f1df29dd2
+    - name: mortar beetle_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 2
+        y: 6
+        width: 28
+        height: 18
+      spriteId: 2f9a2e4312d1e594b94ced48b5138bf9
+    - name: mortar beetle_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 2
+        y: 6
+        width: 28
+        height: 18
+      spriteId: 19a3672c92119f24eb1b24db0f930a08
+    - name: mortar beetle_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 2
+        y: 4
+        width: 28
+        height: 23
+      spriteId: da95419ee944379409eab629933830cd
+    - name: mortar beetle_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 2
+        y: 2
+        width: 28
+        height: 26
+      spriteId: a8f2715481080974e968e9925c099e5e
+    - name: mortar beetle_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 2
+        y: 2
+        width: 28
+        height: 28
+      spriteId: d28e10b60aff2f340b8021e586bf8061
+    - name: mortar beetle_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 2
+        y: 6
+        width: 28
+        height: 16
+      spriteId: 76b5c828e1437254b8119ceef8417116
+    - name: mortar beetle_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 2
+        y: 6
+        width: 28
+        height: 20
+      spriteId: f9083e0ad8b2bd549bcf44a6fc0f96da
+    - name: mortar beetle_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 2
+        y: 3
+        width: 28
+        height: 27
+      spriteId: 1504c3d8aed6afe4a84fce17b5a116f9
+    - name: mortar beetle_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 6
+        y: 6
+        width: 20
+        height: 21
+      spriteId: 248954d725c2ed34395eabfa018c8380
+    - name: mortar beetle_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 6
+        y: 6
+        width: 20
+        height: 21
+      spriteId: bfd023103da796b45865c843679eeee7
+    - name: mortar beetle_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 6
+        y: 6
+        width: 20
+        height: 21
+      spriteId: 77be90f7a80f7c245a0432d7eb5ab8f7
+    - name: mortar beetle_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 6
+        y: 6
+        width: 20
+        height: 21
+      spriteId: 9f3cafef2ab49484899563628e289035
+    - name: mortar beetle_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 6
+        y: 4
+        width: 20
+        height: 21
+      spriteId: 9236d815fe6097443a0880b22755cbb5
+    - name: mortar beetle_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 6
+        y: 4
+        width: 20
+        height: 21
+      spriteId: 5933a3bdd33ea574c9e2e2d574a88ee1
+    - name: mortar beetle_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 6
+        y: 4
+        width: 20
+        height: 21
+      spriteId: 5b8d3391b3a6d7c4b95607969f303350
+    - name: mortar beetle_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 6
+        y: 4
+        width: 20
+        height: 21
+      spriteId: 5d44f78101c7ff848baae6173078bbc3
+    - name: mortar beetle_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 6
+        y: 10
+        width: 20
+        height: 21
+      spriteId: 37149b3971e54d64a95c49f3241da4f1
+    - name: mortar beetle_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 6
+        y: 10
+        width: 20
+        height: 21
+      spriteId: 983f4eddf2168b442b1688f262ad5490
+    - name: mortar beetle_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 6
+        y: 6
+        width: 20
+        height: 21
+      spriteId: c4b6d0537a726df4aaf35eb53d6380cc
+    - name: mortar beetle_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 6
+        y: 6
+        width: 20
+        height: 22
+      spriteId: 1f6b5d2024341524ebbec48bb5ec6aca
+    - name: mortar beetle_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 6
+        y: 6
+        width: 20
+        height: 23
+      spriteId: 41031870036ba8948905e8738d1aa872
+    - name: mortar beetle_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 6
+        y: 5
+        width: 20
+        height: 19
+      spriteId: 56fa64f421c297f4b9dc9f96a9d62baa
+    - name: mortar beetle_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 6
+        y: 5
+        width: 20
+        height: 19
+      spriteId: 1d137258172504f4ab25d2ecb2d227d6
+    - name: mortar beetle_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 6
+        y: 5
+        width: 20
+        height: 19
+      spriteId: 480e6ca631708a641bc0a1c3f8fda92f
+    - name: mortar beetle_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 6
+        y: 5
+        width: 20
+        height: 19
+      spriteId: 7fcd6a9804288ac499f211b0b284a58c
+    - name: mortar beetle_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 6
+        y: 4
+        width: 20
+        height: 19
+      spriteId: 335e7251c235b754c916e3dd0b2a7bf6
+    - name: mortar beetle_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 6
+        y: 4
+        width: 20
+        height: 19
+      spriteId: 10f79d91b7d43d643a47e7d48f9c1b2e
+    - name: mortar beetle_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 6
+        y: 4
+        width: 20
+        height: 19
+      spriteId: 8a90519af57e677478a561b26a388ea8
+    - name: mortar beetle_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 6
+        y: 4
+        width: 20
+        height: 19
+      spriteId: 54a81ad53bc58fa4dbe6d7cbf44d2d61
+    - name: mortar beetle_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 6
+        y: 7
+        width: 20
+        height: 19
+      spriteId: 594c9af64899009469baa4c4b74d283f
+    - name: mortar beetle_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 6
+        y: 7
+        width: 20
+        height: 19
+      spriteId: 5087d6eb3b99de64aa91342abcb2bbe1
+    - name: mortar beetle_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 6
+        y: 4
+        width: 21
+        height: 20
+      spriteId: dc39c0251d798e1449dcfdb22e2da980
+    - name: mortar beetle_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 4
+        y: 2
+        width: 24
+        height: 23
+      spriteId: 69244d8af7006cf4785dd21d54aef772
+    - name: mortar beetle_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 4
+        y: 2
+        width: 24
+        height: 23
+      spriteId: a8377933288de4e45b64a3b70f660a04
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}
