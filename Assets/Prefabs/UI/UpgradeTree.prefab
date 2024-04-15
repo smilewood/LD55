@@ -235,15 +235,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 856554931628462301, guid: e5d8705da69fd4e498a53dd22733b75a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -80.34
+      value: -90.34
       objectReference: {fileID: 0}
     - target: {fileID: 1136185529466412969, guid: e5d8705da69fd4e498a53dd22733b75a, type: 3}
       propertyPath: m_Name
       value: UpgradeButton
-      objectReference: {fileID: 0}
-    - target: {fileID: 2557009666932843696, guid: e5d8705da69fd4e498a53dd22733b75a, type: 3}
-      propertyPath: m_Transition
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2557009666932843696, guid: e5d8705da69fd4e498a53dd22733b75a, type: 3}
       propertyPath: m_Interactable
@@ -398,15 +394,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 856554931628462301, guid: e5d8705da69fd4e498a53dd22733b75a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -80.34
+      value: -90.34
       objectReference: {fileID: 0}
     - target: {fileID: 1136185529466412969, guid: e5d8705da69fd4e498a53dd22733b75a, type: 3}
       propertyPath: m_Name
       value: UpgradeButton (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2557009666932843696, guid: e5d8705da69fd4e498a53dd22733b75a, type: 3}
-      propertyPath: m_Transition
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2557009666932843696, guid: e5d8705da69fd4e498a53dd22733b75a, type: 3}
       propertyPath: m_Interactable
@@ -565,15 +557,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 856554931628462301, guid: e5d8705da69fd4e498a53dd22733b75a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -80.34
+      value: -90.34
       objectReference: {fileID: 0}
     - target: {fileID: 1136185529466412969, guid: e5d8705da69fd4e498a53dd22733b75a, type: 3}
       propertyPath: m_Name
       value: Button
-      objectReference: {fileID: 0}
-    - target: {fileID: 2557009666932843696, guid: e5d8705da69fd4e498a53dd22733b75a, type: 3}
-      propertyPath: m_Transition
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3815338435330485196, guid: e5d8705da69fd4e498a53dd22733b75a, type: 3}
       propertyPath: m_Pivot.x
@@ -723,15 +711,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 856554931628462301, guid: e5d8705da69fd4e498a53dd22733b75a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -80.34
+      value: -90.34
       objectReference: {fileID: 0}
     - target: {fileID: 1136185529466412969, guid: e5d8705da69fd4e498a53dd22733b75a, type: 3}
       propertyPath: m_Name
       value: UpgradeButton (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2557009666932843696, guid: e5d8705da69fd4e498a53dd22733b75a, type: 3}
-      propertyPath: m_Transition
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2557009666932843696, guid: e5d8705da69fd4e498a53dd22733b75a, type: 3}
       propertyPath: m_Interactable
