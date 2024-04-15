@@ -114,17 +114,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
+        y: 64
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f27573b170384ec438f55bfbc99a0fbc
+      spriteID: 0163cd4688f427c4188c43889423372d
       internalID: 407269431
       vertices: []
       indices: 
@@ -135,18 +135,39 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 32
+        y: 64
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab647ad02e8a6694d8509cac727be692
+      spriteID: 3a6d6194653868741856c9c16987ec74
       internalID: 1935337886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mana_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c180f15ad035ab84e82a89bf3153e25b
+      internalID: -1956843244
       vertices: []
       indices: 
       edges: []
@@ -160,13 +181,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d47d097cdf7f4c47806ab0195c4cc34
+      spriteID: 55988a1e5ab51044babc888f70720d0f
       internalID: 1960623631
       vertices: []
       indices: 
@@ -181,13 +202,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 751883a7b0171194e9caa104dfd934ef
+      spriteID: 78b99619b00d8d142b0be5f3b5964742
       internalID: -729238757
       vertices: []
       indices: 
@@ -208,6 +229,7 @@ TextureImporter:
       hp_1: 1960623631
       mana_0: 1935337886
       mana_1: -729238757
+      mana_2: -1956843244
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
