@@ -9,6 +9,7 @@ TagManager:
   - Floor
   - Wall
   - SoundManager
+  - Pickup
   layers:
   - Default
   - TransparentFX

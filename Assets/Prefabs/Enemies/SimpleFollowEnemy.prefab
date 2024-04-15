@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60a3ccd2c70a5224eb372def3d4cdcf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ManaOnDestroy: 5
+  ManaOnDestroy: 3
   OnDeath:
     m_PersistentCalls:
       m_Calls:

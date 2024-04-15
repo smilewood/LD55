@@ -154,6 +154,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   ActuallyDestroyMe: 1
+  SpawnBlood: 0
 --- !u!114 &6210355816573556233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,7 +170,7 @@ MonoBehaviour:
   SpawnPrefab: {fileID: 1020712989042804943}
   ManaCost: 2
   Cooldown: 0.2
-  image: {fileID: 7152331250509596665, guid: 2ceeb6144773f7c4fbe0a31d8d1993df, type: 3}
+  image: {fileID: -5931455476495837885, guid: d596c0a7fe71ded4c808d7d0ce803e92, type: 3}
 --- !u!1 &6795797903344723361
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,31 +10,23 @@ namespace LD55
    {
       private Transform target;
 
-      private NavMeshAgent navMeshAgent;
       public float closeEnoughRadius;
       
-      private void Start()
+      protected override void Start()
       {
+         base.Start();
          target = GameObject.Find("PlayerRoot").GetComponent<Transform>();
          Debug.Assert(target != null, "Scene should have a player in it.");
-
-         navMeshAgent = this.GetComponent<NavMeshAgent>();
-         navMeshAgent.updatePosition = false;
-         navMeshAgent.updateRotation = false;
-         Debug.Assert(navMeshAgent != null, "NavMeshAgent not loaded.");
       }
 
       // Update is called once per frame
-      void Update()
+      protected override void Update()
       {
+         base.Update();
          //Just target the player current position
          //this.TargetPosition = target.position;
          var closeEnoughVector = (transform.position - target.position).normalized * closeEnoughRadius;
-         
-         this.navMeshAgent.SetDestination(closeEnoughVector + target.position);
-         this.TargetPosition = navMeshAgent.nextPosition;
-         this.TargetPosition = new Vector3(TargetPosition.x, target.position.y, TargetPosition.z);
-         Debug.DrawLine(transform.position, TargetPosition);
+         this.SetTarget(closeEnoughVector + target.position);
       }
    }
 }
