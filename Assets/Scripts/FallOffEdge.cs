@@ -15,9 +15,8 @@ namespace LD55
       // Update is called once per frame
       void Update()
       {
-         Ray ray = new Ray(transform.position, Vector3.down);
-         Debug.DrawLine(transform.position, transform.position + Vector3.down);
-         if (!Physics.Raycast(new Ray(transform.position, Vector3.down), out RaycastHit hit, 1) || !hit.collider.gameObject.CompareTag("Floor"))
+         Debug.DrawLine(transform.position, transform.position + (Vector3.down * 2));
+         if (!Physics.Raycast(new Ray(transform.position, Vector3.down), out RaycastHit hit, 2) || !hit.collider.gameObject.CompareTag("Floor"))
          {
             OverTheEdge?.Invoke();
            // Debug.Log($"{gameObject.name} Fell off the edge!");

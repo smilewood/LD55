@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1230945594946615797}
   - component: {fileID: 6210355816573556233}
   m_Layer: 0
-  m_Name: Locust
+  m_Name: LocustBase
   m_TagString: Seeker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b96a197a4cc23934e8ae9b9a86617b46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 20
+  moveSpeed: 15
 --- !u!114 &-4740872735166204759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,6 +153,7 @@ MonoBehaviour:
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
+  ActuallyDestroyMe: 1
 --- !u!114 &6210355816573556233
 MonoBehaviour:
   m_ObjectHideFlags: 0
