@@ -10,13 +10,15 @@ namespace LD55
     {
         public float Duration;
         public string Message;
+        public string Source;
     }
 
     public class PlayerMessages : MonoBehaviour
     {
 		public int MaxCharacterCount = 220;
         public TextMeshProUGUI messageTextBox;
-        public GameObject messageDisplayPanel;
+        public TextMeshProUGUI sourceTextBox;
+		public GameObject messageDisplayPanel;
 
         private bool isMessageDisplayed;
         private bool currentMessageRequiresInteraction;
@@ -49,7 +51,8 @@ namespace LD55
                     currentMessageRequiresInteraction = currentMessage.Duration < 0;
 					isMessageDisplayed = true;
 					messageTextBox.text = currentMessage.Message;
-                    currentMessageCoroutine = null;
+                    sourceTextBox.text = currentMessage.Source;
+					currentMessageCoroutine = null;
 
 					if (!currentMessageRequiresInteraction) 
                     {
@@ -77,19 +80,21 @@ namespace LD55
         /// </summary>
         /// <param name="duration">how long to show the message - seconds. negative to require a user click interact</param>
         /// <param name="message">the message to display - 220 char max</param>
-        public void DisplayPlayerMessage(float duration, string message)
+        /// <param name="source">Who is talking</param>
+        public void DisplayPlayerMessage(float duration, string message, string source)
         {
             if (message.Count() > MaxCharacterCount) 
             {
                 Debug.LogError("message exceeds max character limit");
             }
 
-            messageQueue.Add(new MessageInformation() { Duration = duration, Message = message });
+            messageQueue.Add(new MessageInformation() { Duration = duration, Message = message, Source = source });
         }
 
 		public void DisplayPlayerMessage(float duration, SoundOrMusic voiceLine)
 		{
-            DisplayPlayerMessage(duration, GetVoiceLineTranscript(voiceLine));
+            // assume that any voice line is from the big bad 
+            DisplayPlayerMessage(duration, GetVoiceLineTranscript(voiceLine), "Cuauhtlequetzqui (Ascended)");
 		}
 
 		private IEnumerator PlayerMessageTimer()
