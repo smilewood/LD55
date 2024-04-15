@@ -16,9 +16,6 @@ namespace LD55
 
 		public int currentTutorial = -1;
 
-		private float currentTutorialDuration = 0f;
-		private float timeElapsed = 0f;
-
 		void Awake()
 		{
 			AdvanceTutorial();
@@ -45,26 +42,13 @@ namespace LD55
 				currentTutorial++;
 				var tut = tutorials[currentTutorial];
 				tut.TutorialPanel.SetActive(true);
-				currentTutorialDuration = SoundManager.GlobalSoundManager.GetAudioLength(tut.VoiceLine);
 				SoundManager.GlobalSoundManager.PlaySound(tut.VoiceLine);
-				timeElapsed = 0f;
 			}
 		}
 
 		public void SkipCurrentTutorial()
 		{
 			AdvanceTutorial();
-		}
-
-
-		void Update()
-		{
-			timeElapsed += Time.deltaTime;
-
-			if (timeElapsed > currentTutorialDuration)
-			{
-				AdvanceTutorial();
-			}
 		}
 	}
 }

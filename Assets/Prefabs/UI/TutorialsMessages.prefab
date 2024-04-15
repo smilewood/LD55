@@ -71,8 +71,8 @@ MonoBehaviour:
     Use
     W A S D to move.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -96,7 +96,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
+  m_fontSize: 37.85
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -173,7 +173,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 336.92}
   m_SizeDelta: {x: -1090.9048, y: -673.8423}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2255634503412058336
@@ -220,9 +220,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LD55.PlayerMessages, Assembly-CSharp
-        m_MethodName: SkipCurrentMessage
+      - m_Target: {fileID: 8120950999520229033}
+        m_TargetAssemblyTypeName: LD55.TutorialsMessages, Assembly-CSharp
+        m_MethodName: SkipCurrentTutorial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -299,8 +299,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Defeat Cuauhtlequetzqui
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -433,8 +433,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: The Moth Child
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -567,8 +567,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: First Flight
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -739,8 +739,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00052643, y: -43.44}
-  m_SizeDelta: {x: 566.24, y: 222.12}
+  m_AnchoredPosition: {x: 0.00049591, y: -23.733}
+  m_SizeDelta: {x: 566.24, y: 182.7059}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6100402146558620334
 CanvasRenderer:
@@ -773,8 +773,8 @@ MonoBehaviour:
   m_text: These are your mana and health crystals. If either one drops too low, your
     spirit will tear apart! Be careful.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -798,7 +798,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39.6
+  m_fontSize: 33.7
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -914,8 +914,8 @@ MonoBehaviour:
     \nAllies can be enhanced every
     so often, as well as your prowess as a Summoned.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -939,7 +939,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39
+  m_fontSize: 36.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1016,7 +1016,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 60.741013}
+  m_AnchoredPosition: {x: 0, y: 397.66}
   m_SizeDelta: {x: -1090.9048, y: -795.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3234054006987745212
@@ -1063,9 +1063,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LD55.PlayerMessages, Assembly-CSharp
-        m_MethodName: SkipCurrentMessage
+      - m_Target: {fileID: 8120950999520229033}
+        m_TargetAssemblyTypeName: LD55.TutorialsMessages, Assembly-CSharp
+        m_MethodName: SkipCurrentTutorial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1110,7 +1110,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 309.01}
   m_SizeDelta: {x: -1159.7522, y: -618.0182}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4480646890758877127
@@ -1157,9 +1157,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LD55.PlayerMessages, Assembly-CSharp
-        m_MethodName: SkipCurrentMessage
+      - m_Target: {fileID: 8120950999520229033}
+        m_TargetAssemblyTypeName: LD55.TutorialsMessages, Assembly-CSharp
+        m_MethodName: SkipCurrentTutorial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1251,9 +1251,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LD55.PlayerMessages, Assembly-CSharp
-        m_MethodName: SkipCurrentMessage
+      - m_Target: {fileID: 8120950999520229033}
+        m_TargetAssemblyTypeName: LD55.TutorialsMessages, Assembly-CSharp
+        m_MethodName: SkipCurrentTutorial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1298,7 +1298,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 297.85}
   m_SizeDelta: {x: -1003.45, y: -595.6912}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &7756207802980401045
@@ -1345,9 +1345,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LD55.PlayerMessages, Assembly-CSharp
-        m_MethodName: SkipCurrentMessage
+      - m_Target: {fileID: 8120950999520229033}
+        m_TargetAssemblyTypeName: LD55.TutorialsMessages, Assembly-CSharp
+        m_MethodName: SkipCurrentTutorial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1439,9 +1439,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LD55.PlayerMessages, Assembly-CSharp
-        m_MethodName: SkipCurrentMessage
+      - m_Target: {fileID: 8120950999520229033}
+        m_TargetAssemblyTypeName: LD55.TutorialsMessages, Assembly-CSharp
+        m_MethodName: SkipCurrentTutorial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1518,8 +1518,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Mana and Health
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1656,8 +1656,8 @@ MonoBehaviour:
     \nThere are discarded mana crystals across
     the desert that you can pick up to recharge your own mana.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1681,7 +1681,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
+  m_fontSize: 36.85
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1792,8 +1792,8 @@ MonoBehaviour:
     Ascended is your slayer, Cuauhtlequetzqui. Take his place, and you will once
     again have life."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1817,7 +1817,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
+  m_fontSize: 38.5
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1926,8 +1926,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Child of Malinalxochitl
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2064,8 +2064,8 @@ MonoBehaviour:
     Q and E cycle between types
     of allies.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2198,8 +2198,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Magical Flight
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2334,8 +2334,8 @@ MonoBehaviour:
     summoned you for a second chance at life. \n\\nAllow me to briefly introduce
     your new abilities as a Summoned."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2468,8 +2468,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Summoning Allies
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2570,7 +2570,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 28.841486}
+  m_AnchoredPosition: {x: 0, y: 335.99}
   m_SizeDelta: {x: -1159.8, y: -675.7012}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3475848507483520357
@@ -2617,9 +2617,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LD55.PlayerMessages, Assembly-CSharp
-        m_MethodName: SkipCurrentMessage
+      - m_Target: {fileID: 8120950999520229033}
+        m_TargetAssemblyTypeName: LD55.TutorialsMessages, Assembly-CSharp
+        m_MethodName: SkipCurrentTutorial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
