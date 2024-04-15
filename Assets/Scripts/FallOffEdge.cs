@@ -22,7 +22,7 @@ namespace LD55
       public FallOffEdgeEvent OverTheEdge;
 
       // Update is called once per frame
-      void Update()
+      void FixedUpdate()
       {
          Debug.DrawLine(transform.position, transform.position + (Vector3.down * 2));
          if (!Physics.Raycast(new Ray(transform.position, Vector3.down), out RaycastHit hit, 2) || !hit.collider.gameObject.CompareTag("Floor"))

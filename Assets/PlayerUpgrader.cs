@@ -51,7 +51,7 @@ namespace LD55
          player.GetComponent<PlayerMovement>().speed = NewMoveSpeed;
          var edgeTracker = player.GetComponent<FallOffEdge>();
          edgeTracker.OverTheEdge.RemoveAllListeners();
-         edgeTracker.OverTheEdge.AddListener(() => PlayerMana.Instance.DrainMana(NewFlightDrain));
+         edgeTracker.OverTheEdge.AddListener(() => PlayerMana.Instance.FixedDrainMana(NewFlightDrain));
       }
 
       public void LimitBreak()
