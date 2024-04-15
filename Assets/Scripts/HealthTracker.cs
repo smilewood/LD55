@@ -84,6 +84,33 @@ namespace LD55
 					SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.DefeatSummonedAlly);
 				}
 			}
+            else if (gameObject.tag == "Boss")
+            {
+				float healthFraction = CurrentHealth / MaxHealth;
+				if (healthFraction <= 0)
+				{
+					SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.VoiceVictory);
+				}
+				else if (healthFraction <= 0.33f)
+				{
+					SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.VoiceBoss1);
+				}
+				else if (healthFraction <= 0.67f)
+				{
+					SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.VoiceBoss2);
+				}
+				else
+				{
+					if (damageAmount > 0)
+					{
+						SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.DamageEnemy);
+					}
+					else if (damageAmount < 0)
+					{
+						SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.HealEnemy);
+					}
+				}
+			}
 	  }
    }
 }
