@@ -9250,6 +9250,14 @@ PrefabInstance:
       propertyPath: SummonParent
       value: 
       objectReference: {fileID: 1097830518}
+    - target: {fileID: 3615790821572506711, guid: 06752c0eca37f344991c0ba59178fd13, type: 3}
+      propertyPath: OverTheEdge.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: FixedDrainMana
+      objectReference: {fileID: 0}
+    - target: {fileID: 3648693243494476877, guid: 06752c0eca37f344991c0ba59178fd13, type: 3}
+      propertyPath: ActuallyDestroyMe
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3648693243494476877, guid: 06752c0eca37f344991c0ba59178fd13, type: 3}
       propertyPath: OnDeath.m_PersistentCalls.m_Calls.Array.size
       value: 2

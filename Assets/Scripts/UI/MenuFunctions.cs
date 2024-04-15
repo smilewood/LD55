@@ -124,6 +124,8 @@ public class MenuFunctions : MonoBehaviour
       SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); 
    }
 
+
+
    public void ShowMenu(string menu)
    {
       if (menus.ContainsKey(menu))

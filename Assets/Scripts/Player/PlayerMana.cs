@@ -78,9 +78,9 @@ namespace LD55
          }
       }
 
-      public void DrainMana(float amount)
+      public void FixedDrainMana(float amount)
       {
-         ChangeMana(-amount * Time.deltaTime);
+         ChangeMana(-amount * Time.fixedDeltaTime);
       }
    }
 }
