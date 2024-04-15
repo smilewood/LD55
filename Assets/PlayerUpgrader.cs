@@ -18,7 +18,6 @@ namespace LD55
       public float NewMana;
       public float NewManaRegenAmount;
       public float NewManaRegenTime;
-      public float NewManaBuffer;
 
       [Header("Flight")]
       public float NewMoveSpeed;
@@ -45,7 +44,6 @@ namespace LD55
          PlayerMana.Instance.MaxMana = NewMana;
          PlayerMana.Instance.ManaPerTime = NewManaRegenAmount;
          PlayerMana.Instance.TimeInterval = NewManaRegenTime;
-         PlayerMana.Instance.LockBuffer = NewManaBuffer;
       }
 
       public void Fligh()
@@ -54,6 +52,11 @@ namespace LD55
          var edgeTracker = player.GetComponent<FallOffEdge>();
          edgeTracker.OverTheEdge.RemoveAllListeners();
          edgeTracker.OverTheEdge.AddListener(() => PlayerMana.Instance.DrainMana(NewFlightDrain));
+      }
+
+      public void LimitBreak()
+      {
+         PlayerMana.Instance.ManaLocking = false;
       }
 
    }

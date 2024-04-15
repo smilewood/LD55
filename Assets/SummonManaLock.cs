@@ -9,9 +9,12 @@ namespace LD55
       private void Update()
       {
          float lockAmount = 0;
-         foreach (Transform child in this.transform)
+         if (PlayerMana.Instance.ManaLocking)
          {
-            lockAmount += child.gameObject.GetComponent<Spawnable>().ManaLock;
+            foreach (Transform child in this.transform)
+            {
+               lockAmount += child.gameObject.GetComponent<Spawnable>().ManaLock;
+            }
          }
          PlayerMana.Instance.LockedMana = lockAmount;
       }

@@ -335,6 +335,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9100000, guid: 82e6d9d7709a4ba4e8eb1d943a805249, type: 2}
     - target: {fileID: 8044021690710634016, guid: 652f718e81017d843a8b591f72c6b47d, type: 3}
+      propertyPath: SkipDelay
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8044021690710634016, guid: 652f718e81017d843a8b591f72c6b47d, type: 3}
       propertyPath: LayerCount
       value: 3
       objectReference: {fileID: 0}
