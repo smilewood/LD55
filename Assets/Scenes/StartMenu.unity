@@ -36295,6 +36295,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2455843655733300784, guid: 1ab9da90ba71d984cb5f2ee9fef9aa75, type: 3}
+      propertyPath: mixer
+      value: 
+      objectReference: {fileID: 24100000, guid: 46498dc3c6ce92d418060193f8f1bc5e, type: 2}
     - target: {fileID: 2568418320989566698, guid: 1ab9da90ba71d984cb5f2ee9fef9aa75, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -36303,6 +36307,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2785810139872117638, guid: 1ab9da90ba71d984cb5f2ee9fef9aa75, type: 3}
+      propertyPath: mixer
+      value: 
+      objectReference: {fileID: 24100000, guid: 46498dc3c6ce92d418060193f8f1bc5e, type: 2}
     - target: {fileID: 2949591287447835563, guid: 1ab9da90ba71d984cb5f2ee9fef9aa75, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -36443,6 +36451,10 @@ PrefabInstance:
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1016227622}
+    - target: {fileID: 4021724820341839729, guid: 1ab9da90ba71d984cb5f2ee9fef9aa75, type: 3}
+      propertyPath: mixer
+      value: 
+      objectReference: {fileID: 24100000, guid: 46498dc3c6ce92d418060193f8f1bc5e, type: 2}
     - target: {fileID: 4272632414798334618, guid: 1ab9da90ba71d984cb5f2ee9fef9aa75, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -36551,6 +36563,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.6431373
       objectReference: {fileID: 0}
+    - target: {fileID: 5699966087413926789, guid: 1ab9da90ba71d984cb5f2ee9fef9aa75, type: 3}
+      propertyPath: mixer
+      value: 
+      objectReference: {fileID: 24100000, guid: 46498dc3c6ce92d418060193f8f1bc5e, type: 2}
     - target: {fileID: 5820149486883229019, guid: 1ab9da90ba71d984cb5f2ee9fef9aa75, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -36719,6 +36735,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.49411768
       objectReference: {fileID: 0}
+    - target: {fileID: 6906618719452400657, guid: 1ab9da90ba71d984cb5f2ee9fef9aa75, type: 3}
+      propertyPath: mixer
+      value: 
+      objectReference: {fileID: 24100000, guid: 46498dc3c6ce92d418060193f8f1bc5e, type: 2}
     - target: {fileID: 7261608739529735219, guid: 1ab9da90ba71d984cb5f2ee9fef9aa75, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
