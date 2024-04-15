@@ -11,7 +11,7 @@ namespace LD55
       private int count { get { return SummonTypes.Count; } }
       private PlayerMouseActions player;
 
-      private int currentSelection = 0;
+      private int currentSelection = 1;
 
       public Image PrevImage, CurImage, NextImage;
 
