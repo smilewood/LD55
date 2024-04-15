@@ -9,7 +9,7 @@ namespace LD55
    {
       public MonoBehaviour Target;
       private IStatusBarCheckable status;
-      private Slider bar;
+      public Image bar;
 
       private void Start()
       {
@@ -22,13 +22,13 @@ namespace LD55
             Debug.LogError("Status target is not the right type");
          }
 
-         bar = GetComponent<Slider>();
+         
       }
 
       // Update is called once per frame
       void Update()
       {
-         bar.value = status?.CurrentPercent ?? 0;
+         bar.fillAmount = status?.CurrentPercent ?? 0;
       }
    }
 }
