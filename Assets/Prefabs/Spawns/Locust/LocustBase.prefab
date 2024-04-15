@@ -169,8 +169,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpawnPrefab: {fileID: 1020712989042804943}
   ManaCost: 2
+  ManaLock: 1
   Cooldown: 0.2
-  image: {fileID: -5931455476495837885, guid: d596c0a7fe71ded4c808d7d0ce803e92, type: 3}
+  image: {fileID: 21300000, guid: 72d4e20c41a895c42a88e48765bd5cb8, type: 3}
 --- !u!1 &6795797903344723361
 GameObject:
   m_ObjectHideFlags: 0

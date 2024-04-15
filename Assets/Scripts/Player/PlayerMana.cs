@@ -28,6 +28,7 @@ namespace LD55
       }
 
       public float MaxMana;
+      public float LockedMana;
       public float ManaPerTime;
       public float TimeInterval;
       public float CurrentMana
@@ -66,7 +67,7 @@ namespace LD55
 
       public void ChangeMana(float amount)
       {
-         CurrentMana = Mathf.Clamp(CurrentMana + amount, 0, MaxMana);
+         CurrentMana = Mathf.Clamp(CurrentMana + amount, 0, MaxMana - LockedMana);
       }
 
       public void DrainMana(float amount)

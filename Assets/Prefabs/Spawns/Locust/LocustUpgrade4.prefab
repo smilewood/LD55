@@ -186,6 +186,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LocustUpgrade4
       objectReference: {fileID: 0}
+    - target: {fileID: 8966396929076035249, guid: 369478117e0295a489a72288c4e3bafc, type: 3}
+      propertyPath: ManaLock
+      value: 0.75
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:

@@ -8,6 +8,7 @@ namespace LD55
    {
       public GameObject SpawnPrefab;
       public float ManaCost;
+      public float ManaLock;
       public float Cooldown;
 
       public Sprite image;

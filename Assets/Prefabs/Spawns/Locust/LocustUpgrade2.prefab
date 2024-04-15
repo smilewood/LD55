@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3479155822821828778}
   - component: {fileID: 1656542983866486431}
+  - component: {fileID: -5889391800184910864}
   m_Layer: 0
   m_Name: LocustUpgrade2
   m_TagString: Untagged
@@ -48,8 +49,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpawnPrefab: {fileID: 1273154182858612263}
   ManaCost: 1.5
+  ManaLock: 1
   Cooldown: 0.2
-  image: {fileID: -5931455476495837885, guid: d596c0a7fe71ded4c808d7d0ce803e92, type: 3}
+  image: {fileID: 21300000, guid: 72d4e20c41a895c42a88e48765bd5cb8, type: 3}
+--- !u!114 &-5889391800184910864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273154182858612263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 113a4a10bd5ff814db7bf0b4c815ac9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5144283742525282608
 PrefabInstance:
   m_ObjectHideFlags: 0
