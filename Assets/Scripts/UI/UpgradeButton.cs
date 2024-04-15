@@ -18,7 +18,8 @@ namespace LD55
       }
       private static UnityEvent _onUpgradeComplete;
 
-      public GameObject newPrefab;
+      public int PrefabIndex;
+      public Spawnable newPrefab;
 
       public GameObject NextTier;
 
@@ -39,6 +40,7 @@ namespace LD55
          button.interactable = false;
 
          //TODO: Also have to set the spawnning prefab to the new one
+         GameObject.Find("SummoningMenu").GetComponent<SpawnMenu>().UpgradeSummon(PrefabIndex, newPrefab);
 
          OnUpgradeComplete.Invoke();
       }

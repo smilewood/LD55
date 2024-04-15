@@ -15,6 +15,8 @@ namespace LD55
 
       public Image PrevImage, CurImage, NextImage;
 
+    
+
       private void Start()
       {
          player = GameObject.Find("PlayerRoot").GetComponent<PlayerMouseActions>();
@@ -47,6 +49,15 @@ namespace LD55
          {
             int result = start + delta;
             return result < 0 ? max-1 : result % max;
+         }
+      }
+
+      public void UpgradeSummon(int index, Spawnable newSpawnable)
+      {
+         if (index < SummonTypes.Count)
+         {
+            SummonTypes[index] = newSpawnable;
+            player.ActiveSpawnable = SummonTypes[currentSelection];
          }
       }
 
