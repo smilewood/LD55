@@ -35,7 +35,7 @@ namespace LD55
         {
             cooldownSec = 1.0f / projectilesPerSecond;
             cooldownTimeRemaining = 0f;
-            sprite = GetComponent<SpriteParalax>();
+            sprite = gameObject.GetComponentInChildren<SpriteParalax>();
         }
 
         // Update is called once per frame
@@ -78,7 +78,7 @@ namespace LD55
             return GameObject.FindGameObjectsWithTag(tag)
                 .Where(obj => !requireTag || obj.TryGetComponent<EnemyCanAttackMe>(out _))
                 .OrderBy(obj => (obj.transform.position - this.transform.position).magnitude)
-                .First();
+                .FirstOrDefault();
         }
 
     }
