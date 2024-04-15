@@ -20,8 +20,7 @@ namespace LD55
 
         private bool isMessageDisplayed;
         private bool currentMessageRequiresInteraction;
-        private bool messageTimerComplete;
-        private List<MessageInformation> messageQueue;
+        private List<MessageInformation> messageQueue = new List<MessageInformation>();
         private MessageInformation currentMessage;
         private Coroutine currentMessageCoroutine;
 
@@ -29,9 +28,7 @@ namespace LD55
         void Awake()
         {
 			messageDisplayPanel.SetActive(false);
-			messageQueue = new List<MessageInformation>();
             isMessageDisplayed = false;
-            messageTimerComplete = false;
             currentMessageRequiresInteraction = false;
 		}
 
@@ -51,7 +48,6 @@ namespace LD55
 					currentMessage = messageQueue.First();
                     currentMessageRequiresInteraction = currentMessage.Duration < 0;
 					isMessageDisplayed = true;
-                    messageTimerComplete = false;
 					messageTextBox.text = currentMessage.Message;
                     currentMessageCoroutine = null;
 

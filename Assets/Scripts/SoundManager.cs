@@ -205,7 +205,7 @@ namespace LD55
                                 {
                                     PlayerMessages playerMessager = playerMessagerObject.GetComponent<PlayerMessages>();
 
-                                    playerMessager.DisplayPlayerMessage(coupler.Clip.length * 1.2f, coupler.Sound);
+                                    playerMessager.DisplayPlayerMessage(coupler.Clip.length * 1.05f, coupler.Sound);
 								}
 							}
 							break;
