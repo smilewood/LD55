@@ -126,6 +126,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   ActuallyDestroyMe: 1
+  SpawnBlood: 1
 --- !u!114 &4862477960974846223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,7 +167,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpawnPrefab: {fileID: 1020712989042804943}
   ManaCost: 5
-  Cooldown: 1
+  Cooldown: 5
   image: {fileID: 7546929197557167200, guid: a322550f787e3e04b97c30a1d7e9c382, type: 3}
 --- !u!195 &5593867388198018965
 NavMeshAgent:
