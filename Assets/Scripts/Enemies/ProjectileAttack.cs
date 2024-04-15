@@ -16,7 +16,7 @@ namespace LD55
         public GameObject projectileToSpawn;
         public SoundOrMusic projectileFireSound;
         public float projectileSpeed;
-
+        private SpriteParalax sprite;
 
         public float AttackRangeMin = 0f; //leave at zero if no need for switching between melee and projectiles
         public float AttackRangeMax;
@@ -35,6 +35,7 @@ namespace LD55
         {
             cooldownSec = 1.0f / projectilesPerSecond;
             cooldownTimeRemaining = 0f;
+            sprite = GetComponent<SpriteParalax>();
         }
 
         // Update is called once per frame
@@ -66,7 +67,7 @@ namespace LD55
             Destroy(x.gameObject, ProjectileLifetime + ProjectileLifetimeOverride);
             cooldownTimeRemaining = cooldownSec;
             SoundManager.GlobalSoundManager.PlaySound(projectileFireSound);
-
+            sprite.SetAnimationTrigger("Attack");
         }
 
         [CanBeNull]
