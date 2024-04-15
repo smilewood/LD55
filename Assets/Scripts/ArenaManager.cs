@@ -15,16 +15,28 @@ namespace LD55
       public GameObject NextArena;
       public static ArenaManager ActiveArena;
       public bool FinalLevel;
-      // Start is called before the first frame update
-      void Start()
-      {
-         ActiveArena = this;
-         ActiveEnemies = EnemyParent.transform.Cast<Transform>().Select((t) => t.gameObject).ToList();
-         foreach(GameObject enemy in ActiveEnemies)
-         {
-            enemy.GetComponent<DestroyOnEvents>().OnDeath.AddListener(() => OnEnemyDamage(enemy));
-         }
-      }
+        // Start is called before the first frame update
+        void Start()
+        {
+            ActiveArena = this;
+            ActiveEnemies = EnemyParent.transform.Cast<Transform>().Select((t) => t.gameObject).ToList();
+            foreach (GameObject enemy in ActiveEnemies)
+            {
+                enemy.GetComponent<DestroyOnEvents>().OnDeath.AddListener(() => OnEnemyDamage(enemy));
+            }
+
+
+            BloodSplatter BloodSplatterManager = FindObjectOfType<BloodSplatter>();
+            if (BloodSplatterManager == null)
+            {
+                Debug.LogError("BloodSplatterManager not found");
+            }
+            else
+            {
+                OnArenaClear.AddListener(BloodSplatterManager.ClearBlood);
+            }
+        
+        }
 
       private void OnEnemyDamage(GameObject enemy)
       {
@@ -52,7 +64,14 @@ namespace LD55
       {
          GameObject level = Instantiate(NextArena, this.transform.parent);
          GameObject.Find("PlayerRoot").transform.position = level.transform.Find("SpawnPoint").position;
-         GameObject.Find("SummonParent").transform.position = level.transform.Find("SpawnPoint").position;
+         Vector3 spawn = level.transform.Find("SpawnPoint").position;
+         Transform summonParent = GameObject.Find("SummonParent").transform;
+         List<GameObject> oldSpawns = summonParent.Cast<Transform>().Select(t => t.gameObject).ToList();
+         foreach (GameObject summon in oldSpawns)
+         {
+            Instantiate(summon, spawn, Quaternion.identity, summonParent);
+            Destroy(summon);
+         }
          Destroy(this.gameObject);
       }
    }
