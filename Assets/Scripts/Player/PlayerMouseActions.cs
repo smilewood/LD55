@@ -19,6 +19,7 @@ namespace LD55
             cooldown -= Time.deltaTime;
          }
          if (cooldown <= 0 && 
+            !ActiveSpawnable.Locked &&
             Input.GetButton("Fire1") && 
             !EventSystem.current.IsPointerOverGameObject() &&
             PlayerMana.Instance.CurrentMana > ActiveSpawnable.ManaCost)

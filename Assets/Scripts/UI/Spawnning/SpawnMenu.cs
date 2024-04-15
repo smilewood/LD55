@@ -57,13 +57,12 @@ namespace LD55
          if (index < SummonTypes.Count)
          {
             SummonTypes[index] = newSpawnable;
-            player.ActiveSpawnable = SummonTypes[currentSelection];
          }
          if(index == SummonTypes.Count)
          {
             SummonTypes.Add(newSpawnable);
-            ChangeSelection(0);
          }
+         ChangeSelection(0);
       }
 
    }
