@@ -199,6 +199,14 @@ namespace LD55
 							if (!voiceSource.isPlaying)
 							{
 								voiceSource.Play();
+
+                                GameObject playerMessagerObject = GameObject.FindGameObjectWithTag("PlayerMessages");
+								if (playerMessagerObject != null)
+                                {
+                                    PlayerMessages playerMessager = playerMessagerObject.GetComponent<PlayerMessages>();
+
+                                    playerMessager.DisplayPlayerMessage(coupler.Clip.length * 1.2f, coupler.Sound);
+								}
 							}
 							break;
                         }

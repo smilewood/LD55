@@ -210,7 +210,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 119509785565233856, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -80.34
+      value: -127.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 120165665842486665, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
+      propertyPath: m_text
+      value: Thicker Shell
+      objectReference: {fileID: 0}
+    - target: {fileID: 524644467641986502, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
+      propertyPath: m_text
+      value: Lower the mana cost and ritual time of summonig a Tank Beetle
+      objectReference: {fileID: 0}
+    - target: {fileID: 688470309700385814, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
+      propertyPath: newPrefab
+      value: 
+      objectReference: {fileID: 7578458939497094909, guid: f1d04696c28ff464cbfc58591fa5c9a9, type: 3}
+    - target: {fileID: 688470309700385814, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
+      propertyPath: PrefabIndex
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1337082769033647165, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_ChildAlignment
@@ -240,6 +256,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -10
       objectReference: {fileID: 0}
+    - target: {fileID: 1574198858578994847, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
+      propertyPath: m_text
+      value: "Unlocks the \nTank Beetle"
+      objectReference: {fileID: 0}
     - target: {fileID: 1914081143911606808, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -282,7 +302,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2702714562037780745, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -80.34
+      value: -127.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 2703152764522352192, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
+      propertyPath: m_text
+      value: Mimic Carapace
       objectReference: {fileID: 0}
     - target: {fileID: 3179729631403161263, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchorMax.y
@@ -303,6 +327,14 @@ PrefabInstance:
     - target: {fileID: 3179729631403161263, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3288926311415623647, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
+      propertyPath: newPrefab
+      value: 
+      objectReference: {fileID: 5221860553101872826, guid: 6d6859d5a3faeef49b28b4d7481295c5, type: 3}
+    - target: {fileID: 3288926311415623647, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
+      propertyPath: PrefabIndex
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3293548056075203653, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchorMax.y
@@ -326,7 +358,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3943027450267774946, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_Name
-      value: UpgradeTree (2)
+      value: TankUpgradeTree
       objectReference: {fileID: 0}
     - target: {fileID: 4519718192458430929, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchorMax.y
@@ -387,6 +419,14 @@ PrefabInstance:
     - target: {fileID: 4920037869136293636, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027677680058823251, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
+      propertyPath: newPrefab
+      value: 
+      objectReference: {fileID: 6210355816573556233, guid: ee32efbc4ca00094585dca26ebd000d2, type: 3}
+    - target: {fileID: 5027677680058823251, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
+      propertyPath: PrefabIndex
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5403856332240277797, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchorMax.y
@@ -532,6 +572,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6294522573251246346, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
+      propertyPath: newPrefab
+      value: 
+      objectReference: {fileID: 6273325214221235893, guid: 653509b458fc29440bb67cc34fffade5, type: 3}
+    - target: {fileID: 6294522573251246346, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
+      propertyPath: PrefabIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6453864606827145434, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
+      propertyPath: m_text
+      value: Enemies mistake the Tank Beetle for Copil
+      objectReference: {fileID: 0}
+    - target: {fileID: 7045947030813334822, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
+      propertyPath: m_text
+      value: Tank Beetle
+      objectReference: {fileID: 0}
     - target: {fileID: 7576262192974434508, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -578,7 +634,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7622886335967223628, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -80.34
+      value: -127.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 7623346433960214533, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
+      propertyPath: m_text
+      value: The Rite of the Tank
+      objectReference: {fileID: 0}
+    - target: {fileID: 8886963163286801244, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
+      propertyPath: m_text
+      value: Ritual Expirence
       objectReference: {fileID: 0}
     - target: {fileID: 8887478263128052757, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchorMax.y
@@ -602,7 +666,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8887478263128052757, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -80.34
+      value: -155.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 9059508233376430867, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
+      propertyPath: m_text
+      value: Improves the health of the tank beetle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -668,7 +736,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 119509785565233856, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -80.34
+      value: -100.340004
       objectReference: {fileID: 0}
     - target: {fileID: 1337082769033647165, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_ChildAlignment
@@ -740,7 +808,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2702714562037780745, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -80.34
+      value: -100.340004
       objectReference: {fileID: 0}
     - target: {fileID: 3179729631403161263, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1036,7 +1104,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7622886335967223628, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -80.34
+      value: -100.340004
       objectReference: {fileID: 0}
     - target: {fileID: 8887478263128052757, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1060,7 +1128,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8887478263128052757, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -80.34
+      value: -100.340004
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1126,7 +1194,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 119509785565233856, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -80.34
+      value: -100.340004
       objectReference: {fileID: 0}
     - target: {fileID: 1337082769033647165, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_ChildAlignment
@@ -1198,7 +1266,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2702714562037780745, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -80.34
+      value: -100.340004
       objectReference: {fileID: 0}
     - target: {fileID: 3179729631403161263, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1494,7 +1562,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7622886335967223628, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -80.34
+      value: -100.340004
       objectReference: {fileID: 0}
     - target: {fileID: 8887478263128052757, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1518,7 +1586,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8887478263128052757, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -80.34
+      value: -100.340004
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1584,7 +1652,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 119509785565233856, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -107.94
+      value: -127.94
       objectReference: {fileID: 0}
     - target: {fileID: 120165665842486665, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_text
@@ -1672,7 +1740,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2702714562037780745, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -80.34
+      value: -100.340004
       objectReference: {fileID: 0}
     - target: {fileID: 2703152764522352192, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_text
@@ -1992,7 +2060,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7622886335967223628, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -107.94
+      value: -127.94
       objectReference: {fileID: 0}
     - target: {fileID: 7623346433960214533, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_text
@@ -2024,7 +2092,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8887478263128052757, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -135.53
+      value: -155.53
       objectReference: {fileID: 0}
     - target: {fileID: 9059508233376430867, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_text
@@ -2094,7 +2162,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 119509785565233856, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -80.34
+      value: -100.340004
       objectReference: {fileID: 0}
     - target: {fileID: 1337082769033647165, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_ChildAlignment
@@ -2166,7 +2234,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2702714562037780745, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -80.34
+      value: -100.340004
       objectReference: {fileID: 0}
     - target: {fileID: 3179729631403161263, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2462,7 +2530,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7622886335967223628, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -80.34
+      value: -100.340004
       objectReference: {fileID: 0}
     - target: {fileID: 8887478263128052757, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2486,7 +2554,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8887478263128052757, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -80.34
+      value: -100.340004
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
