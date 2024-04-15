@@ -87,7 +87,7 @@ namespace LD55
 
       void Update()
       {
-         if (Input.GetButtonDown("Space"))
+         if (Input.GetKeyDown(KeyCode.Space))
 			{
 				SkipCurrentTutorial();
 			}
