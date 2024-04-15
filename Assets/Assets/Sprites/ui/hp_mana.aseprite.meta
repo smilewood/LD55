@@ -123,7 +123,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: hp_mana_Frame_0
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.24193548}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -143,15 +143,15 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: hp_mana_Frame_1
     originalName: 
-    pivot: {x: 0.53333336, y: -0.033333335}
+    pivot: {x: 0.46875, y: -0.07017544}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 74
-      width: 15
-      height: 30
+      x: 42
+      y: 4
+      width: 32
+      height: 57
     spriteID: 8d7def303704e61499589f1a29e140dd
     spriteBone: []
     spriteOutline: []
@@ -160,7 +160,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 74}
+    uvTransform: {x: 42, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -173,18 +173,18 @@ ScriptedImporter:
     - name: hp_mana_Frame_0
       frameIndex: 0
       cellRect:
-        x: 1
-        y: -31
+        x: 17
+        y: -15
         width: 30
         height: 62
       spriteId: 2e3dafd351b6f3a49b5f3145d1fa5948
     - name: hp_mana_Frame_1
       frameIndex: 1
       cellRect:
-        x: 8
-        y: 1
-        width: 15
-        height: 30
+        x: 17
+        y: 4
+        width: 32
+        height: 57
       spriteId: 8d7def303704e61499589f1a29e140dd
     linkedCells: []
     parentIndex: -1
@@ -192,4 +192,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 32, y: 32}
+  canvasSize: {x: 64, y: 64}
