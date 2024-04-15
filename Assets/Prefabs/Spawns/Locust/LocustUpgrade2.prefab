@@ -49,7 +49,7 @@ MonoBehaviour:
   SpawnPrefab: {fileID: 1273154182858612263}
   ManaCost: 1.5
   Cooldown: 0.2
-  image: {fileID: 7152331250509596665, guid: 2ceeb6144773f7c4fbe0a31d8d1993df, type: 3}
+  image: {fileID: -5931455476495837885, guid: d596c0a7fe71ded4c808d7d0ce803e92, type: 3}
 --- !u!1001 &5144283742525282608
 PrefabInstance:
   m_ObjectHideFlags: 0
