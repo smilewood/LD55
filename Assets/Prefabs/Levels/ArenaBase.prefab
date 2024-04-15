@@ -24,12 +24,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 758423943274816894}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7028330937018058582}
+  m_Father: {fileID: 2490997885953985989}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1285735009976722197
 GameObject:
@@ -91,7 +91,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 3749210880774777683}
   m_Father: {fileID: 7028330937018058582}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &894816027564596704
@@ -107,13 +108,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AgentTypeID: 0
-  m_CollectObjects: 2
+  m_CollectObjects: 0
   m_Size: {x: 10, y: 10, z: 10}
   m_Center: {x: 0, y: 2, z: 0}
   m_LayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
-  m_UseGeometry: 0
+    m_Bits: 320
+  m_UseGeometry: 1
   m_DefaultArea: 0
   m_GenerateLinks: 0
   m_IgnoreNavMeshAgent: 1
@@ -123,7 +124,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 748936b169ac3d44fb9be3031de3bbea, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &2960850435189521793
 GameObject:
@@ -188,7 +189,6 @@ Transform:
   m_Children:
   - {fileID: 6663855107692890887}
   - {fileID: 2490997885953985989}
-  - {fileID: 3749210880774777683}
   - {fileID: 2089244241192094446}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -204,7 +204,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5c15de5231345a448d55afada3f1ee4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ActiveEnemies: []
+  EnemyParent: {fileID: 2960850435189521793}
   OnArenaClear:
     m_PersistentCalls:
       m_Calls: []
+  NextArena: {fileID: 0}
+  FinalLevel: 0

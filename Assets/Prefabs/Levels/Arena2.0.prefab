@@ -475,13 +475,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 894816027564596704, guid: 08336b1b91d64d0488f9686fc3ceccec, type: 3}
+      propertyPath: m_NavMeshData
+      value: 
+      objectReference: {fileID: 23800000, guid: 60836437487e38841ae354679088088d, type: 2}
+    - target: {fileID: 1248493783713471236, guid: 08336b1b91d64d0488f9686fc3ceccec, type: 3}
+      propertyPath: NextArena
+      value: 
+      objectReference: {fileID: 5875314309967171342, guid: ecf8638d95ac59b4ca935c646c8f073c, type: 3}
     - target: {fileID: 6663855107692890887, guid: 08336b1b91d64d0488f9686fc3ceccec, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.5
       objectReference: {fileID: 0}
     - target: {fileID: 6663855107692890887, guid: 08336b1b91d64d0488f9686fc3ceccec, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 97.45
+      value: 97.29
       objectReference: {fileID: 0}
     - target: {fileID: 6663855107692890887, guid: 08336b1b91d64d0488f9686fc3ceccec, type: 3}
       propertyPath: m_LocalPosition.z

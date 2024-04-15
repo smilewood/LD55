@@ -18,7 +18,10 @@ namespace LD55
          {
             cooldown -= Time.deltaTime;
          }
-         if (cooldown <= 0 && Input.GetButton("Fire1") && !EventSystem.current.IsPointerOverGameObject()) //left click
+         if (cooldown <= 0 && 
+            Input.GetButton("Fire1") && 
+            !EventSystem.current.IsPointerOverGameObject() &&
+            PlayerMana.Instance.CurrentMana > ActiveSpawnable.ManaCost)
          {
             Spawn();
          }
@@ -28,6 +31,8 @@ namespace LD55
       public void Spawn()
       {
          cooldown = ActiveSpawnable.Cooldown;
+
+
          PlayerMana.ManaChangeEvent.Invoke(-ActiveSpawnable.ManaCost);
 
          var angle = Random.Range(-45f, 45f);
