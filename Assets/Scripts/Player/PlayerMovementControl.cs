@@ -36,18 +36,18 @@ namespace LD55
             this.transform.rotation = Quaternion.Lerp(transform.rotation, lookTarget, LookSpeed * Time.deltaTime);
 
             OnMoveStateChange?.Invoke(true);
-			isMoving = true;
-		 }
+			isMoving = true; 
+         }
          else
          {
             OnMoveStateChange?.Invoke(false);
             isMoving = false;
-		 }
+		   }
       }
 
       private void FixedUpdate()
       {
-         RB.velocity = speed * inputDelta;
+         RB.velocity = speed * inputDelta.normalized;
       }
 
       private IEnumerator MovementSoundChecker()
