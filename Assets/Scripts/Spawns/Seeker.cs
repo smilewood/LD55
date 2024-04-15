@@ -19,7 +19,6 @@ namespace LD55
         {
             //potentially initialize by storing a reference to target, if generalizing
             this.RB = GetComponent<Rigidbody>();
-            
         }
 
         // Update is called once per frame
