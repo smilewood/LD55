@@ -170,12 +170,16 @@ namespace LD55
 
         }
         
-        void Update_Moving()
+        void Update_Moving(bool rotateOnly = false)
         {
             var closeEnoughVector = (transform.position - target.position).normalized * meleeDistance;
             this.navMeshAgent.SetDestination(closeEnoughVector + target.position);
             this.TargetPosition = navMeshAgent.nextPosition;
             this.TargetPosition = new Vector3(TargetPosition.x, target.position.y, TargetPosition.z);
+            if (rotateOnly)
+            {
+                this.TargetPosition = (TargetPosition - this.transform.position).normalized * 0.001f; //very short vector
+            }
             Debug.DrawLine(transform.position, TargetPosition);
         }
         #endregion
@@ -222,7 +226,7 @@ namespace LD55
         
         void Update_Melee()
         {
-            Update_Moving();
+            Update_Moving(true);
             //Don't do anything here, let's reuse the melee attack script. We can transition out of this once we're no longer in the radius
         }
         #endregion
