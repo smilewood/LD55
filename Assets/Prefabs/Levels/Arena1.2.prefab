@@ -116,13 +116,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 894816027564596704, guid: 08336b1b91d64d0488f9686fc3ceccec, type: 3}
+      propertyPath: m_NavMeshData
+      value: 
+      objectReference: {fileID: 23800000, guid: 5abd56a848432c946beb28b33315b5f1, type: 2}
+    - target: {fileID: 1248493783713471236, guid: 08336b1b91d64d0488f9686fc3ceccec, type: 3}
+      propertyPath: NextArena
+      value: 
+      objectReference: {fileID: 2522556922024674908, guid: 50ec1b5a56bce4042831458df6a7934d, type: 3}
+    - target: {fileID: 5274315418020689465, guid: 08336b1b91d64d0488f9686fc3ceccec, type: 3}
+      propertyPath: Sound
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 5274315418020689465, guid: 08336b1b91d64d0488f9686fc3ceccec, type: 3}
+      propertyPath: AudioState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6663855107692890887, guid: 08336b1b91d64d0488f9686fc3ceccec, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 6663855107692890887, guid: 08336b1b91d64d0488f9686fc3ceccec, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 45.15
+      value: 44.75
       objectReference: {fileID: 0}
     - target: {fileID: 6663855107692890887, guid: 08336b1b91d64d0488f9686fc3ceccec, type: 3}
       propertyPath: m_LocalPosition.z

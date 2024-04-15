@@ -36,7 +36,6 @@ namespace LD55
       public void ChangeSelection(int scroll)
       {
          currentSelection = CycleUpDown(currentSelection, count, scroll);
-         Debug.Log($"Change to spawnning {currentSelection}");
 
          PrevImage.sprite = SummonTypes[CycleUpDown(currentSelection, count, -1)].image;
          CurImage.sprite = SummonTypes[currentSelection].image;

@@ -8,12 +8,18 @@ namespace LD55
 {
    public class ArenaManager : MonoBehaviour
    {
-      public List<GameObject> ActiveEnemies;
-      public UnityEvent OnArenaClear;
+      private List<GameObject> ActiveEnemies;
+      public GameObject EnemyParent;
 
+      public UnityEvent OnArenaClear;
+      public GameObject NextArena;
+      public static ArenaManager ActiveArena;
+      public bool FinalLevel;
       // Start is called before the first frame update
       void Start()
       {
+         ActiveArena = this;
+         ActiveEnemies = EnemyParent.transform.Cast<Transform>().Select((t) => t.gameObject).ToList();
          foreach(GameObject enemy in ActiveEnemies)
          {
             enemy.GetComponent<DestroyOnEvents>().OnDeath.AddListener(() => OnEnemyDamage(enemy));
@@ -26,9 +32,28 @@ namespace LD55
          if (!ActiveEnemies.Any())
          {
             //All enemies are gone
-            OnArenaClear?.Invoke();
             SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.LevelCleared);
+            OnArenaClear?.Invoke();
+            if (!FinalLevel)
+            {
+               StartCoroutine(DelayLevelClear());
+            }
          }
+      }
+
+      public IEnumerator DelayLevelClear()
+      {
+         yield return new WaitForSeconds(1);
+         MenuFunctions.Instance.ShowMenu("UpgradeMenu");
+         MenuFunctions.PauseGame(false);
+      }
+
+      public void SpawnNextArena()
+      {
+         GameObject level = Instantiate(NextArena, this.transform.parent);
+         GameObject.Find("PlayerRoot").transform.position = level.transform.Find("SpawnPoint").position;
+         GameObject.Find("SummonParent").transform.position = level.transform.Find("SpawnPoint").position;
+         Destroy(this.gameObject);
       }
    }
 }

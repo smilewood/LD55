@@ -674,6 +674,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 894816027564596704, guid: 08336b1b91d64d0488f9686fc3ceccec, type: 3}
+      propertyPath: m_NavMeshData
+      value: 
+      objectReference: {fileID: 23800000, guid: 616be5f8aedfddf4c8635e5cd4f810f9, type: 2}
+    - target: {fileID: 1248493783713471236, guid: 08336b1b91d64d0488f9686fc3ceccec, type: 3}
+      propertyPath: NextArena
+      value: 
+      objectReference: {fileID: 5058243526045188330, guid: 19052a26bef350d4d92067bf6b501438, type: 3}
+    - target: {fileID: 5274315418020689465, guid: 08336b1b91d64d0488f9686fc3ceccec, type: 3}
+      propertyPath: Sound
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 5274315418020689465, guid: 08336b1b91d64d0488f9686fc3ceccec, type: 3}
+      propertyPath: AudioState
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6663855107692890887, guid: 08336b1b91d64d0488f9686fc3ceccec, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.67
