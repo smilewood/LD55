@@ -39,8 +39,10 @@ namespace LD55
          }
          button.interactable = false;
 
-         //TODO: Also have to set the spawnning prefab to the new one
-         GameObject.Find("SummoningMenu").GetComponent<SpawnMenu>().UpgradeSummon(PrefabIndex, newPrefab);
+         if(newPrefab != null)
+         {
+            GameObject.Find("SummoningMenu").GetComponent<SpawnMenu>().UpgradeSummon(PrefabIndex, newPrefab);
+         }
 
          OnUpgradeComplete.Invoke();
       }
