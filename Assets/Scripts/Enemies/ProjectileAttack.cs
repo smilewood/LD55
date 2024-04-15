@@ -17,7 +17,7 @@ namespace LD55
         public SoundOrMusic projectileFireSound;
         public float projectileSpeed;
         private SpriteParalax sprite;
-
+        
         public float AttackRangeMin = 0f; //leave at zero if no need for switching between melee and projectiles
         public float AttackRangeMax;
 
@@ -41,7 +41,8 @@ namespace LD55
         // Update is called once per frame
         void Update()
         {
-            var target = FindClosestObjectWithTag(TypeToAttack);
+            
+            var target = FindClosestObjectWithTag(TypeToAttack, TypeToAttack == "Player");
             if (target is null) 
             {
                 //Debug.Log("No target right now.");
@@ -71,11 +72,11 @@ namespace LD55
         }
 
         [CanBeNull]
-        GameObject FindClosestObjectWithTag(string tag)
+        GameObject FindClosestObjectWithTag(string tag, bool requireTag = true)
         {
             //attack the closest enemy that has the AttackMe script on it
             return GameObject.FindGameObjectsWithTag(tag)
-                .Where(obj => obj.TryGetComponent<EnemyCanAttackMe>(out _))
+                .Where(obj => !requireTag || obj.TryGetComponent<EnemyCanAttackMe>(out _))
                 .OrderBy(obj => (obj.transform.position - this.transform.position).magnitude)
                 .First();
         }
