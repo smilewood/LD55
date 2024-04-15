@@ -135,7 +135,21 @@ namespace LD55
 			}
         }
 
-		public void PlaySound(SoundOrMusic sound)
+        public float GetAudioLength(SoundOrMusic sound)
+        {
+#nullable enable
+			IEnumerable<AudioEnumCoupler>? audioCouplers = AudioCouplers.Where(audioCoupler => audioCoupler.Sound == sound);
+            if (audioCouplers != null)
+            {
+                AudioEnumCoupler coupler = audioCouplers.Count() > 1 ? audioCouplers.RandomElement() : audioCouplers.First();
+                return coupler.Clip.length;
+            }
+
+            return 0f;
+#nullable disable
+		}
+
+		public void PlaySound(SoundOrMusic sound, bool showVoiceSubtitles = true)
         {
 #nullable enable
             IEnumerable<AudioEnumCoupler>? audioCouplers = AudioCouplers.Where(audioCoupler => audioCoupler.Sound == sound);
@@ -193,6 +207,7 @@ namespace LD55
                         {
 							if ((voiceSource.clip?.name ?? string.Empty) != coupler.Clip.name)
 							{
+								voiceSource.Stop();
 								voiceSource.clip = coupler.Clip;
 							}
 
@@ -201,7 +216,7 @@ namespace LD55
 								voiceSource.Play();
 
                                 GameObject playerMessagerObject = GameObject.FindGameObjectWithTag("PlayerMessages");
-								if (playerMessagerObject != null)
+								if (playerMessagerObject != null && showVoiceSubtitles)
                                 {
                                     PlayerMessages playerMessager = playerMessagerObject.GetComponent<PlayerMessages>();
 
