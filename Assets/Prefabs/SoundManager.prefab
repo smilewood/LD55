@@ -232,6 +232,30 @@ MonoBehaviour:
   - Sound: 45
     Source: 1
     Clip: {fileID: 8300000, guid: 2cf71286819820a4f86a2ffbde4be8ae, type: 3}
+  - Sound: 46
+    Source: 1
+    Clip: {fileID: 8300000, guid: 2cf71286819820a4f86a2ffbde4be8ae, type: 3}
+  - Sound: 47
+    Source: 1
+    Clip: {fileID: 8300000, guid: 2cf71286819820a4f86a2ffbde4be8ae, type: 3}
+  - Sound: 48
+    Source: 1
+    Clip: {fileID: 8300000, guid: 2cf71286819820a4f86a2ffbde4be8ae, type: 3}
+  - Sound: 48
+    Source: 1
+    Clip: {fileID: 8300000, guid: 2cf71286819820a4f86a2ffbde4be8ae, type: 3}
+  - Sound: 49
+    Source: 1
+    Clip: {fileID: 8300000, guid: 2cf71286819820a4f86a2ffbde4be8ae, type: 3}
+  - Sound: 50
+    Source: 1
+    Clip: {fileID: 8300000, guid: 2cf71286819820a4f86a2ffbde4be8ae, type: 3}
+  - Sound: 51
+    Source: 1
+    Clip: {fileID: 8300000, guid: 2cf71286819820a4f86a2ffbde4be8ae, type: 3}
+  - Sound: 52
+    Source: 1
+    Clip: {fileID: 8300000, guid: 2cf71286819820a4f86a2ffbde4be8ae, type: 3}
 --- !u!82 &7000395054637141726
 AudioSource:
   m_ObjectHideFlags: 0

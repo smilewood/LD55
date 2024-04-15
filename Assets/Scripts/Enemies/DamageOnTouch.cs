@@ -29,5 +29,21 @@ namespace LD55
             OnDealDamage?.Invoke();
          }
       }
+
+      private void OnTriggerEnter(Collider other)
+      {
+         if (other.gameObject.CompareTag(TypeToDamage))
+         {
+            if (other.gameObject.TryGetComponent(out HealthTracker hp))
+            {
+               hp.ApplyDamage(DamageAmount);
+               if (hp.CurrentHealth <= 0)
+               {
+                  PlayerMana.ManaChangeEvent.Invoke(ManaOnKill);
+               }
+            }
+            OnDealDamage?.Invoke();
+         }
+      }
    }
 }

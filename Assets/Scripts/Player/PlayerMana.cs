@@ -32,6 +32,7 @@ namespace LD55
       public float LockBuffer;
       public float ManaPerTime;
       public float TimeInterval;
+      public bool ManaLocking = true;
       public float CurrentMana
       {
          get; private set;
@@ -68,7 +69,7 @@ namespace LD55
       public UnityEvent OutOfMana;
       public void ChangeMana(float amount)
       {
-         CurrentMana = Mathf.Min(CurrentMana + amount, MaxMana - Mathf.Clamp(LockedMana - LockBuffer, 0, MaxMana));
+         CurrentMana = Mathf.Min(CurrentMana + amount, MaxMana - Mathf.Clamp(LockedMana - LockBuffer, 0, ManaLocking ? MaxMana : 0));
          if(CurrentMana < 0)
          {
             OutOfMana.Invoke();

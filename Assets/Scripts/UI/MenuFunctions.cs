@@ -121,7 +121,7 @@ public class MenuFunctions : MonoBehaviour
    public static void RestartLevel()
    {
       ResumeGame();
-      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); 
    }
 
    public void ShowMenu(string menu)
