@@ -28,7 +28,7 @@ namespace LD55
 
     public enum SoundOrMusic
     { 
-        // Movement
+	    // Movement
         FlightInsectEnd,
         FlightInsectLoop,
         FlightInsectStart,
@@ -75,6 +75,8 @@ namespace LD55
         VoiceDefeat,
         VoiceVictory,
         VoiceLaugh,
+        
+        None,
 	}
 
     public enum AudioSourceType
