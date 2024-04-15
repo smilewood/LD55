@@ -8,19 +8,38 @@ namespace LD55
 {
    [Serializable]
    public class FallOffEdgeEvent : UnityEvent {}
+
+    
    public class FallOffEdge : MonoBehaviour
    {
-      public FallOffEdgeEvent OverTheEdge;
+        [SerializeField]
+        private ParticleSystem windParticles;
+
+        private bool flying;
+
+        public FallOffEdgeEvent OverTheEdge;
+
+        // Update is called once per frame
+        void Update()
+        {
+            Debug.DrawLine(transform.position, transform.position + (Vector3.down * 2));
+            if (!Physics.Raycast(new Ray(transform.position, Vector3.down), out RaycastHit hit, 2) || !hit.collider.gameObject.CompareTag("Floor"))
+            {
+                OverTheEdge?.Invoke();
+                if (!flying)
+                {
+                    flying = true;
+                    windParticles.Play();
+                }
+                // Debug.Log($"{gameObject.name} Fell off the edge!");
+            }
+            else if (flying)
+            {
+                flying = false;
+                windParticles.Stop();
+            }
+        }
+        
       
-      // Update is called once per frame
-      void Update()
-      {
-         Debug.DrawLine(transform.position, transform.position + (Vector3.down * 2));
-         if (!Physics.Raycast(new Ray(transform.position, Vector3.down), out RaycastHit hit, 2) || !hit.collider.gameObject.CompareTag("Floor"))
-         {
-            OverTheEdge?.Invoke();
-           // Debug.Log($"{gameObject.name} Fell off the edge!");
-         }
-      }
    }
 }
