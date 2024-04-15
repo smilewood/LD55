@@ -144,15 +144,15 @@ ScriptedImporter:
   spriteSheetImportData:
   - name: X_0
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 16
-      height: 16
+      width: 32
+      height: 31
     spriteID: 8e64c385d76e768478e27882287393ac
     spriteBone: []
     spriteOutline: []
