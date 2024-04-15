@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2190452875302706894}
   - component: {fileID: 6098753653667431233}
   - component: {fileID: 420197244540119472}
+  - component: {fileID: 9136943742616517809}
   m_Layer: 5
   m_Name: UpgradeMenu
   m_TagString: Untagged
@@ -76,6 +77,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &9136943742616517809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523067102644483044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e5f565c800b414691ed754c9b8f8b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2668073469538010565
 GameObject:
   m_ObjectHideFlags: 0

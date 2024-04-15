@@ -82,9 +82,14 @@ namespace LD55
       
       public void SetAttackTrigger()
       {
+         SetAnimationTrigger("Attack");
+      }
+
+      public void SetAnimationTrigger(string trigger)
+      {
          foreach (Animator a in GetComponentsInChildren<Animator>())
          {
-            a.SetTrigger("Attack");
+            a.SetTrigger(trigger);
          }
       }
 

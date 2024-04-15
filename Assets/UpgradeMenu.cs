@@ -6,15 +6,19 @@ namespace LD55
 {
    public class UpgradeMenu : MonoBehaviour
    {
+
       // Start is called before the first frame update
       void Start()
       {
-         UpgradeButton.OnUpgradeComplete.AddListener(HideMenu);
+         UpgradeButton.OnUpgradeComplete.AddListener(UpgradeComplete);
       }
 
-      private void HideMenu()
+
+      private void UpgradeComplete()
       {
-         this.gameObject.SetActive(false);
+         ArenaManager.ActiveArena.SpawnNextArena();
+         MenuFunctions.Instance.HideMenu("UpgradeMenu");
+         MenuFunctions.ResumeGame();
       }
 
    }

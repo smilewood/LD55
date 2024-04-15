@@ -17,6 +17,16 @@ namespace LD55
       }
       private static UnityEvent<float> _manaChangeEvent;
 
+      public static PlayerMana Instance
+      {
+         get; private set;
+      }
+      private void Awake()
+      {
+         Debug.Assert(Instance == null, "There should only be one PlayerMana instance, some info may be lost");
+         Instance = this;
+      }
+
       public float MaxMana;
       public float ManaPerTime;
       public float TimeInterval;

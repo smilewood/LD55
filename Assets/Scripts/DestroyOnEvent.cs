@@ -7,11 +7,16 @@ namespace LD55
    {
       public float ManaOnDestroy;
       public UnityEvent OnDeath;
+      public bool ActuallyDestroyMe = true;
       public void DestroyMe()
       {
          OnDeath?.Invoke();
          PlayerMana.ManaChangeEvent.Invoke(ManaOnDestroy);
-         Destroy(this.gameObject);
+         
+         if (ActuallyDestroyMe)
+         {
+            Destroy(this.gameObject);
+         }
       }
 
       public void OnZeroHealth (HealthTracker hp, int _)
