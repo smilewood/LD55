@@ -1340,7 +1340,7 @@ PrefabInstance:
     - target: {fileID: -6093592463355912122, guid: 6dc00aa92dcb8a243a7642f4bfc76e29, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: ff067310181ab0b4e97be687f14b51e9, type: 2}
+      objectReference: {fileID: 2100000, guid: cbdb349e2e0425141ad69c6615a22812, type: 2}
     - target: {fileID: -6075054118532555049, guid: 6dc00aa92dcb8a243a7642f4bfc76e29, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1912,7 +1912,7 @@ PrefabInstance:
     - target: {fileID: -4683669308469848369, guid: 6dc00aa92dcb8a243a7642f4bfc76e29, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: ff067310181ab0b4e97be687f14b51e9, type: 2}
+      objectReference: {fileID: 2100000, guid: cbdb349e2e0425141ad69c6615a22812, type: 2}
     - target: {fileID: -4676855365378227500, guid: 6dc00aa92dcb8a243a7642f4bfc76e29, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -3456,7 +3456,7 @@ PrefabInstance:
     - target: {fileID: -804731622281664130, guid: 6dc00aa92dcb8a243a7642f4bfc76e29, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: ff067310181ab0b4e97be687f14b51e9, type: 2}
+      objectReference: {fileID: 2100000, guid: cbdb349e2e0425141ad69c6615a22812, type: 2}
     - target: {fileID: -803905389685475075, guid: 6dc00aa92dcb8a243a7642f4bfc76e29, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -3516,7 +3516,7 @@ PrefabInstance:
     - target: {fileID: -678588488315902003, guid: 6dc00aa92dcb8a243a7642f4bfc76e29, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: ff067310181ab0b4e97be687f14b51e9, type: 2}
+      objectReference: {fileID: 2100000, guid: cbdb349e2e0425141ad69c6615a22812, type: 2}
     - target: {fileID: -668338704640161452, guid: 6dc00aa92dcb8a243a7642f4bfc76e29, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -12189,7 +12189,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000061035156, y: -392.62}
+  m_AnchoredPosition: {x: 0, y: -392.62}
   m_SizeDelta: {x: -787.8527, y: -785.2352}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1949364562
