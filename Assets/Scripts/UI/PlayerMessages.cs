@@ -111,29 +111,29 @@ namespace LD55
                 case SoundOrMusic.VoiceDesert2:
                     return "The dunes bring forth plenty of challengers that are crushed by my scorpion legions.";
 			    case SoundOrMusic.VoiceDesert3:
-                        return "I wonder what strange entity has found quarrel in my realm. You shall be vanquished!";
+                    return "I wonder what strange entity has found quarrel in my realm. You shall be vanquished!";
 			    case SoundOrMusic.VoicePyramid1:
-                        return "Impossible. A Summoned with the kiss of the desert goddess? No matter, you will soon be fodder for my minions!";
+                    return "Impossible. A Summoned with the kiss of the desert goddess? No matter, you will soon be fodder for my minions!";
 			    case SoundOrMusic.VoicePyramid2:
-                        return "A moth child dares to wield the very craft I have perfected?!";
+                    return "A moth child dares to wield the very craft I have perfected?!";
 			    case SoundOrMusic.VoicePyramid3:
-                        return "I admire your persistence, but you won’t get much farther against my ancient horrors.";
+                    return "I admire your persistence, but you won’t get much farther against my ancient horrors.";
 			    case SoundOrMusic.VoiceTower1:
-                        return "Very well, intruder. I acknowledge your ability. You shall encounter my most hideous creatures, shaped from the dunes of time.";
+                    return "Very well, intruder. I acknowledge your ability. You shall encounter my most hideous creatures, shaped from the dunes of time.";
 			    case SoundOrMusic.VoiceTower2:
-                        return "You still rush towards your doom? Very well. Come closer, and you shall have the fight you seek.";
+                    return "You still rush towards your doom? Very well. Come closer, and you shall have the fight you seek.";
 			    case SoundOrMusic.VoiceTower3:
-                        return "If even the creatures of my greatest imagination are of no issue, then perhaps I have underestimated you, strange visage.";
+                    return "If even the creatures of my greatest imagination are of no issue, then perhaps I have underestimated you, strange visage.";
 			    case SoundOrMusic.VoiceTower4:
-                        return "Your soul… it’s strange. I recall your presence from a life long passed. Who might you be? For what reason do you lay ruin to my spawn?";
+                    return "Your soul… it’s strange. I recall your presence from a life long passed. Who might you be? For what reason do you lay ruin to my spawn?";
 			    case SoundOrMusic.VoiceBoss1:
-                        return "I recognize you now. The pitiful offspring of the desert goddess. And here you are squabbling in the eternal afterlife. I shall enjoy ending you once again!";
+                    return "I recognize you now. The pitiful offspring of the desert goddess, and here you are squabbling in the eternal afterlife? I shall enjoy ending you once again!";
 			    case SoundOrMusic.VoiceBoss2:
-                        return "No.. no! This can’t be happening. Has the eternal desert goddess herself summoned you to quell my power?";
+                    return "No... no! This can’t be happening. Has the eternal desert goddess herself summoned you to quell my power?";
 			    case SoundOrMusic.VoiceDefeat:
-                        return "As I expected. Yet another pest returns to the eternal desert.";
+                    return "As I expected. Yet another pest returns to the eternal desert.";
 				case SoundOrMusic.VoiceVictory:
-					return "My dynasty crushed and my power usurped… All by a mere child! Impudent! Curse you Copil, curse you! (fades to nothing)";
+					return "My dynasty crushed and my power usurped... All by a mere child! Impudent! Curse you Copil, curse you!";
 				case SoundOrMusic.VoiceLaugh:
                     return "Hahaha!";
                 default:
