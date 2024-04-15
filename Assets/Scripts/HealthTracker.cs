@@ -36,8 +36,10 @@ namespace LD55
 
       public void ApplyDamage(int damageAmount)
       {
-         CurrentHealth = Math.Clamp(CurrentHealth - damageAmount, 0, MaxHealth); 
-         OnHealthChange?.Invoke(this, damageAmount);
+	      int previousHealth = CurrentHealth;
+	      CurrentHealth = Math.Clamp(CurrentHealth - damageAmount, 0, MaxHealth);
+	      if (CurrentHealth == previousHealth) return; //no actual change
+	      OnHealthChange?.Invoke(this, damageAmount);
          Debug.Log($"{gameObject.name} took {damageAmount} points of damage");
 
             if (gameObject.tag == "Enemy")
