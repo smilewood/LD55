@@ -8182,8 +8182,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: source
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
-  m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a4623903a3dc7d642817d6a544fb8fbd, type: 2}
+  m_sharedMaterial: {fileID: 4556832380984213751, guid: a4623903a3dc7d642817d6a544fb8fbd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11992,8 +11992,8 @@ MonoBehaviour:
   m_text: Impossible. A Summoned with the kiss of the desert goddess? No matter,
     you will soon be fodder for my minions!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
-  m_sharedMaterial: {fileID: -8734806116346293633, guid: f1139d742ab116f47a0915ce1e7d39ce, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a4623903a3dc7d642817d6a544fb8fbd, type: 2}
+  m_sharedMaterial: {fileID: 4556832380984213751, guid: a4623903a3dc7d642817d6a544fb8fbd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12017,7 +12017,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
+  m_fontSize: 37.1
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
