@@ -8,6 +8,7 @@ namespace LD55
       public Spawnable ActiveSpawnable;
       public Transform SummonParent;
       public float distanceToSpawnFromPlayer;
+	   public bool CanISummon = true;
 
       private float cooldown;
 
@@ -18,7 +19,8 @@ namespace LD55
          {
             cooldown -= Time.deltaTime;
          }
-         if (cooldown <= 0 && 
+         if (CanISummon &&
+            cooldown <= 0 && 
             !ActiveSpawnable.Locked &&
             Input.GetButton("Fire1") && 
             !EventSystem.current.IsPointerOverGameObject() &&

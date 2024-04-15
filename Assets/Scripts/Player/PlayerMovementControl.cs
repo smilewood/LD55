@@ -16,6 +16,7 @@ namespace LD55
       private SpriteParalax sprite;
       private bool isMoving;
       public UnityEvent<bool> OnMoveStateChange;
+      public bool CanIMove = true;
 
       // Start is called before the first frame update
       void Start()
@@ -29,7 +30,15 @@ namespace LD55
       // Update is called once per frame
       void Update()
       {
-         inputDelta = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
+         if (CanIMove)
+         {
+            inputDelta = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
+         }
+         else
+         {
+            inputDelta = Vector3.zero;
+         }
+         
          if (inputDelta.magnitude > .001)
          {
             Quaternion lookTarget = Quaternion.LookRotation(-inputDelta, Vector3.up);
