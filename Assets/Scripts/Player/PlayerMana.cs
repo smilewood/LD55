@@ -65,10 +65,14 @@ namespace LD55
             ChangeMana(ManaPerTime);
          }
       }
-
+      public UnityEvent OutOfMana;
       public void ChangeMana(float amount)
       {
-         CurrentMana = Mathf.Clamp(CurrentMana + amount, 0, MaxMana - Mathf.Clamp(LockedMana - LockBuffer, 0, MaxMana));
+         CurrentMana = Mathf.Min(CurrentMana + amount, MaxMana - Mathf.Clamp(LockedMana - LockBuffer, 0, MaxMana));
+         if(CurrentMana < 0)
+         {
+            OutOfMana.Invoke();
+         }
       }
 
       public void DrainMana(float amount)

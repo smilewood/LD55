@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 6012642157287296613}
   - component: {fileID: 1899076995865323482}
   - component: {fileID: 1229910179410327147}
+  - component: {fileID: -4335861407774813144}
+  - component: {fileID: 2197554689288349745}
   m_Layer: 9
   m_Name: Boss
   m_TagString: Boss
@@ -50,7 +52,19 @@ MonoBehaviour:
   MaxHealth: 0
   OnHealthChange:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2197554689288349745}
+        m_TargetAssemblyTypeName: LD55.DestroyOnEvents, Assembly-CSharp
+        m_MethodName: OnZeroHealth
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!195 &6012642157287296613
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -115,3 +129,46 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-4335861407774813144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7716963878643322758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27be1ab52a596c040a20efa39e051723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AlsoPause: 0
+--- !u!114 &2197554689288349745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7716963878643322758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a3ccd2c70a5224eb372def3d4cdcf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ManaOnDestroy: 0
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -4335861407774813144}
+        m_TargetAssemblyTypeName: LD55.ShowMenuOnEvent, Assembly-CSharp
+        m_MethodName: ShowMenu
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Victory
+          m_BoolArgument: 0
+        m_CallState: 2
+  ActuallyDestroyMe: 0
+  SpawnBlood: 0
