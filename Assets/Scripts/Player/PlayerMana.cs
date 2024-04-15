@@ -66,13 +66,15 @@ namespace LD55
             ChangeMana(ManaPerTime);
          }
       }
-      public UnityEvent OutOfMana;
       public void ChangeMana(float amount)
       {
          CurrentMana = Mathf.Min(CurrentMana + amount, MaxMana - Mathf.Clamp(LockedMana - LockBuffer, 0, ManaLocking ? MaxMana : 0));
          if(CurrentMana < 0)
          {
-            OutOfMana.Invoke();
+            if (GetComponent<FallOffEdge>().CheckFalling())
+            {
+               GetComponent<HealthTracker>().ApplyDamage(999);
+            }
          }
       }
 
