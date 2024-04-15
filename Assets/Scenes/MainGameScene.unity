@@ -11588,6 +11588,22 @@ PrefabInstance:
       propertyPath: Target
       value: 
       objectReference: {fileID: 1713128984}
+    - target: {fileID: 4304947476651212529, guid: 211c0fc9a34d53542a55b061f52c9e71, type: 3}
+      propertyPath: SummonTypes.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4304947476651212529, guid: 211c0fc9a34d53542a55b061f52c9e71, type: 3}
+      propertyPath: SummonTypes.Array.data[0]
+      value: 
+      objectReference: {fileID: 6908497582715893352, guid: 280789c89ed89074aa64b0f561581940, type: 3}
+    - target: {fileID: 4304947476651212529, guid: 211c0fc9a34d53542a55b061f52c9e71, type: 3}
+      propertyPath: SummonTypes.Array.data[1]
+      value: 
+      objectReference: {fileID: 6210355816573556233, guid: 4643b11f830f6294c955cc1b43491d3c, type: 3}
+    - target: {fileID: 4304947476651212529, guid: 211c0fc9a34d53542a55b061f52c9e71, type: 3}
+      propertyPath: SummonTypes.Array.data[3]
+      value: 
+      objectReference: {fileID: -1422862568107010908, guid: 78c1c53789adcb14285507dea0a2390a, type: 3}
     - target: {fileID: 7370447134098234592, guid: 211c0fc9a34d53542a55b061f52c9e71, type: 3}
       propertyPath: Target
       value: 
