@@ -53,7 +53,7 @@ public class MenuFunctions : MonoBehaviour
    public static void StartLevel(string level)
    {
       ResumeGame();
-      SceneManager.LoadScene(level);
+      SceneManager.LoadSceneAsync(level);
    }
 
    private static float preMuteVolume = 100;
