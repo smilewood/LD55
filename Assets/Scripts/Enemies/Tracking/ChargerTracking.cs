@@ -140,6 +140,7 @@ namespace LD55
             this.TargetPosition = target.position + overshootVector;
             
             chargeTimeElapsed = 0;
+            SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.ChargerZoom);
         }
         
         void Update_Charging()

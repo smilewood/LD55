@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 3149270885142377872}
   - component: {fileID: 6210355816573556233}
   - component: {fileID: 5593867388198018965}
+  - component: {fileID: 8313374499101175746}
   m_Layer: 0
   m_Name: TankBase
   m_TagString: Player
@@ -193,6 +194,25 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &8313374499101175746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020712989042804943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ff556b644e7234eb4a9c14bc5c2abf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TypeToDamage: Enemy
+  MeleeRange: 3
+  DamagePerHit: 1
+  CooldownSeconds: 2
+  OnAttack:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &6795797903344723361
 GameObject:
   m_ObjectHideFlags: 0
