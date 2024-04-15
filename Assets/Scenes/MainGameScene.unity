@@ -12018,6 +12018,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 977854459}
     m_Modifications:
     - target: {fileID: 517055194162495458, guid: 211c0fc9a34d53542a55b061f52c9e71, type: 3}
+      propertyPath: SummonTypes.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 517055194162495458, guid: 211c0fc9a34d53542a55b061f52c9e71, type: 3}
       propertyPath: SummonTypes.Array.data[0]
       value: 
       objectReference: {fileID: 6210355816573556233, guid: 4643b11f830f6294c955cc1b43491d3c, type: 3}
