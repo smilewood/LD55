@@ -64,7 +64,14 @@ namespace LD55
       {
          GameObject level = Instantiate(NextArena, this.transform.parent);
          GameObject.Find("PlayerRoot").transform.position = level.transform.Find("SpawnPoint").position;
-         GameObject.Find("SummonParent").transform.position = level.transform.Find("SpawnPoint").position;
+         Vector3 spawn = level.transform.Find("SpawnPoint").position;
+         Transform summonParent = GameObject.Find("SummonParent").transform;
+         List<GameObject> oldSpawns = summonParent.Cast<Transform>().Select(t => t.gameObject).ToList();
+         foreach (GameObject summon in oldSpawns)
+         {
+            Instantiate(summon, spawn, Quaternion.identity, summonParent);
+            Destroy(summon);
+         }
          Destroy(this.gameObject);
       }
    }
