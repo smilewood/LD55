@@ -328,7 +328,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilesPerSecond: 1
-  projectileToSpawn: {fileID: 1020712989042804943, guid: e62fb1b10a897ab4cbf6c936d56687a6, type: 3}
+  projectileToSpawn: {fileID: 1020712989042804943, guid: 679da3cadc262f74594e373776306ffa, type: 3}
   projectileFireSound: 20
   projectileSpeed: 6
   AttackRangeMin: 0
