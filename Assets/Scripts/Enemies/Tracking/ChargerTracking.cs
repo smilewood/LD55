@@ -163,7 +163,7 @@ namespace LD55
         void Start_Moving()
         {
             currentState = ChargerState.Moving;
-            target = GameObject.Find("PlayerRoot").GetComponent<Transform>();
+            target = FindTargetPosition();
             
             this.movement.speed = regularLookSpeed;
             this.movement.LookSpeed = regularMoveSpeed;

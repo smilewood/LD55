@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 32
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -75,7 +75,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -88,7 +88,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638487744286750075
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -123,7 +123,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: mortar beetle_Frame_0
     originalName: 
-    pivot: {x: 0.5, y: -0.22727273}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -143,7 +143,7 @@ ScriptedImporter:
     uvTransform: {x: 40, y: 97}
   - name: mortar beetle_Frame_3
     originalName: 
-    pivot: {x: 0.5, y: -0.375}
+    pivot: {x: 0.5, y: 0.625}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -163,7 +163,7 @@ ScriptedImporter:
     uvTransform: {x: 112, y: 60}
   - name: mortar beetle_Frame_4
     originalName: 
-    pivot: {x: 0.5185185, y: -0.125}
+    pivot: {x: 0.5185185, y: 0.5416667}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -183,7 +183,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 207}
   - name: mortar beetle_Frame_5
     originalName: 
-    pivot: {x: 0.5, y: -0.125}
+    pivot: {x: 0.5, y: 0.5416667}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -203,7 +203,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 175}
   - name: mortar beetle_Frame_10
     originalName: 
-    pivot: {x: 0.5185185, y: -0.13043478}
+    pivot: {x: 0.5185185, y: 0.5652174}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -223,7 +223,7 @@ ScriptedImporter:
     uvTransform: {x: 40, y: 66}
   - name: mortar beetle_Frame_11
     originalName: 
-    pivot: {x: 0.5, y: -0.13043478}
+    pivot: {x: 0.5, y: 0.5652174}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -243,7 +243,7 @@ ScriptedImporter:
     uvTransform: {x: 40, y: 4}
   - name: mortar beetle_Frame_12
     originalName: 
-    pivot: {x: 0.5, y: -0.22727273}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -263,7 +263,7 @@ ScriptedImporter:
     uvTransform: {x: 40, y: 127}
   - name: mortar beetle_Frame_13
     originalName: 
-    pivot: {x: 0.5, y: -0.1904762}
+    pivot: {x: 0.5, y: 0.5714286}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -283,7 +283,7 @@ ScriptedImporter:
     uvTransform: {x: 40, y: 157}
   - name: mortar beetle_Frame_14
     originalName: 
-    pivot: {x: 0.5, y: -0.1904762}
+    pivot: {x: 0.5, y: 0.5714286}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -303,7 +303,7 @@ ScriptedImporter:
     uvTransform: {x: 40, y: 186}
   - name: mortar beetle_Frame_15
     originalName: 
-    pivot: {x: 0.5, y: -0.1904762}
+    pivot: {x: 0.5, y: 0.5714286}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -323,7 +323,7 @@ ScriptedImporter:
     uvTransform: {x: 40, y: 215}
   - name: mortar beetle_Frame_16
     originalName: 
-    pivot: {x: 0.5, y: -0.1904762}
+    pivot: {x: 0.5, y: 0.5714286}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -343,7 +343,7 @@ ScriptedImporter:
     uvTransform: {x: 76, y: 4}
   - name: mortar beetle_Frame_17
     originalName: 
-    pivot: {x: 0.5, y: -0.24}
+    pivot: {x: 0.5, y: 0.39999998}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -363,7 +363,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 109}
   - name: mortar beetle_Frame_18
     originalName: 
-    pivot: {x: 0.5, y: -0.24}
+    pivot: {x: 0.5, y: 0.39999998}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -383,7 +383,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 142}
   - name: mortar beetle_Frame_33
     originalName: 
-    pivot: {x: 0.5, y: -0.375}
+    pivot: {x: 0.5, y: 0.625}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -403,7 +403,7 @@ ScriptedImporter:
     uvTransform: {x: 112, y: 84}
   - name: mortar beetle_Frame_34
     originalName: 
-    pivot: {x: 0.5, y: -0.3529412}
+    pivot: {x: 0.5, y: 0.5882353}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -423,7 +423,7 @@ ScriptedImporter:
     uvTransform: {x: 112, y: 4}
   - name: mortar beetle_Frame_35
     originalName: 
-    pivot: {x: 0.5, y: -0.2777778}
+    pivot: {x: 0.5, y: 0.6111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -443,7 +443,7 @@ ScriptedImporter:
     uvTransform: {x: 76, y: 123}
   - name: mortar beetle_Frame_36
     originalName: 
-    pivot: {x: 0.5, y: -0.2777778}
+    pivot: {x: 0.5, y: 0.6111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -463,7 +463,7 @@ ScriptedImporter:
     uvTransform: {x: 76, y: 149}
   - name: mortar beetle_Frame_37
     originalName: 
-    pivot: {x: 0.5, y: -0.2777778}
+    pivot: {x: 0.5, y: 0.6111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -483,7 +483,7 @@ ScriptedImporter:
     uvTransform: {x: 76, y: 175}
   - name: mortar beetle_Frame_38
     originalName: 
-    pivot: {x: 0.5, y: -0.33333334}
+    pivot: {x: 0.5, y: 0.5555556}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -503,7 +503,7 @@ ScriptedImporter:
     uvTransform: {x: 76, y: 201}
   - name: mortar beetle_Frame_39
     originalName: 
-    pivot: {x: 0.5, y: -0.33333334}
+    pivot: {x: 0.5, y: 0.5555556}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -523,7 +523,7 @@ ScriptedImporter:
     uvTransform: {x: 76, y: 227}
   - name: mortar beetle_Frame_40
     originalName: 
-    pivot: {x: 0.5, y: -0.17391305}
+    pivot: {x: 0.5, y: 0.5217391}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -543,7 +543,7 @@ ScriptedImporter:
     uvTransform: {x: 40, y: 35}
   - name: mortar beetle_Frame_41
     originalName: 
-    pivot: {x: 0.5, y: -0.07692308}
+    pivot: {x: 0.5, y: 0.53846157}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -563,7 +563,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 75}
   - name: mortar beetle_Frame_42
     originalName: 
-    pivot: {x: 0.5, y: -0.071428575}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -583,7 +583,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: mortar beetle_Frame_49
     originalName: 
-    pivot: {x: 0.5, y: -0.375}
+    pivot: {x: 0.5, y: 0.625}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -603,7 +603,7 @@ ScriptedImporter:
     uvTransform: {x: 112, y: 108}
   - name: mortar beetle_Frame_50
     originalName: 
-    pivot: {x: 0.5, y: -0.3}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -623,7 +623,7 @@ ScriptedImporter:
     uvTransform: {x: 76, y: 33}
   - name: mortar beetle_Frame_51
     originalName: 
-    pivot: {x: 0.5, y: -0.11111111}
+    pivot: {x: 0.5, y: 0.4814815}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -643,7 +643,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 40}
   - name: mortar beetle_Frame_2
     originalName: 
-    pivot: {x: 0.5, y: -0.2857143}
+    pivot: {x: 0.5, y: 0.47619048}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -663,7 +663,7 @@ ScriptedImporter:
     uvTransform: {x: 112, y: 162}
   - name: mortar beetle_Frame_8
     originalName: 
-    pivot: {x: 0.5, y: -0.2857143}
+    pivot: {x: 0.5, y: 0.47619048}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -683,7 +683,7 @@ ScriptedImporter:
     uvTransform: {x: 112, y: 191}
   - name: mortar beetle_Frame_9
     originalName: 
-    pivot: {x: 0.5, y: -0.2857143}
+    pivot: {x: 0.5, y: 0.47619048}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -703,7 +703,7 @@ ScriptedImporter:
     uvTransform: {x: 112, y: 220}
   - name: mortar beetle_Frame_26
     originalName: 
-    pivot: {x: 0.5, y: -0.2857143}
+    pivot: {x: 0.5, y: 0.47619048}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -723,7 +723,7 @@ ScriptedImporter:
     uvTransform: {x: 148, y: 4}
   - name: mortar beetle_Frame_27
     originalName: 
-    pivot: {x: 0.5, y: -0.1904762}
+    pivot: {x: 0.5, y: 0.5714286}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -743,7 +743,7 @@ ScriptedImporter:
     uvTransform: {x: 148, y: 33}
   - name: mortar beetle_Frame_28
     originalName: 
-    pivot: {x: 0.5, y: -0.1904762}
+    pivot: {x: 0.5, y: 0.5714286}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -763,7 +763,7 @@ ScriptedImporter:
     uvTransform: {x: 148, y: 62}
   - name: mortar beetle_Frame_29
     originalName: 
-    pivot: {x: 0.5, y: -0.1904762}
+    pivot: {x: 0.5, y: 0.5714286}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -783,7 +783,7 @@ ScriptedImporter:
     uvTransform: {x: 148, y: 91}
   - name: mortar beetle_Frame_30
     originalName: 
-    pivot: {x: 0.5, y: -0.1904762}
+    pivot: {x: 0.5, y: 0.5714286}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -803,7 +803,7 @@ ScriptedImporter:
     uvTransform: {x: 148, y: 120}
   - name: mortar beetle_Frame_31
     originalName: 
-    pivot: {x: 0.5, y: -0.47619048}
+    pivot: {x: 0.5, y: 0.2857143}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -823,7 +823,7 @@ ScriptedImporter:
     uvTransform: {x: 148, y: 149}
   - name: mortar beetle_Frame_32
     originalName: 
-    pivot: {x: 0.5, y: -0.47619048}
+    pivot: {x: 0.5, y: 0.2857143}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -843,7 +843,7 @@ ScriptedImporter:
     uvTransform: {x: 148, y: 178}
   - name: mortar beetle_Frame_46
     originalName: 
-    pivot: {x: 0.5, y: -0.2857143}
+    pivot: {x: 0.5, y: 0.47619048}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -863,7 +863,7 @@ ScriptedImporter:
     uvTransform: {x: 148, y: 207}
   - name: mortar beetle_Frame_47
     originalName: 
-    pivot: {x: 0.5, y: -0.27272728}
+    pivot: {x: 0.5, y: 0.45454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -883,7 +883,7 @@ ScriptedImporter:
     uvTransform: {x: 112, y: 132}
   - name: mortar beetle_Frame_48
     originalName: 
-    pivot: {x: 0.5, y: -0.26086956}
+    pivot: {x: 0.5, y: 0.43478262}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -903,7 +903,7 @@ ScriptedImporter:
     uvTransform: {x: 112, y: 29}
   - name: mortar beetle_Frame_1
     originalName: 
-    pivot: {x: 0.5, y: -0.2631579}
+    pivot: {x: 0.5, y: 0.57894737}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -923,7 +923,7 @@ ScriptedImporter:
     uvTransform: {x: 176, y: 32}
   - name: mortar beetle_Frame_6
     originalName: 
-    pivot: {x: 0.5, y: -0.2631579}
+    pivot: {x: 0.5, y: 0.57894737}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -943,7 +943,7 @@ ScriptedImporter:
     uvTransform: {x: 176, y: 59}
   - name: mortar beetle_Frame_7
     originalName: 
-    pivot: {x: 0.5, y: -0.2631579}
+    pivot: {x: 0.5, y: 0.57894737}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -963,7 +963,7 @@ ScriptedImporter:
     uvTransform: {x: 176, y: 86}
   - name: mortar beetle_Frame_19
     originalName: 
-    pivot: {x: 0.5, y: -0.2631579}
+    pivot: {x: 0.5, y: 0.57894737}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -983,7 +983,7 @@ ScriptedImporter:
     uvTransform: {x: 176, y: 113}
   - name: mortar beetle_Frame_20
     originalName: 
-    pivot: {x: 0.5, y: -0.21052632}
+    pivot: {x: 0.5, y: 0.6315789}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1003,7 +1003,7 @@ ScriptedImporter:
     uvTransform: {x: 176, y: 140}
   - name: mortar beetle_Frame_21
     originalName: 
-    pivot: {x: 0.5, y: -0.21052632}
+    pivot: {x: 0.5, y: 0.6315789}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1023,7 +1023,7 @@ ScriptedImporter:
     uvTransform: {x: 176, y: 167}
   - name: mortar beetle_Frame_22
     originalName: 
-    pivot: {x: 0.5, y: -0.21052632}
+    pivot: {x: 0.5, y: 0.6315789}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1043,7 +1043,7 @@ ScriptedImporter:
     uvTransform: {x: 176, y: 194}
   - name: mortar beetle_Frame_23
     originalName: 
-    pivot: {x: 0.5, y: -0.21052632}
+    pivot: {x: 0.5, y: 0.6315789}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1063,7 +1063,7 @@ ScriptedImporter:
     uvTransform: {x: 176, y: 221}
   - name: mortar beetle_Frame_24
     originalName: 
-    pivot: {x: 0.5, y: -0.36842105}
+    pivot: {x: 0.5, y: 0.47368422}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1083,7 +1083,7 @@ ScriptedImporter:
     uvTransform: {x: 205, y: 4}
   - name: mortar beetle_Frame_25
     originalName: 
-    pivot: {x: 0.5, y: -0.36842105}
+    pivot: {x: 0.5, y: 0.47368422}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1103,7 +1103,7 @@ ScriptedImporter:
     uvTransform: {x: 205, y: 31}
   - name: mortar beetle_Frame_43
     originalName: 
-    pivot: {x: 0.47619048, y: -0.2}
+    pivot: {x: 0.47619048, y: 0.6}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1123,7 +1123,7 @@ ScriptedImporter:
     uvTransform: {x: 176, y: 4}
   - name: mortar beetle_Frame_44
     originalName: 
-    pivot: {x: 0.5, y: -0.08695652}
+    pivot: {x: 0.5, y: 0.6086957}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1143,7 +1143,7 @@ ScriptedImporter:
     uvTransform: {x: 76, y: 61}
   - name: mortar beetle_Frame_45
     originalName: 
-    pivot: {x: 0.5, y: -0.08695652}
+    pivot: {x: 0.5, y: 0.6086957}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:

@@ -10,13 +10,13 @@ namespace LD55
 {
     public class ProjectileAttack : MonoBehaviour
     {
-        public int projectilesPerSecond;
+        public float projectilesPerSecond;
         private float cooldownSec; // inverse of projectilesPerSecond
         private float cooldownTimeRemaining;
         public GameObject projectileToSpawn;
         public SoundOrMusic projectileFireSound;
         public float projectileSpeed;
-
+        private SpriteParalax sprite;
 
         public float AttackRangeMin = 0f; //leave at zero if no need for switching between melee and projectiles
         public float AttackRangeMax;
@@ -35,6 +35,7 @@ namespace LD55
         {
             cooldownSec = 1.0f / projectilesPerSecond;
             cooldownTimeRemaining = 0f;
+            sprite = GetComponent<SpriteParalax>();
         }
 
         // Update is called once per frame
@@ -66,14 +67,18 @@ namespace LD55
             Destroy(x.gameObject, ProjectileLifetime + ProjectileLifetimeOverride);
             cooldownTimeRemaining = cooldownSec;
             SoundManager.GlobalSoundManager.PlaySound(projectileFireSound);
-
+            sprite.SetAnimationTrigger("Attack");
         }
 
         [CanBeNull]
         GameObject FindClosestObjectWithTag(string tag)
         {
+            //attack the closest enemy that has the AttackMe script on it
             return GameObject.FindGameObjectsWithTag(tag)
-                .OrderBy(obj => (obj.transform.position - this.transform.position).magnitude).First();
+                .Where(obj => obj.TryGetComponent<EnemyCanAttackMe>(out _))
+                .OrderBy(obj => (obj.transform.position - this.transform.position).magnitude)
+                .First();
         }
+
     }
 }

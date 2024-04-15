@@ -15,6 +15,7 @@ namespace LD55
 
       private void OnCollisionEnter(Collision collision)
       {
+         Debug.Log(this.gameObject.name + " collided with: " + collision.gameObject.name);
          if(collision.gameObject.CompareTag(TypeToDamage))
          {
             if(collision.gameObject.TryGetComponent(out HealthTracker hp))
