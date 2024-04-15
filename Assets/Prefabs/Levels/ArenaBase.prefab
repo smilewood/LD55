@@ -167,6 +167,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7028330937018058582}
   - component: {fileID: 1248493783713471236}
+  - component: {fileID: 5274315418020689465}
   m_Layer: 0
   m_Name: ArenaBase
   m_TagString: Untagged
@@ -210,3 +211,18 @@ MonoBehaviour:
       m_Calls: []
   NextArena: {fileID: 0}
   FinalLevel: 0
+--- !u!114 &5274315418020689465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6905660200924077230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca2708fe81af6d84c8f522cb8fc7601c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sound: 41
+  AudioState: 0
+  PlayOnAwake: 1

@@ -16,6 +16,14 @@ PrefabInstance:
       propertyPath: FinalLevel
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5274315418020689465, guid: 08336b1b91d64d0488f9686fc3ceccec, type: 3}
+      propertyPath: Sound
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 5274315418020689465, guid: 08336b1b91d64d0488f9686fc3ceccec, type: 3}
+      propertyPath: AudioState
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6663855107692890887, guid: 08336b1b91d64d0488f9686fc3ceccec, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.25
