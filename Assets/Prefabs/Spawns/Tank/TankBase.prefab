@@ -68,7 +68,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 697a35da4bfbab240939966036bbb63e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 10
+  MaxHealth: 7
   OnHealthChange:
     m_PersistentCalls:
       m_Calls:
@@ -208,9 +208,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TypeToDamage: Enemy
-  MeleeRange: 3
+  MeleeRange: 2
   DamagePerHit: 1
-  CooldownSeconds: 2
+  CooldownSeconds: 4
   OnAttack:
     m_PersistentCalls:
       m_Calls:
@@ -221,7 +221,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 50
+          m_IntArgument: 20
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5133,15 +5133,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3629965496245577555, guid: 652f718e81017d843a8b591f72c6b47d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.5
+      value: 1.75
       objectReference: {fileID: 0}
     - target: {fileID: 3629965496245577555, guid: 652f718e81017d843a8b591f72c6b47d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5
+      value: 1.75
       objectReference: {fileID: 0}
     - target: {fileID: 3629965496245577555, guid: 652f718e81017d843a8b591f72c6b47d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.5
+      value: 1.75
       objectReference: {fileID: 0}
     - target: {fileID: 3629965496245577555, guid: 652f718e81017d843a8b591f72c6b47d, type: 3}
       propertyPath: m_LocalPosition.x
