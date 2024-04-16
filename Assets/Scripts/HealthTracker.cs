@@ -34,22 +34,22 @@ namespace LD55
          CurrentHealth = MaxHealth;
 	  }
 
-      public void ApplyDamage(int damageAmount)
-      {
-	      int previousHealth = CurrentHealth;
-	      CurrentHealth = Math.Clamp(CurrentHealth - damageAmount, 0, MaxHealth);
-	      if (CurrentHealth == previousHealth) return; //no actual change
-	      OnHealthChange?.Invoke(this, damageAmount);
-         Debug.Log($"{gameObject.name} took {damageAmount} points of damage");
+		public void ApplyDamage(int damageAmount)
+		{
+			int previousHealth = CurrentHealth;
+			CurrentHealth = Math.Clamp(CurrentHealth - damageAmount, 0, MaxHealth);
+			if (CurrentHealth == previousHealth) return; //no actual change
+			OnHealthChange?.Invoke(this, damageAmount);
+			Debug.Log($"{gameObject.name} took {damageAmount} points of damage");
 
-            if (gameObject.tag == "Enemy")
-            {
-                if (CurrentHealth <= 0)
-                {
+			if (gameObject.tag == "Enemy")
+			{
+				if (CurrentHealth <= 0)
+				{
 					SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.DefeatEnemy);
 				}
-                else
-                {
+				else
+				{
 					if (damageAmount > 0)
 					{
 						SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.DamageEnemy);
@@ -59,16 +59,16 @@ namespace LD55
 						SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.HealEnemy);
 					}
 				}
-            }
-            else if (gameObject.tag == "Player")
-            {
+			}
+			else if (gameObject.name == "PlayerRoot")
+			{
 				if (CurrentHealth <= 0)
 				{
 					SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.DefeatPlayer);
 					SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.VoiceDefeat);
 				}
-                else
-                {
+				else
+				{
 					if (damageAmount > 0)
 					{
 						SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.DamagePlayer);
@@ -79,15 +79,15 @@ namespace LD55
 					}
 				}
 			}
-            else if (gameObject.tag == "Seeker")
-            {
+			else if (gameObject.tag == "Seeker")
+			{
 				if (CurrentHealth <= 0)
 				{
 					SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.DefeatSummonedAlly);
 				}
 			}
-            else if (gameObject.tag == "Boss")
-            {
+			else if (gameObject.tag == "Boss")
+			{
 				float healthFraction = CurrentHealth / MaxHealth;
 				if (healthFraction <= 0)
 				{
@@ -113,6 +113,24 @@ namespace LD55
 					}
 				}
 			}
-	  }
+			else if (gameObject.name.ToLower().Contains("wasp"))
+			{
+				if (CurrentHealth <= 0)
+				{
+					SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.DefeatEnemy);
+				}
+				else
+				{
+					if (damageAmount > 0)
+					{
+						SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.DamageEnemy);
+					}
+					else if (damageAmount < 0)
+					{
+						SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.HealEnemy);
+					}
+				}
+			}
+		}
    }
 }
