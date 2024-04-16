@@ -1,8 +1,10 @@
-﻿using System.Collections;
+﻿using LD55;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
+using static Unity.Burst.Intrinsics.X86;
 
 public class MenuFunctions : MonoBehaviour
 {
@@ -107,6 +109,14 @@ public class MenuFunctions : MonoBehaviour
       {
          Instance.ShowMenu("Pause");
       }
+
+      GameObject tutorial = GameObject.Find("TutorialsMessages");
+      if (tutorial != null)
+      {
+         TutorialsMessages messages = tutorial.GetComponent<TutorialsMessages>();
+
+         messages.HideCurrentTutorial();
+      }
    }
 
    public static void ResumeGame()
@@ -115,6 +125,14 @@ public class MenuFunctions : MonoBehaviour
       if (menus.ContainsKey("Pause"))
       {
          Instance.HideMenu("Pause");
+      }
+
+      GameObject tutorial = GameObject.Find("TutorialsMessages");
+      if (tutorial != null)
+      {
+         TutorialsMessages messages = tutorial.GetComponent<TutorialsMessages>();
+
+         messages.ResumeCurrentTutorial();
       }
    }
 
