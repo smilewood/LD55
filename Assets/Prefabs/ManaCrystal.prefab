@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5359088147359332178}
   - component: {fileID: 322079787318889392}
   - component: {fileID: 28321801954465982}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4842,7 +4842,7 @@ GameObject:
   - component: {fileID: 3341766978993651457}
   - component: {fileID: 1127372344764287993}
   - component: {fileID: 553999355153295226}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: ManaCrystal
   m_TagString: Pickup
   m_Icon: {fileID: 0}
@@ -4954,7 +4954,7 @@ GameObject:
   - component: {fileID: 8597667697468981817}
   - component: {fileID: 14127680225068375}
   - component: {fileID: 2168295202353947022}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5070,7 +5070,7 @@ GameObject:
   - component: {fileID: 5206811977314479981}
   - component: {fileID: 4586183406941734580}
   - component: {fileID: 6299029422782842661}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: TempSphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5153,7 +5153,7 @@ GameObject:
   - component: {fileID: 1240484318539167046}
   - component: {fileID: 7660738940987131292}
   - component: {fileID: 5622662168687264229}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
