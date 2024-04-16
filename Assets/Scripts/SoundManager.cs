@@ -138,7 +138,7 @@ namespace LD55
 				GameObject soundManagerObject = GameObject.FindGameObjectWithTag("SoundManager");
 				if (soundManagerObject == null)
 				{
-					soundManagerObject = Instantiate(PrefabUtility.LoadPrefabContents("Assets/Prefabs/SoundManager.prefab"));
+					//soundManagerObject = Instantiate(PrefabUtility.LoadPrefabContents("Assets/Prefabs/SoundManager.prefab"));
 				}
 
 				return soundManagerObject.GetComponent<SoundManager>();
