@@ -2965,7 +2965,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6453864606827145434, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_text
-      value: Wasp attacks penetrate multiple enemies
+      value: Wasp attacks Damage Increased massively
       objectReference: {fileID: 0}
     - target: {fileID: 6453864606827145434, guid: 05c6742c1d7e940419fdbdebcaeff319, type: 3}
       propertyPath: m_fontSize

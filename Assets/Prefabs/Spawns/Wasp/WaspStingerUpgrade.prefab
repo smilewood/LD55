@@ -9,6 +9,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4740872735166204759, guid: f9c3eb5f57a3a6948bad1406fc9295a1, type: 3}
+      propertyPath: DamageAmount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -4740872735166204759, guid: f9c3eb5f57a3a6948bad1406fc9295a1, type: 3}
       propertyPath: OnDealDamage.m_PersistentCalls.m_Calls.Array.size
       value: 0
       objectReference: {fileID: 0}
@@ -18,7 +22,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1370581968774414038, guid: f9c3eb5f57a3a6948bad1406fc9295a1, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3298384168759857936, guid: f9c3eb5f57a3a6948bad1406fc9295a1, type: 3}
       propertyPath: m_LocalPosition.x
