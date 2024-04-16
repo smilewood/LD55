@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4431095999304149484, guid: ee32efbc4ca00094585dca26ebd000d2, type: 3}
       propertyPath: MaxHealth
-      value: 30
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 1020712989042804943, guid: ee32efbc4ca00094585dca26ebd000d2, type: 3}
       propertyPath: m_Name
@@ -55,6 +55,14 @@ PrefabInstance:
     - target: {fileID: 3298384168759857936, guid: ee32efbc4ca00094585dca26ebd000d2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8313374499101175746, guid: ee32efbc4ca00094585dca26ebd000d2, type: 3}
+      propertyPath: MeleeRange
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8313374499101175746, guid: ee32efbc4ca00094585dca26ebd000d2, type: 3}
+      propertyPath: CooldownSeconds
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
