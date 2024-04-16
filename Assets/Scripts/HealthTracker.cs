@@ -79,7 +79,7 @@ namespace LD55
 					}
 				}
 			}
-			else if (gameObject.tag == "Seeker")
+			else if (gameObject.tag == "Seeker" || gameObject.name.ToLower().Contains("wasp"))
 			{
 				if (CurrentHealth <= 0)
 				{
@@ -100,24 +100,6 @@ namespace LD55
 				else if (healthFraction <= 0.67f)
 				{
 					SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.VoiceBoss2);
-				}
-				else
-				{
-					if (damageAmount > 0)
-					{
-						SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.DamageEnemy);
-					}
-					else if (damageAmount < 0)
-					{
-						SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.HealEnemy);
-					}
-				}
-			}
-			else if (gameObject.name.ToLower().Contains("wasp"))
-			{
-				if (CurrentHealth <= 0)
-				{
-					SoundManager.GlobalSoundManager.PlaySound(SoundOrMusic.DefeatEnemy);
 				}
 				else
 				{
