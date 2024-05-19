@@ -95,6 +95,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LocustUpgrade1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7142584085438488499, guid: ea0aade3cbad45143a554d87e3bd3f2e, type: 3}
+      propertyPath: moveSpeed
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 7204679245755389396, guid: ea0aade3cbad45143a554d87e3bd3f2e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -188,6 +192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LocustUpgrade1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7142584085438488499, guid: ea0aade3cbad45143a554d87e3bd3f2e, type: 3}
+      propertyPath: moveSpeed
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 7204679245755389396, guid: ea0aade3cbad45143a554d87e3bd3f2e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -280,6 +288,10 @@ PrefabInstance:
     - target: {fileID: 4616280298333867531, guid: ea0aade3cbad45143a554d87e3bd3f2e, type: 3}
       propertyPath: m_Name
       value: LocustUpgrade1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7142584085438488499, guid: ea0aade3cbad45143a554d87e3bd3f2e, type: 3}
+      propertyPath: moveSpeed
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7204679245755389396, guid: ea0aade3cbad45143a554d87e3bd3f2e, type: 3}
       propertyPath: m_LocalPosition.x

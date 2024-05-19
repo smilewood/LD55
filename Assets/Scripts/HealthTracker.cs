@@ -42,7 +42,8 @@ namespace LD55
 			OnHealthChange?.Invoke(this, damageAmount);
 			Debug.Log($"{gameObject.name} took {damageAmount} points of damage");
 
-			if (gameObject.tag == "Enemy")
+         #region audio
+         if (gameObject.tag == "Enemy")
 			{
 				if (CurrentHealth <= 0)
 				{
@@ -113,6 +114,7 @@ namespace LD55
 					}
 				}
 			}
-		}
+         #endregion audio
+      }
    }
 }
